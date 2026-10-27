@@ -1,0 +1,1605 @@
+[
+  {
+    "name": "AutoMapper/13.0.1",
+    "packagePath": "automapper/13.0.1",
+    "license": "MIT",
+    "copyright": "",
+    "repository": "https://github.com/AutoMapper/AutoMapper",
+    "commit": "f13753466880413af7e4b2f642240ee06514544a",
+    "project": "https://automapper.org/",
+    "files": [
+      {
+        "filename": "AutoMapper-13.0.1-UPSTREAM-LICENSE.txt",
+        "source": "https://raw.githubusercontent.com/AutoMapper/AutoMapper/f13753466880413af7e4b2f642240ee06514544a/LICENSE.txt",
+        "sha256": "dff9366748df4c70e36fe6fd289f5f87010e74d1d16c06ff11f97ea2c72c75f1"
+      }
+    ]
+  },
+  {
+    "name": "DiffPlex/1.9.0",
+    "packagePath": "diffplex/1.9.0",
+    "license": "Apache-2.0",
+    "copyright": "",
+    "repository": "https://github.com/mmanela/diffplex.git",
+    "commit": "3cb6415c331a0af2f2686154cb77169ef29b63ce",
+    "project": "https://github.com/mmanela/diffplex/",
+    "files": [
+      {
+        "filename": "DiffPlex-1.9.0-UPSTREAM-License.txt",
+        "source": "https://raw.githubusercontent.com/mmanela/diffplex/3cb6415c331a0af2f2686154cb77169ef29b63ce/License.txt",
+        "sha256": "2f5666c5dc09d47fdb0de97be21642ae2eb8ad94d3cd6108eafb778c1b3ba609"
+      }
+    ]
+  },
+  {
+    "name": "FFmpeg.AutoGen/4.3.0.1",
+    "packagePath": "ffmpeg.autogen/4.3.0.1",
+    "license": "LICENSE.txt",
+    "copyright": "Copyright © Ruslan Balanukhin 2020 All rights reserved.",
+    "project": "https://github.com/Ruslan-B/FFmpeg.AutoGen",
+    "files": [
+      {
+        "filename": "FFmpeg.AutoGen-4.3.0.1-LICENSE.txt",
+        "source": "NuGet:FFmpeg.AutoGen/4.3.0.1/LICENSE.txt",
+        "sha256": "ea7d049c7705dc13afc202dd18e1827f3484f8212fd3fa7b82fc4a0c363432c9"
+      }
+    ]
+  },
+  {
+    "name": "HidSharpCore/1.3.0",
+    "packagePath": "hidsharpcore/1.3.0",
+    "license": "Apache-2.0",
+    "copyright": "Copyright 2010-2019 James Bellinger",
+    "commit": "bca4aee1c349985b0119eed24aba83e2dd63492d",
+    "project": "",
+    "files": [
+      {
+        "filename": "HidSharpCore-1.3.0-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/OpenTabletDriver/HIDSharpCore/bca4aee1c349985b0119eed24aba83e2dd63492d/LICENSE",
+        "sha256": "5a8d64621a9bf5f600cfea2022ea8c23c35b15d56a35e88c8513cbf8ca7f5741"
+      }
+    ],
+    "repository": "https://github.com/OpenTabletDriver/HIDSharpCore"
+  },
+  {
+    "name": "HtmlAgilityPack/1.12.4",
+    "packagePath": "htmlagilitypack/1.12.4",
+    "license": "MIT",
+    "copyright": "Copyright © ZZZ Projects Inc.",
+    "repository": "https://github.com/zzzprojects/html-agility-pack/",
+    "project": "http://html-agility-pack.net/",
+    "files": [
+      {
+        "filename": "HtmlAgilityPack-1.12.4-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/zzzprojects/html-agility-pack/master/LICENSE",
+        "sha256": "601b80e87b30b47c7b5389d3077fda67a37e7cb6b200405e4524217989c1fe92"
+      }
+    ]
+  },
+  {
+    "name": "Humanizer.Core/2.14.1",
+    "packagePath": "humanizer.core/2.14.1",
+    "license": "MIT",
+    "copyright": "Copyright (c) .NET Foundation and Contributors",
+    "repository": "https://github.com/Humanizr/Humanizer",
+    "commit": "3ebc38de585fc641a04b0e78ed69468453b0f8a1",
+    "project": "https://github.com/Humanizr/Humanizer",
+    "files": [
+      {
+        "filename": "Humanizer.Core-2.14.1-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/Humanizr/Humanizer/3ebc38de585fc641a04b0e78ed69468453b0f8a1/LICENSE",
+        "sha256": "e24ec7f2eea5c5f4b3e2c08308109ba99b49b4b56ea7ff0e0a178f2bdd4bbce8"
+      }
+    ]
+  },
+  {
+    "name": "JetBrains.Annotations/2025.2.4",
+    "packagePath": "jetbrains.annotations/2025.2.4",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2016-2025 JetBrains s.r.o.",
+    "repository": "https://github.com/JetBrains/JetBrains.Annotations.git",
+    "project": "https://www.jetbrains.com/help/resharper/Code_Analysis__Code_Annotations.html",
+    "files": [
+      {
+        "filename": "JetBrains.Annotations-2025.2.4-UPSTREAM-license.md",
+        "source": "https://raw.githubusercontent.com/JetBrains/JetBrains.Annotations/master/license.md",
+        "sha256": "f2b4cfa16e46cef7fbf49c00563cb5db53d76108c56ee770beb65b5ef03a5fbb"
+      }
+    ]
+  },
+  {
+    "name": "Markdig/0.23.0",
+    "packagePath": "markdig/0.23.0",
+    "license": "BSD-2-Clause",
+    "copyright": "Alexandre Mutel",
+    "repository": "https://github.com/xoofx/markdig",
+    "commit": "3030b72f781f902cb947a173853de95de8924c6c",
+    "project": "https://github.com/lunet-io/markdig",
+    "files": [
+      {
+        "filename": "Markdig-0.23.0-UPSTREAM-license.txt",
+        "source": "https://raw.githubusercontent.com/xoofx/markdig/3030b72f781f902cb947a173853de95de8924c6c/license.txt",
+        "sha256": "ae543293657b6782e3d4a76257dc4157210ce88a352ef8392065d3f04dcd88d1"
+      }
+    ]
+  },
+  {
+    "name": "MessagePack/3.1.7",
+    "packagePath": "messagepack/3.1.7",
+    "license": "MIT",
+    "copyright": "© Yoshifumi Kawai and contributors. All rights reserved.",
+    "repository": "https://github.com/MessagePack-CSharp/MessagePack-CSharp",
+    "commit": "1b53ae8b7681340199faf337bcbb0eb5aed702de",
+    "project": "https://github.com/MessagePack-CSharp/MessagePack-CSharp",
+    "files": [
+      {
+        "filename": "MessagePack-3.1.7-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/MessagePack-CSharp/MessagePack-CSharp/1b53ae8b7681340199faf337bcbb0eb5aed702de/LICENSE",
+        "sha256": "580852521f6e48cb1d210fcb228e7179a21433a32ebe3fbb46ec8c10255e7451"
+      }
+    ]
+  },
+  {
+    "name": "MessagePack.Annotations/3.1.7",
+    "packagePath": "messagepack.annotations/3.1.7",
+    "license": "MIT",
+    "copyright": "© Yoshifumi Kawai and contributors. All rights reserved.",
+    "repository": "https://github.com/MessagePack-CSharp/MessagePack-CSharp",
+    "commit": "1b53ae8b7681340199faf337bcbb0eb5aed702de",
+    "project": "https://github.com/MessagePack-CSharp/MessagePack-CSharp",
+    "files": [
+      {
+        "filename": "MessagePack.Annotations-3.1.7-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/MessagePack-CSharp/MessagePack-CSharp/1b53ae8b7681340199faf337bcbb0eb5aed702de/LICENSE",
+        "sha256": "580852521f6e48cb1d210fcb228e7179a21433a32ebe3fbb46ec8c10255e7451"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.AspNetCore.Connections.Abstractions/10.0.9",
+    "packagePath": "microsoft.aspnetcore.connections.abstractions/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://asp.net/",
+    "files": [
+      {
+        "filename": "Microsoft.AspNetCore.Connections.Abstractions-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.AspNetCore.Connections.Abstractions/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9"
+      },
+      {
+        "filename": "Microsoft.AspNetCore.Connections.Abstractions-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.AspNetCore.Http.Connections.Client/10.0.9",
+    "packagePath": "microsoft.aspnetcore.http.connections.client/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://asp.net/",
+    "files": [
+      {
+        "filename": "Microsoft.AspNetCore.Http.Connections.Client-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.AspNetCore.Http.Connections.Client/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9"
+      },
+      {
+        "filename": "Microsoft.AspNetCore.Http.Connections.Client-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.AspNetCore.Http.Connections.Common/10.0.9",
+    "packagePath": "microsoft.aspnetcore.http.connections.common/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://asp.net/",
+    "files": [
+      {
+        "filename": "Microsoft.AspNetCore.Http.Connections.Common-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.AspNetCore.Http.Connections.Common/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9"
+      },
+      {
+        "filename": "Microsoft.AspNetCore.Http.Connections.Common-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.AspNetCore.SignalR.Client/10.0.9",
+    "packagePath": "microsoft.aspnetcore.signalr.client/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://asp.net/",
+    "files": [
+      {
+        "filename": "Microsoft.AspNetCore.SignalR.Client-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.AspNetCore.SignalR.Client/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9"
+      },
+      {
+        "filename": "Microsoft.AspNetCore.SignalR.Client-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.AspNetCore.SignalR.Client.Core/10.0.9",
+    "packagePath": "microsoft.aspnetcore.signalr.client.core/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://asp.net/",
+    "files": [
+      {
+        "filename": "Microsoft.AspNetCore.SignalR.Client.Core-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.AspNetCore.SignalR.Client.Core/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9"
+      },
+      {
+        "filename": "Microsoft.AspNetCore.SignalR.Client.Core-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.AspNetCore.SignalR.Common/10.0.9",
+    "packagePath": "microsoft.aspnetcore.signalr.common/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://asp.net/",
+    "files": [
+      {
+        "filename": "Microsoft.AspNetCore.SignalR.Common-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.AspNetCore.SignalR.Common/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9"
+      },
+      {
+        "filename": "Microsoft.AspNetCore.SignalR.Common-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.AspNetCore.SignalR.Protocols.Json/10.0.9",
+    "packagePath": "microsoft.aspnetcore.signalr.protocols.json/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://asp.net/",
+    "files": [
+      {
+        "filename": "Microsoft.AspNetCore.SignalR.Protocols.Json-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.AspNetCore.SignalR.Protocols.Json/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9"
+      },
+      {
+        "filename": "Microsoft.AspNetCore.SignalR.Protocols.Json-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.AspNetCore.SignalR.Protocols.MessagePack/10.0.9",
+    "packagePath": "microsoft.aspnetcore.signalr.protocols.messagepack/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://asp.net/",
+    "files": [
+      {
+        "filename": "Microsoft.AspNetCore.SignalR.Protocols.MessagePack-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.AspNetCore.SignalR.Protocols.MessagePack/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9"
+      },
+      {
+        "filename": "Microsoft.AspNetCore.SignalR.Protocols.MessagePack-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson/10.0.9",
+    "packagePath": "microsoft.aspnetcore.signalr.protocols.newtonsoftjson/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://asp.net/",
+    "files": [
+      {
+        "filename": "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9"
+      },
+      {
+        "filename": "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.Bcl.AsyncInterfaces/10.0.9",
+    "packagePath": "microsoft.bcl.asyncinterfaces/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "Microsoft.Bcl.AsyncInterfaces-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.Bcl.AsyncInterfaces/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+      },
+      {
+        "filename": "Microsoft.Bcl.AsyncInterfaces-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.Bcl.TimeProvider/10.0.9",
+    "packagePath": "microsoft.bcl.timeprovider/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "Microsoft.Bcl.TimeProvider-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.Bcl.TimeProvider/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+      },
+      {
+        "filename": "Microsoft.Bcl.TimeProvider-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.Data.Sqlite.Core/10.0.9",
+    "packagePath": "microsoft.data.sqlite.core/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://docs.microsoft.com/dotnet/standard/data/sqlite/",
+    "files": [
+      {
+        "filename": "Microsoft.Data.Sqlite.Core-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.Diagnostics.NETCore.Client/0.2.61701",
+    "packagePath": "microsoft.diagnostics.netcore.client/0.2.61701",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/diagnostics",
+    "commit": "8565c145933459c1e64e218dbe88a5c7b5fe1d59",
+    "project": "https://github.com/dotnet/diagnostics",
+    "files": [
+      {
+        "filename": "Microsoft.Diagnostics.NETCore.Client-0.2.61701-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/diagnostics/8565c145933459c1e64e218dbe88a5c7b5fe1d59/LICENSE.TXT",
+        "sha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.Diagnostics.Runtime/2.0.161401",
+    "packagePath": "microsoft.diagnostics.runtime/2.0.161401",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/Microsoft/clrmd",
+    "commit": "3f1c60144fb61f03b5bb8032ff38f1ce276d15f1",
+    "project": "https://github.com/Microsoft/clrmd",
+    "files": [
+      {
+        "filename": "Microsoft.Diagnostics.Runtime-2.0.161401-License-Stable.rtf",
+        "source": "NuGet:Microsoft.Diagnostics.Runtime/2.0.161401/License-Stable.rtf",
+        "sha256": "b18c795fd4f782e8e2befb87873dc2f7f6e5dbcc7169e5a3eae659f66e8cf179"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.Extensions.Configuration.Abstractions/10.0.9",
+    "packagePath": "microsoft.extensions.configuration.abstractions/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "Microsoft.Extensions.Configuration.Abstractions-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.Extensions.Configuration.Abstractions/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+      },
+      {
+        "filename": "Microsoft.Extensions.Configuration.Abstractions-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.Extensions.DependencyInjection/10.0.9",
+    "packagePath": "microsoft.extensions.dependencyinjection/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "Microsoft.Extensions.DependencyInjection-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.Extensions.DependencyInjection/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+      },
+      {
+        "filename": "Microsoft.Extensions.DependencyInjection-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.9",
+    "packagePath": "microsoft.extensions.dependencyinjection.abstractions/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "Microsoft.Extensions.DependencyInjection.Abstractions-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.Extensions.DependencyInjection.Abstractions/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+      },
+      {
+        "filename": "Microsoft.Extensions.DependencyInjection.Abstractions-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.Extensions.Features/10.0.9",
+    "packagePath": "microsoft.extensions.features/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://asp.net/",
+    "files": [
+      {
+        "filename": "Microsoft.Extensions.Features-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.Extensions.Features/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9"
+      },
+      {
+        "filename": "Microsoft.Extensions.Features-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.Extensions.Logging/10.0.9",
+    "packagePath": "microsoft.extensions.logging/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "Microsoft.Extensions.Logging-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.Extensions.Logging/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+      },
+      {
+        "filename": "Microsoft.Extensions.Logging-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.Extensions.Logging.Abstractions/10.0.9",
+    "packagePath": "microsoft.extensions.logging.abstractions/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "Microsoft.Extensions.Logging.Abstractions-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.Extensions.Logging.Abstractions/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+      },
+      {
+        "filename": "Microsoft.Extensions.Logging.Abstractions-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.Extensions.ObjectPool/5.0.11",
+    "packagePath": "microsoft.extensions.objectpool/5.0.11",
+    "license": "Apache-2.0",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/aspnetcore",
+    "commit": "2924ca229b3d6c91b7c9eded119b31dfd7aa1fef",
+    "project": "https://asp.net/",
+    "files": [
+      {
+        "filename": "Microsoft.Extensions.ObjectPool-5.0.11-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.Extensions.ObjectPool/5.0.11/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "fcf3e943c68c1bb5b3062d7511c589a96f3821af8cf8c9d1708874d413ea3300"
+      },
+      {
+        "filename": "Microsoft.Extensions.ObjectPool-5.0.11-UPSTREAM-LICENSE.txt",
+        "source": "https://raw.githubusercontent.com/dotnet/aspnetcore/2924ca229b3d6c91b7c9eded119b31dfd7aa1fef/LICENSE.txt",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.Extensions.Options/10.0.9",
+    "packagePath": "microsoft.extensions.options/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "Microsoft.Extensions.Options-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.Extensions.Options/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+      },
+      {
+        "filename": "Microsoft.Extensions.Options-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.Extensions.Primitives/10.0.9",
+    "packagePath": "microsoft.extensions.primitives/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "Microsoft.Extensions.Primitives-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:Microsoft.Extensions.Primitives/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+      },
+      {
+        "filename": "Microsoft.Extensions.Primitives-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.NET.StringTools/17.11.4",
+    "packagePath": "microsoft.net.stringtools/17.11.4",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/msbuild",
+    "commit": "37eb419ad2c986ac5530292e6ee08e962390249e",
+    "project": "http://go.microsoft.com/fwlink/?LinkId=624683",
+    "files": [
+      {
+        "filename": "Microsoft.NET.StringTools-17.11.4-notices-THIRDPARTYNOTICES.txt",
+        "source": "NuGet:Microsoft.NET.StringTools/17.11.4/notices/THIRDPARTYNOTICES.txt",
+        "sha256": "01bb7cfadd7ebc022a5ff5dad8c9df0574ee0330f6f58ee497a27c0792dcb4f4"
+      },
+      {
+        "filename": "Microsoft.NET.StringTools-17.11.4-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/dotnet/msbuild/37eb419ad2c986ac5530292e6ee08e962390249e/LICENSE",
+        "sha256": "9aebac42398b50e652a84a7b92d70e85cd1a9c8746558a743dc6cec11b8d7d3e"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft.Toolkit.HighPerformance/7.1.2",
+    "packagePath": "microsoft.toolkit.highperformance/7.1.2",
+    "license": "MIT",
+    "copyright": "(c) .NET Foundation and Contributors.  All rights reserved.",
+    "repository": "https://github.com/CommunityToolkit/WindowsCommunityToolkit",
+    "commit": "da6d7d3f6ca9914dbe86d7d394e9a4abef25c9b6",
+    "project": "https://github.com/CommunityToolkit/WindowsCommunityToolkit",
+    "files": [
+      {
+        "filename": "Microsoft.Toolkit.HighPerformance-7.1.2-License.md",
+        "source": "NuGet:Microsoft.Toolkit.HighPerformance/7.1.2/License.md",
+        "sha256": "c12410935503a2c9c4d3d4d14fdfdff49d0a37ad0046dc761b07867e8d499e97"
+      },
+      {
+        "filename": "Microsoft.Toolkit.HighPerformance-7.1.2-ThirdPartyNotices.txt",
+        "source": "NuGet:Microsoft.Toolkit.HighPerformance/7.1.2/ThirdPartyNotices.txt",
+        "sha256": "53b7825daecba58c04ae31a5a63ef168f7374b59ec85f77eb611bd5e4cf20684"
+      }
+    ]
+  },
+  {
+    "name": "MongoDB.Bson/2.21.0",
+    "packagePath": "mongodb.bson/2.21.0",
+    "license": "LICENSE.md",
+    "copyright": "Copyright © 2010-present MongoDB Inc.",
+    "repository": "https://github.com/mongodb/mongo-csharp-driver.git",
+    "commit": "5a9c3311e158910b88195f290e6d4b1b2715d2b2",
+    "project": "https://www.mongodb.com/docs/drivers/csharp/",
+    "files": [
+      {
+        "filename": "MongoDB.Bson-2.21.0-LICENSE.md",
+        "source": "NuGet:MongoDB.Bson/2.21.0/LICENSE.md",
+        "sha256": "de556eb1415648cc1bba68d1e602d8a54e3e5b3592770df34d863449e8f0303c"
+      }
+    ]
+  },
+  {
+    "name": "Newtonsoft.Json/13.0.4",
+    "packagePath": "newtonsoft.json/13.0.4",
+    "license": "MIT",
+    "copyright": "Copyright © James Newton-King 2008",
+    "repository": "https://github.com/JamesNK/Newtonsoft.Json",
+    "commit": "4e13299d4b0ec96bd4df9954ef646bd2d1b5bf2a",
+    "project": "https://www.newtonsoft.com/json",
+    "files": [
+      {
+        "filename": "Newtonsoft.Json-13.0.4-LICENSE.md",
+        "source": "NuGet:Newtonsoft.Json/13.0.4/LICENSE.md",
+        "sha256": "b98a397897ff55f76cddc380041507a95a896b2946e0188703bf0496793d6516"
+      }
+    ]
+  },
+  {
+    "name": "NUnit/4.5.1",
+    "packagePath": "nunit/4.5.1",
+    "license": "MIT",
+    "copyright": "Copyright (c) Charlie Poole, Rob Prouse and Contributors. MIT License.",
+    "repository": "https://github.com/nunit/nunit",
+    "project": "https://nunit.org/",
+    "files": [
+      {
+        "filename": "NUnit-4.5.1-LICENSE.txt",
+        "source": "NuGet:NUnit/4.5.1/LICENSE.txt",
+        "sha256": "71153559e3c05250a869ed51c2866cb83d5fdcab88304c7e20c78c105772fb03"
+      },
+      {
+        "filename": "NUnit-4.5.1-NOTICES.md",
+        "source": "NuGet:NUnit/4.5.1/NOTICES.md",
+        "sha256": "a332eb146b7cfb66f5954b6917f115b6e36f816edfd12a10a5becc3cffc65a64"
+      },
+      {
+        "filename": "NUnit-4.5.1-THIRD_PARTY_NOTICES.md",
+        "source": "NuGet:NUnit/4.5.1/THIRD_PARTY_NOTICES.md",
+        "sha256": "4e994de5fcf598be2196c487b9b3ff7e555d0e26ec4272a06cc1dab493d193ad"
+      }
+    ]
+  },
+  {
+    "name": "OpenTabletDriver/0.6.7",
+    "packagePath": "opentabletdriver/0.6.7",
+    "license": "LGPL-3.0-or-later",
+    "copyright": "",
+    "repository": "https://www.github.com/OpenTabletDriver/OpenTabletDriver",
+    "commit": "736003ed72c8bbb28033b039d5a0bb76c344145c",
+    "project": "",
+    "files": [
+      {
+        "filename": "OpenTabletDriver-0.6.7-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/OpenTabletDriver/OpenTabletDriver/736003ed72c8bbb28033b039d5a0bb76c344145c/LICENSE",
+        "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+      },
+      {
+        "filename": "sources/OpenTabletDriver-0.6.7-736003ed.zip",
+        "source": "https://codeload.github.com/OpenTabletDriver/OpenTabletDriver/zip/736003ed72c8bbb28033b039d5a0bb76c344145c",
+        "sha256": "a02d289717453537e27713d080d9f0a8e9800148b64dd42a72d42d55c2918f99"
+      },
+      {
+        "filename": "GPL-3.0.txt",
+        "source": "https://raw.githubusercontent.com/gcc-mirror/gcc/master/COPYING3",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      }
+    ]
+  },
+  {
+    "name": "OpenTabletDriver.Configurations/0.6.7",
+    "packagePath": "opentabletdriver.configurations/0.6.7",
+    "license": "LGPL-3.0-or-later",
+    "copyright": "",
+    "repository": "https://www.github.com/OpenTabletDriver/OpenTabletDriver",
+    "commit": "736003ed72c8bbb28033b039d5a0bb76c344145c",
+    "project": "",
+    "files": [
+      {
+        "filename": "OpenTabletDriver.Configurations-0.6.7-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/OpenTabletDriver/OpenTabletDriver/736003ed72c8bbb28033b039d5a0bb76c344145c/LICENSE",
+        "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+      },
+      {
+        "filename": "sources/OpenTabletDriver-0.6.7-736003ed.zip",
+        "source": "https://codeload.github.com/OpenTabletDriver/OpenTabletDriver/zip/736003ed72c8bbb28033b039d5a0bb76c344145c",
+        "sha256": "a02d289717453537e27713d080d9f0a8e9800148b64dd42a72d42d55c2918f99"
+      },
+      {
+        "filename": "GPL-3.0.txt",
+        "source": "https://raw.githubusercontent.com/gcc-mirror/gcc/master/COPYING3",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      }
+    ]
+  },
+  {
+    "name": "OpenTabletDriver.Native/0.6.7",
+    "packagePath": "opentabletdriver.native/0.6.7",
+    "license": "LGPL-3.0-or-later",
+    "copyright": "",
+    "repository": "https://www.github.com/OpenTabletDriver/OpenTabletDriver",
+    "commit": "736003ed72c8bbb28033b039d5a0bb76c344145c",
+    "project": "",
+    "files": [
+      {
+        "filename": "OpenTabletDriver.Native-0.6.7-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/OpenTabletDriver/OpenTabletDriver/736003ed72c8bbb28033b039d5a0bb76c344145c/LICENSE",
+        "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+      },
+      {
+        "filename": "sources/OpenTabletDriver-0.6.7-736003ed.zip",
+        "source": "https://codeload.github.com/OpenTabletDriver/OpenTabletDriver/zip/736003ed72c8bbb28033b039d5a0bb76c344145c",
+        "sha256": "a02d289717453537e27713d080d9f0a8e9800148b64dd42a72d42d55c2918f99"
+      },
+      {
+        "filename": "GPL-3.0.txt",
+        "source": "https://raw.githubusercontent.com/gcc-mirror/gcc/master/COPYING3",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      }
+    ]
+  },
+  {
+    "name": "OpenTabletDriver.Plugin/0.6.7",
+    "packagePath": "opentabletdriver.plugin/0.6.7",
+    "license": "LGPL-3.0-or-later",
+    "copyright": "",
+    "repository": "https://www.github.com/OpenTabletDriver/OpenTabletDriver",
+    "commit": "736003ed72c8bbb28033b039d5a0bb76c344145c",
+    "project": "",
+    "files": [
+      {
+        "filename": "OpenTabletDriver.Plugin-0.6.7-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/OpenTabletDriver/OpenTabletDriver/736003ed72c8bbb28033b039d5a0bb76c344145c/LICENSE",
+        "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+      },
+      {
+        "filename": "sources/OpenTabletDriver-0.6.7-736003ed.zip",
+        "source": "https://codeload.github.com/OpenTabletDriver/OpenTabletDriver/zip/736003ed72c8bbb28033b039d5a0bb76c344145c",
+        "sha256": "a02d289717453537e27713d080d9f0a8e9800148b64dd42a72d42d55c2918f99"
+      },
+      {
+        "filename": "GPL-3.0.txt",
+        "source": "https://raw.githubusercontent.com/gcc-mirror/gcc/master/COPYING3",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      }
+    ]
+  },
+  {
+    "name": "ppy.managed-midi/1.10.2",
+    "packagePath": "ppy.managed-midi/1.10.2",
+    "license": "",
+    "copyright": "(C) 2010-2019, Atsushi Eno and contributors",
+    "project": "https://github.com/atsushieno/managed-midi",
+    "files": [
+      {
+        "filename": "ppy.managed-midi-1.10.2-LICENSE",
+        "source": "NuGet:ppy.managed-midi/1.10.2/LICENSE",
+        "sha256": "58ecc4fcba21cf7bab40083bc41315a3eecde8af72abec4ef47e0b349f20a78d"
+      }
+    ]
+  },
+  {
+    "name": "ppy.ManagedBass/2022.1216.0",
+    "packagePath": "ppy.managedbass/2022.1216.0",
+    "license": "LICENSE.md",
+    "copyright": "(c) 2016 Mathew Sachin",
+    "repository": "https://github.com/ManagedBass/ManagedBass",
+    "project": "https://github.com/ManagedBass/ManagedBass/",
+    "files": [
+      {
+        "filename": "ppy.ManagedBass-2022.1216.0-LICENSE.md",
+        "source": "NuGet:ppy.ManagedBass/2022.1216.0/LICENSE.md",
+        "sha256": "47e8fd82ebc9778e642585093e5e541f28add1aba62d0fe82fa7ce9b900029f1"
+      }
+    ]
+  },
+  {
+    "name": "ppy.ManagedBass.Fx/2022.1216.0",
+    "packagePath": "ppy.managedbass.fx/2022.1216.0",
+    "license": "LICENSE.md",
+    "copyright": "",
+    "repository": "https://github.com/ManagedBass/ManagedBass",
+    "project": "https://github.com/ManagedBass/ManagedBass",
+    "files": [
+      {
+        "filename": "ppy.ManagedBass.Fx-2022.1216.0-LICENSE.md",
+        "source": "NuGet:ppy.ManagedBass.Fx/2022.1216.0/LICENSE.md",
+        "sha256": "47e8fd82ebc9778e642585093e5e541f28add1aba62d0fe82fa7ce9b900029f1"
+      }
+    ]
+  },
+  {
+    "name": "ppy.ManagedBass.Mix/2022.1216.0",
+    "packagePath": "ppy.managedbass.mix/2022.1216.0",
+    "license": "LICENSE.md",
+    "copyright": "",
+    "repository": "https://github.com/ManagedBass/ManagedBass",
+    "project": "https://github.com/ManagedBass/ManagedBass",
+    "files": [
+      {
+        "filename": "ppy.ManagedBass.Mix-2022.1216.0-LICENSE.md",
+        "source": "NuGet:ppy.ManagedBass.Mix/2022.1216.0/LICENSE.md",
+        "sha256": "47e8fd82ebc9778e642585093e5e541f28add1aba62d0fe82fa7ce9b900029f1"
+      }
+    ]
+  },
+  {
+    "name": "ppy.ManagedBass.Wasapi/2022.1216.0",
+    "packagePath": "ppy.managedbass.wasapi/2022.1216.0",
+    "license": "LICENSE.md",
+    "copyright": "",
+    "repository": "https://github.com/ManagedBass/ManagedBass",
+    "project": "https://github.com/ManagedBass/ManagedBass",
+    "files": [
+      {
+        "filename": "ppy.ManagedBass.Wasapi-2022.1216.0-LICENSE.md",
+        "source": "NuGet:ppy.ManagedBass.Wasapi/2022.1216.0/LICENSE.md",
+        "sha256": "47e8fd82ebc9778e642585093e5e541f28add1aba62d0fe82fa7ce9b900029f1"
+      }
+    ]
+  },
+  {
+    "name": "ppy.osu.Framework/2026.728.1",
+    "packagePath": "ppy.osu.framework/2026.728.1",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2024 ppy Pty Ltd",
+    "repository": "https://github.com/ppy/osu-framework",
+    "commit": "21e409540e8a7c9cd6739c05aa6c1e6257bd2b29",
+    "project": "https://github.com/ppy/osu-framework",
+    "files": [
+      {
+        "filename": "ppy.osu.Framework-2026.728.1-UPSTREAM-LICENCE",
+        "source": "https://raw.githubusercontent.com/ppy/osu-framework/21e409540e8a7c9cd6739c05aa6c1e6257bd2b29/LICENCE",
+        "sha256": "d07e3ce383a24bdc4665208e0ca3730e433ea1e8235b67a301a2b26335692c8e"
+      }
+    ]
+  },
+  {
+    "name": "ppy.osu.Game/2026.730.0",
+    "packagePath": "ppy.osu.game/2026.730.0",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2025 ppy Pty Ltd",
+    "repository": "https://github.com/ppy/osu",
+    "commit": "1032a7c31581513c8be751e46f0940e1c95ed252",
+    "project": "https://github.com/ppy/osu",
+    "files": [
+      {
+        "filename": "ppy.osu.Game-2026.730.0-UPSTREAM-LICENCE",
+        "source": "https://raw.githubusercontent.com/ppy/osu/1032a7c31581513c8be751e46f0940e1c95ed252/LICENCE",
+        "sha256": "2e73c7c4295cc3da18697ac982f64a4ec449e0781e8f4c59318216e13998864a"
+      }
+    ]
+  },
+  {
+    "name": "ppy.osu.Game.Rulesets.Osu/2026.730.0",
+    "packagePath": "ppy.osu.game.rulesets.osu/2026.730.0",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2025 ppy Pty Ltd",
+    "repository": "https://github.com/ppy/osu",
+    "commit": "1032a7c31581513c8be751e46f0940e1c95ed252",
+    "project": "https://github.com/ppy/osu",
+    "files": [
+      {
+        "filename": "ppy.osu.Game.Rulesets.Osu-2026.730.0-UPSTREAM-LICENCE",
+        "source": "https://raw.githubusercontent.com/ppy/osu/1032a7c31581513c8be751e46f0940e1c95ed252/LICENCE",
+        "sha256": "2e73c7c4295cc3da18697ac982f64a4ec449e0781e8f4c59318216e13998864a"
+      }
+    ]
+  },
+  {
+    "name": "ppy.osuTK.NS20/1.0.211",
+    "packagePath": "ppy.osutk.ns20/1.0.211",
+    "license": "",
+    "copyright": "",
+    "project": "https://github.com/ppy/opentk/tree/netstandard",
+    "files": [
+      {
+        "filename": "ppy.osuTK.NS20-1.0.211-UPSTREAM-License.txt",
+        "source": "https://raw.githubusercontent.com/ppy/opentk/master/License.txt",
+        "sha256": "14da55a50043afba7ce6396d1717774d2dad2d854f5bd9ecb77d0039b82ae4ac"
+      }
+    ]
+  },
+  {
+    "name": "ppy.SDL2-CS/1.0.741-alpha",
+    "packagePath": "ppy.sdl2-cs/1.0.741-alpha",
+    "license": "",
+    "copyright": "",
+    "repository": "https://github.com/ppy/SDL2-CS",
+    "commit": "64b296a17ec93e60831745fd27a56eb3e0e40d79",
+    "project": "https://github.com/ppy/SDL2-CS",
+    "files": [
+      {
+        "filename": "ppy.SDL2-CS-1.0.741-alpha-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/ppy/SDL2-CS/64b296a17ec93e60831745fd27a56eb3e0e40d79/LICENSE",
+        "sha256": "a7470dbda3125bf88411cf31f3506afd57b12c87a2c588544a33dd89fe815217"
+      },
+      {
+        "filename": "SDL2-native-LICENSE.txt",
+        "source": "https://raw.githubusercontent.com/libsdl-org/SDL/SDL2/LICENSE.txt",
+        "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd"
+      }
+    ]
+  },
+  {
+    "name": "ppy.SDL3-CS/2026.629.0",
+    "packagePath": "ppy.sdl3-cs/2026.629.0",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2024 ppy Pty Ltd",
+    "repository": "https://github.com/ppy/SDL3-CS",
+    "commit": "a0a5276a874c0c48db705696ab7e2adc8b5db0a1",
+    "project": "https://github.com/ppy/SDL3-CS",
+    "files": [
+      {
+        "filename": "ppy.SDL3-CS-2026.629.0-UPSTREAM-LICENCE",
+        "source": "https://raw.githubusercontent.com/ppy/SDL3-CS/a0a5276a874c0c48db705696ab7e2adc8b5db0a1/LICENCE",
+        "sha256": "45e6d072aa8b425080dbcd6a96208feaf8f7dad0180ccc54fc0c97db6f5d86e0"
+      },
+      {
+        "filename": "SDL3-native-LICENSE.txt",
+        "source": "https://raw.githubusercontent.com/libsdl-org/SDL/f0e99e7c7f9aa90d5ce2e3b8a69f72c23faf257e/LICENSE.txt",
+        "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd"
+      }
+    ]
+  },
+  {
+    "name": "ppy.Veldrid/4.9.69-ga405fe8484",
+    "packagePath": "ppy.veldrid/4.9.69-ga405fe8484",
+    "license": "",
+    "copyright": "Copyright 2024 (c) Eric Mellino and Veldrid contributors. All rights reserved.",
+    "repository": "https://github.com/ppy/veldrid",
+    "commit": "a405fe8484fa5384dfbd1faff58c74f717f46651",
+    "project": "",
+    "files": [
+      {
+        "filename": "ppy.Veldrid-4.9.69-ga405fe8484-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/ppy/veldrid/a405fe8484fa5384dfbd1faff58c74f717f46651/LICENSE",
+        "sha256": "229c117d3f77bfea98022bb25d0eeff43be8197246fd7153f34d2f1064e4f78a"
+      }
+    ]
+  },
+  {
+    "name": "ppy.Veldrid.MetalBindings/4.9.69-ga405fe8484",
+    "packagePath": "ppy.veldrid.metalbindings/4.9.69-ga405fe8484",
+    "license": "",
+    "copyright": "Copyright 2024 (c) Eric Mellino and Veldrid contributors. All rights reserved.",
+    "repository": "https://github.com/ppy/veldrid",
+    "commit": "a405fe8484fa5384dfbd1faff58c74f717f46651",
+    "project": "",
+    "files": [
+      {
+        "filename": "ppy.Veldrid.MetalBindings-4.9.69-ga405fe8484-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/ppy/veldrid/a405fe8484fa5384dfbd1faff58c74f717f46651/LICENSE",
+        "sha256": "229c117d3f77bfea98022bb25d0eeff43be8197246fd7153f34d2f1064e4f78a"
+      }
+    ]
+  },
+  {
+    "name": "ppy.Veldrid.OpenGLBindings/4.9.69-ga405fe8484",
+    "packagePath": "ppy.veldrid.openglbindings/4.9.69-ga405fe8484",
+    "license": "",
+    "copyright": "Copyright 2024 (c) Eric Mellino and Veldrid contributors. All rights reserved.",
+    "repository": "https://github.com/ppy/veldrid",
+    "commit": "a405fe8484fa5384dfbd1faff58c74f717f46651",
+    "project": "",
+    "files": [
+      {
+        "filename": "ppy.Veldrid.OpenGLBindings-4.9.69-ga405fe8484-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/ppy/veldrid/a405fe8484fa5384dfbd1faff58c74f717f46651/LICENSE",
+        "sha256": "229c117d3f77bfea98022bb25d0eeff43be8197246fd7153f34d2f1064e4f78a"
+      }
+    ]
+  },
+  {
+    "name": "ppy.Veldrid.SPIRV/1.0.15-g5911265ec3",
+    "packagePath": "ppy.veldrid.spirv/1.0.15-g5911265ec3",
+    "license": "",
+    "copyright": "Copyright 2019 (c) Eric Mellino. All rights reserved.",
+    "repository": "https://github.com/mellinoe/veldrid-spirv",
+    "commit": "5911265ec37f81935237b7e5fadf2e6a07f60a96",
+    "project": "",
+    "files": [
+      {
+        "filename": "ppy.Veldrid.SPIRV-1.0.15-g5911265ec3-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/mellinoe/veldrid-spirv/5911265ec37f81935237b7e5fadf2e6a07f60a96/LICENSE",
+        "sha256": "572eaca8c1d1f33846c489192c869b38a8bd22ba4e5d59f2469730d195ba6df4"
+      },
+      {
+        "filename": "ppy.Veldrid.SPIRV-1.0.15-SPIRV-Cross-LICENSE",
+        "source": "https://raw.githubusercontent.com/KhronosGroup/SPIRV-Cross/f51773b81cd2c21dd04444839723814235e36b7e/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "filename": "ppy.Veldrid.SPIRV-native-dependencies.json",
+        "source": "https://raw.githubusercontent.com/mellinoe/veldrid-spirv/5911265ec37f81935237b7e5fadf2e6a07f60a96/ext/known_good.json",
+        "sha256": "d13cab51a775a5f1b0efaa1b9f6544f969c1fc6332d82bc47bb1cc6fa06ba59e"
+      },
+      {
+        "filename": "ppy.Veldrid.SPIRV-glslang-LICENSE",
+        "source": "https://raw.githubusercontent.com/KhronosGroup/glslang/c34bb3b6c55f6ab084124ad964be95a699700d34/LICENSE.txt",
+        "sha256": "adb783e734e906d1f46db5df29991dbde84bdb0ceab502ac2febb44fe3c2b5f4"
+      },
+      {
+        "filename": "ppy.Veldrid.SPIRV-re2-LICENSE",
+        "source": "https://raw.githubusercontent.com/google/re2/7107ebc4fbf7205151d8d2a57b2fc6e7853125d4/LICENSE",
+        "sha256": "6040cda75d90b1738292a631d89934c411ef7ffd543c4d6a1b7edfc8edf29449"
+      },
+      {
+        "filename": "ppy.Veldrid.SPIRV-effcee-LICENSE",
+        "source": "https://raw.githubusercontent.com/google/effcee/2ec8f8738118cc483b67c04a759fee53496c5659/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      },
+      {
+        "filename": "ppy.Veldrid.SPIRV-googletest-LICENSE",
+        "source": "https://raw.githubusercontent.com/google/googletest/d9c309fdab807b716c2cf4d4a42989b8c34f712a/LICENSE",
+        "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+      },
+      {
+        "filename": "ppy.Veldrid.SPIRV-shaderc-LICENSE",
+        "source": "https://raw.githubusercontent.com/google/shaderc/1bbf43f210941ba69a2cd05cf3529063f1ff5bb9/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      },
+      {
+        "filename": "ppy.Veldrid.SPIRV-spirv-headers-LICENSE",
+        "source": "https://raw.githubusercontent.com/KhronosGroup/SPIRV-Headers/b42ba6d92faf6b4938e6f22ddd186dbdacc98d78/LICENSE",
+        "sha256": "9b243f6f0bf44e295ff411a0f7b7642d1d0dff7cdc42507e9f7206f439e51b5a"
+      },
+      {
+        "filename": "ppy.Veldrid.SPIRV-spirv-tools-LICENSE",
+        "source": "https://raw.githubusercontent.com/KhronosGroup/SPIRV-Tools/b846f8f1dc2d79f2b5ce27d5ad901f885da1cf82/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "name": "ppy.Vk/1.0.26",
+    "packagePath": "ppy.vk/1.0.26",
+    "license": "",
+    "copyright": "Copyright 2017 (c) Eric Mellino. All rights reserved.",
+    "repository": "https://github.com/mellinoe/vk",
+    "commit": "c3a41a7e14f3a33099c1fbae0bc6c433f37c100d",
+    "project": "",
+    "files": [
+      {
+        "filename": "ppy.Vk-1.0.26-UPSTREAM-LICENSE.md",
+        "source": "https://raw.githubusercontent.com/mellinoe/vk/c3a41a7e14f3a33099c1fbae0bc6c433f37c100d/LICENSE.md",
+        "sha256": "763cc22ba7b79266c4abf02a38b56014785b802e011c790cd16370693513932a"
+      }
+    ]
+  },
+  {
+    "name": "Realm/20.1.0",
+    "packagePath": "realm/20.1.0",
+    "license": "Apache-2.0",
+    "copyright": "Copyright © 2025 Realm Inc.",
+    "repository": "https://github.com/realm/realm-dotnet",
+    "commit": "370ce596a0cf5e992b717bb199d70e55391ff2b9",
+    "project": "https://github.com/realm/realm-dotnet",
+    "files": [
+      {
+        "filename": "Realm-20.1.0-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/realm/realm-dotnet/370ce596a0cf5e992b717bb199d70e55391ff2b9/LICENSE",
+        "sha256": "69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b"
+      }
+    ]
+  },
+  {
+    "name": "Remotion.Linq/2.2.0",
+    "packagePath": "remotion.linq/2.2.0",
+    "license": "Apache-2.0",
+    "copyright": "Copyright (c) rubicon IT GmbH, www.rubicon.eu - Licensed under Apache License, Version 2.0",
+    "project": "http://relinq.codeplex.com",
+    "files": [
+      {
+        "filename": "APACHE-2.0.txt",
+        "source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ],
+    "licenseEvidence": "https://www.nuget.org/packages/Remotion.Linq/2.2.0"
+  },
+  {
+    "name": "Sentry/6.6.0",
+    "packagePath": "sentry/6.6.0",
+    "license": "MIT",
+    "copyright": "",
+    "repository": "https://github.com/getsentry/sentry-dotnet",
+    "commit": "8a7a62f604971b89857aedd6cb1f42baedb91c0a",
+    "project": "https://sentry.io/",
+    "files": [
+      {
+        "filename": "Sentry-6.6.0-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/getsentry/sentry-dotnet/8a7a62f604971b89857aedd6cb1f42baedb91c0a/LICENSE",
+        "sha256": "b1152cc6eae51c7e295212386c390b68de684acc77f2008f2f0680278c267dc3"
+      }
+    ]
+  },
+  {
+    "name": "SharpCompress/0.49.1",
+    "packagePath": "sharpcompress/0.49.1",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2025  Adam Hathcock",
+    "repository": "https://github.com/adamhathcock/sharpcompress",
+    "commit": "1d9fd83a73db0144df3d2844133cf1b1f3699c7c",
+    "project": "https://github.com/adamhathcock/sharpcompress",
+    "files": [
+      {
+        "filename": "SharpCompress-0.49.1-UPSTREAM-LICENSE.txt",
+        "source": "https://raw.githubusercontent.com/adamhathcock/sharpcompress/1d9fd83a73db0144df3d2844133cf1b1f3699c7c/LICENSE.txt",
+        "sha256": "b7ca2b6174cee11afe41d78b48527e3d7659a4435c25019a4a5e072299a2f8ed"
+      }
+    ]
+  },
+  {
+    "name": "SharpFNT/2.0.0",
+    "packagePath": "sharpfnt/2.0.0",
+    "license": "LICENSE",
+    "copyright": "Copyright © Aurora Berta-Oldham 2018-2020",
+    "repository": "https://github.com/AuroraBertaOldham/SharpFNT",
+    "project": "https://github.com/AuroraBertaOldham/SharpFNT",
+    "files": [
+      {
+        "filename": "SharpFNT-2.0.0-LICENSE",
+        "source": "NuGet:SharpFNT/2.0.0/LICENSE",
+        "sha256": "b7202553c796e3e720590d3d0ace4fdc4f9a2cb48ec4dcbc411c98e3c525b7f9"
+      }
+    ]
+  },
+  {
+    "name": "SharpGen.Runtime/2.0.0-beta.13",
+    "packagePath": "sharpgen.runtime/2.0.0-beta.13",
+    "license": "MIT",
+    "copyright": "(c) 2010-2017 Alexandre Mutel, 2017-2018 Jeremy Koritzinsky",
+    "repository": "https://github.com/SharpGenTools/SharpGenTools",
+    "commit": "461a942deb05c6f82489d11eccfb3c05b2d85def",
+    "project": "https://github.com/SharpGenTools/SharpGenTools",
+    "files": [
+      {
+        "filename": "SharpGen.Runtime-2.0.0-beta.13-UPSTREAM-LICENSE.txt",
+        "source": "https://raw.githubusercontent.com/SharpGenTools/SharpGenTools/461a942deb05c6f82489d11eccfb3c05b2d85def/LICENSE.txt",
+        "sha256": "1cc7abd1e97575838535484bef6e4ab14e81681ddf7837672acede5fca1d4e30"
+      }
+    ]
+  },
+  {
+    "name": "SharpGen.Runtime.COM/2.0.0-beta.13",
+    "packagePath": "sharpgen.runtime.com/2.0.0-beta.13",
+    "license": "MIT",
+    "copyright": "(c) 2010-2017 Alexandre Mutel, 2017-2018 Jeremy Koritzinsky",
+    "repository": "https://github.com/SharpGenTools/SharpGenTools",
+    "commit": "461a942deb05c6f82489d11eccfb3c05b2d85def",
+    "project": "https://github.com/SharpGenTools/SharpGenTools",
+    "files": [
+      {
+        "filename": "SharpGen.Runtime.COM-2.0.0-beta.13-UPSTREAM-LICENSE.txt",
+        "source": "https://raw.githubusercontent.com/SharpGenTools/SharpGenTools/461a942deb05c6f82489d11eccfb3c05b2d85def/LICENSE.txt",
+        "sha256": "1cc7abd1e97575838535484bef6e4ab14e81681ddf7837672acede5fca1d4e30"
+      }
+    ]
+  },
+  {
+    "name": "SixLabors.ImageSharp/3.1.11",
+    "packagePath": "sixlabors.imagesharp/3.1.11",
+    "license": "LICENSE",
+    "copyright": "Copyright © Six Labors",
+    "repository": "https://github.com/SixLabors/ImageSharp",
+    "commit": "f4a2684737732059876c13c481c856ed6b28e2c6",
+    "project": "https://github.com/SixLabors/ImageSharp",
+    "files": [
+      {
+        "filename": "SixLabors.ImageSharp-3.1.11-LICENSE",
+        "source": "NuGet:SixLabors.ImageSharp/3.1.11/LICENSE",
+        "sha256": "fdb7f24db8a6838eba1477242d2457bf6db2f3682b7cb3a16824e9f2f07936c2"
+      },
+      {
+        "filename": "APACHE-2.0.txt",
+        "source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "name": "SourceGear.sqlite3/3.50.4.5",
+    "packagePath": "sourcegear.sqlite3/3.50.4.5",
+    "license": "LICENSE.txt",
+    "copyright": "Copyright 2014-2025 SourceGear, LLC",
+    "commit": "f0b7ea54c8141ff1a209d9371a854307cb6bd8a2",
+    "project": "https://sqlite.org/",
+    "files": [
+      {
+        "filename": "SourceGear.sqlite3-3.50.4.5-LICENSE.txt",
+        "source": "NuGet:SourceGear.sqlite3/3.50.4.5/LICENSE.txt",
+        "sha256": "99464c3a88df7b708ce59e462cdcb85f72dfc9b1335b4fcc68be56131b634b95"
+      }
+    ]
+  },
+  {
+    "name": "SQLitePCLRaw.config.e_sqlite3/3.0.3",
+    "packagePath": "sqlitepclraw.config.e_sqlite3/3.0.3",
+    "license": "Apache-2.0",
+    "copyright": "Copyright 2014-2026 SourceGear, LLC",
+    "repository": "https://github.com/ericsink/SQLitePCL.raw",
+    "commit": "96043b8cff323f21919df86a431c136655d81b4a",
+    "project": "",
+    "files": [
+      {
+        "filename": "SQLitePCLRaw.config.e_sqlite3-3.0.3-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/ericsink/SQLitePCL.raw/96043b8cff323f21919df86a431c136655d81b4a/LICENSE.TXT",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "name": "SQLitePCLRaw.core/3.0.3",
+    "packagePath": "sqlitepclraw.core/3.0.3",
+    "license": "Apache-2.0",
+    "copyright": "Copyright 2014-2025 SourceGear, LLC",
+    "repository": "https://github.com/ericsink/SQLitePCL.raw",
+    "commit": "f3f967adafad853375597a6387cacb7573c5b343",
+    "project": "",
+    "files": [
+      {
+        "filename": "SQLitePCLRaw.core-3.0.3-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/ericsink/SQLitePCL.raw/f3f967adafad853375597a6387cacb7573c5b343/LICENSE.TXT",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "name": "SQLitePCLRaw.provider.e_sqlite3/3.0.3",
+    "packagePath": "sqlitepclraw.provider.e_sqlite3/3.0.3",
+    "license": "Apache-2.0",
+    "copyright": "Copyright 2014-2025 SourceGear, LLC",
+    "repository": "https://github.com/ericsink/SQLitePCL.raw",
+    "commit": "f3f967adafad853375597a6387cacb7573c5b343",
+    "project": "",
+    "files": [
+      {
+        "filename": "SQLitePCLRaw.provider.e_sqlite3-3.0.3-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/ericsink/SQLitePCL.raw/f3f967adafad853375597a6387cacb7573c5b343/LICENSE.TXT",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "name": "StbiSharp/1.1.0",
+    "packagePath": "stbisharp/1.1.0",
+    "license": "LICENSE.txt",
+    "copyright": "(c) Thomas Müller",
+    "repository": "https://github.com/tom94/stbi-sharp",
+    "commit": "99d8e84986276229b4c99de50a1dff45a95eb0e1",
+    "project": "",
+    "files": [
+      {
+        "filename": "StbiSharp-1.1.0-LICENSE.txt",
+        "source": "NuGet:StbiSharp/1.1.0/LICENSE.txt",
+        "sha256": "934d0e30d62e3fe097f55b3374f1026bbd8d9f00cd100363f42d1f7a6a5e2455"
+      },
+      {
+        "filename": "stb_image-native-LICENSE",
+        "source": "https://raw.githubusercontent.com/nothings/stb/master/LICENSE",
+        "sha256": "bebfe904b14301657e4e5d655c811d51fd31b97c455b9cc2d8600d6bac6cff63"
+      }
+    ]
+  },
+  {
+    "name": "System.Diagnostics.DiagnosticSource/10.0.9",
+    "packagePath": "system.diagnostics.diagnosticsource/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "System.Diagnostics.DiagnosticSource-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:System.Diagnostics.DiagnosticSource/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+      },
+      {
+        "filename": "System.Diagnostics.DiagnosticSource-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "System.IO.Pipelines/10.0.9",
+    "packagePath": "system.io.pipelines/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "System.IO.Pipelines-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:System.IO.Pipelines/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+      },
+      {
+        "filename": "System.IO.Pipelines-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "System.Net.ServerSentEvents/10.0.9",
+    "packagePath": "system.net.serversentevents/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "System.Net.ServerSentEvents-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:System.Net.ServerSentEvents/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+      },
+      {
+        "filename": "System.Net.ServerSentEvents-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "System.Numerics.Tensors/8.0.0",
+    "packagePath": "system.numerics.tensors/8.0.0",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/runtime",
+    "commit": "5535e31a712343a63f5d7d796cd874e563e5ac14",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "System.Numerics.Tensors-8.0.0-LICENSE.TXT",
+        "source": "NuGet:System.Numerics.Tensors/8.0.0/LICENSE.TXT",
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+      },
+      {
+        "filename": "System.Numerics.Tensors-8.0.0-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:System.Numerics.Tensors/8.0.0/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "19c19dcac9f3ee6302cfbc6745bb8e79f08efc4c933eb8dc5509bf14b88347ec"
+      }
+    ]
+  },
+  {
+    "name": "System.Text.Encodings.Web/10.0.9",
+    "packagePath": "system.text.encodings.web/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "System.Text.Encodings.Web-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:System.Text.Encodings.Web/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+      },
+      {
+        "filename": "System.Text.Encodings.Web-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "System.Text.Json/10.0.9",
+    "packagePath": "system.text.json/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "System.Text.Json-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:System.Text.Json/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+      },
+      {
+        "filename": "System.Text.Json-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "System.Threading.Channels/10.0.9",
+    "packagePath": "system.threading.channels/10.0.9",
+    "license": "MIT",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "repository": "https://github.com/dotnet/dotnet",
+    "commit": "901ca941248413c79832d2fdbd709da0c4386353",
+    "project": "https://dot.net/",
+    "files": [
+      {
+        "filename": "System.Threading.Channels-10.0.9-THIRD-PARTY-NOTICES.TXT",
+        "source": "NuGet:System.Threading.Channels/10.0.9/THIRD-PARTY-NOTICES.TXT",
+        "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+      },
+      {
+        "filename": "System.Threading.Channels-10.0.9-UPSTREAM-LICENSE.TXT",
+        "source": "https://raw.githubusercontent.com/dotnet/dotnet/901ca941248413c79832d2fdbd709da0c4386353/LICENSE.TXT",
+        "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+      }
+    ]
+  },
+  {
+    "name": "TagLibSharp/2.3.0",
+    "packagePath": "taglibsharp/2.3.0",
+    "license": "LGPL-2.1-only",
+    "copyright": "Copyright (c) 2006-2007 Brian Nickel.  Copyright (c) 2009-2020 Other contributors",
+    "repository": "https://github.com/mono/taglib-sharp",
+    "project": "https://github.com/mono/taglib-sharp",
+    "files": [
+      {
+        "filename": "TagLibSharp-2.3.0-UPSTREAM-COPYING",
+        "source": "https://raw.githubusercontent.com/mono/taglib-sharp/master/COPYING",
+        "sha256": "6095e9ffa777dd22839f7801aa845b31c9ed07f3d6bf8a26dc5d2dec8ccc0ef3"
+      },
+      {
+        "filename": "TagLibSharp-2.3.0-AUTHORS",
+        "source": "https://raw.githubusercontent.com/mono/taglib-sharp/b5ae84f2e84087bf160bb0471420200dd2b5d809/AUTHORS",
+        "sha256": "90da58ec1980154bd38d9991b314dc2db9a3e8526df77ccdf8b936871231db41"
+      },
+      {
+        "filename": "TagLibSharp-2.3.0-PINNED-COPYING",
+        "source": "https://raw.githubusercontent.com/mono/taglib-sharp/b5ae84f2e84087bf160bb0471420200dd2b5d809/COPYING",
+        "sha256": "6095e9ffa777dd22839f7801aa845b31c9ed07f3d6bf8a26dc5d2dec8ccc0ef3"
+      },
+      {
+        "filename": "sources/TagLibSharp-2.3.0-b5ae84f2.zip",
+        "source": "https://codeload.github.com/mono/taglib-sharp/zip/b5ae84f2e84087bf160bb0471420200dd2b5d809",
+        "sha256": "698113bfd7f12677feae51b738c4388cd2ece5c30bd7985a9326be45aef34cc7"
+      }
+    ],
+    "verifiedReleaseCommit": "b5ae84f2e84087bf160bb0471420200dd2b5d809"
+  },
+  {
+    "name": "Vortice.D3DCompiler/2.4.2",
+    "packagePath": "vortice.d3dcompiler/2.4.2",
+    "license": "MIT",
+    "copyright": "Copyright © Amer Koleci and Contributors",
+    "repository": "https://github.com/amerkoleci/Vortice.Windows",
+    "commit": "2feee0fc9c67a8335e8d2129c2654f3f00b58366",
+    "project": "",
+    "files": [
+      {
+        "filename": "Vortice.D3DCompiler-2.4.2-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/amerkoleci/Vortice.Windows/2feee0fc9c67a8335e8d2129c2654f3f00b58366/LICENSE",
+        "sha256": "82bd4e84d144bebbb519ed05899f0ceaeaf2e0f95160ac32fd8cc388710c76d0"
+      }
+    ]
+  },
+  {
+    "name": "Vortice.Direct3D11/2.4.2",
+    "packagePath": "vortice.direct3d11/2.4.2",
+    "license": "MIT",
+    "copyright": "Copyright © Amer Koleci and Contributors",
+    "repository": "https://github.com/amerkoleci/Vortice.Windows",
+    "commit": "2feee0fc9c67a8335e8d2129c2654f3f00b58366",
+    "project": "",
+    "files": [
+      {
+        "filename": "Vortice.Direct3D11-2.4.2-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/amerkoleci/Vortice.Windows/2feee0fc9c67a8335e8d2129c2654f3f00b58366/LICENSE",
+        "sha256": "82bd4e84d144bebbb519ed05899f0ceaeaf2e0f95160ac32fd8cc388710c76d0"
+      }
+    ]
+  },
+  {
+    "name": "Vortice.DirectX/2.4.2",
+    "packagePath": "vortice.directx/2.4.2",
+    "license": "MIT",
+    "copyright": "Copyright © Amer Koleci and Contributors",
+    "repository": "https://github.com/amerkoleci/Vortice.Windows",
+    "commit": "2feee0fc9c67a8335e8d2129c2654f3f00b58366",
+    "project": "",
+    "files": [
+      {
+        "filename": "Vortice.DirectX-2.4.2-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/amerkoleci/Vortice.Windows/2feee0fc9c67a8335e8d2129c2654f3f00b58366/LICENSE",
+        "sha256": "82bd4e84d144bebbb519ed05899f0ceaeaf2e0f95160ac32fd8cc388710c76d0"
+      }
+    ]
+  },
+  {
+    "name": "Vortice.DXGI/2.4.2",
+    "packagePath": "vortice.dxgi/2.4.2",
+    "license": "MIT",
+    "copyright": "Copyright © Amer Koleci and Contributors",
+    "repository": "https://github.com/amerkoleci/Vortice.Windows",
+    "commit": "2feee0fc9c67a8335e8d2129c2654f3f00b58366",
+    "project": "",
+    "files": [
+      {
+        "filename": "Vortice.DXGI-2.4.2-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/amerkoleci/Vortice.Windows/2feee0fc9c67a8335e8d2129c2654f3f00b58366/LICENSE",
+        "sha256": "82bd4e84d144bebbb519ed05899f0ceaeaf2e0f95160ac32fd8cc388710c76d0"
+      }
+    ]
+  },
+  {
+    "name": "Vortice.Mathematics/1.4.25",
+    "packagePath": "vortice.mathematics/1.4.25",
+    "license": "MIT",
+    "copyright": "Copyright © Amer Koleci and Contributors",
+    "repository": "https://github.com/amerkoleci/Vortice.Mathematics",
+    "commit": "d5728c1c41b854cb75814005f16e9078c09a91d3",
+    "project": "https://github.com/amerkoleci/Vortice.Mathematics",
+    "files": [
+      {
+        "filename": "Vortice.Mathematics-1.4.25-UPSTREAM-LICENSE",
+        "source": "https://raw.githubusercontent.com/amerkoleci/Vortice.Mathematics/d5728c1c41b854cb75814005f16e9078c09a91d3/LICENSE",
+        "sha256": "67b43fad882eac66cca5fda0f331790744e4d36286a52bd64190cb7bf72f4eb0"
+      }
+    ]
+  }
+]

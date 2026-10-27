@@ -1,0 +1,2838 @@
+{
+  "semantic": {
+    "digest": "7f1abad149e01d009585efc218f2aab080bca1bb8f2d1b04d41a9f72baf3da22",
+    "sources": {
+      "apps/desktop/frontend/src/app/model/OsuReplay.ts": "7da463269dcc1414d4cdf9daacfaa32dc7716de8526706694c10ac114b347670",
+      "apps/desktop/frontend/src/app/model/replay-from-source.ts": "5c677c2ab36e7ad71b7f87b7b76128bac78120bb408461e73174600ec97da3bb",
+      "apps/desktop/frontend/src/app/services/analysis/full-map-analysis.ts": "75fd2dd64822b1b3a8d8450a4a9e782dc3fecd56bb238217b88165e7dd26b6fe",
+      "apps/desktop/frontend/src/app/services/analysis/live-replay-stats.ts": "d881d4d0e3b76ab73e61593838c190a7b8840e715a61a937dc6b2ddf89994745",
+      "apps/desktop/frontend/src/app/services/analysis/performance/replay-performance-input.ts": "5bdf80c5617476e1f8cbdd90e1f300f9c5de3f345e1314f565daaa00185e6eac",
+      "apps/desktop/frontend/src/app/services/analysis/replay-events.ts": "33ca685133600b15cd068374f71c93f89785f7ba38369b4481d9b0a824eb6dac",
+      "apps/desktop/frontend/src/app/services/analysis/stable-slider-end-misses.ts": "c86f40ce375cc3222ea7429ea0b0b6e2545c1d51bb44836a8bcff06f38bb46c7",
+      "apps/desktop/frontend/src/app/services/common/game/PreparedBeatmapWire.ts": "73b3463a5ba1d8c6166dd85a887de53fb2f2d9b01654526627d8974e57111c40",
+      "apps/desktop/frontend/src/app/services/common/game/ReplayNumericalFacts.ts": "0f7ae98f282d816dc9cb7d20c2ae894ed78db9d0ffd8ddd2808176603ba67cf1",
+      "apps/desktop/frontend/src/app/services/common/game/ReplayScoringFrames.ts": "8d5a6c18c0701fdecf0b1c68288212fddafcc501e2135c4c2ce2ecc22cc57fa8",
+      "apps/desktop/frontend/src/app/services/library/library-analysis-gate.ts": "910607f87df09b647958405def4a74b822efc799f21ef4f3105cb513095e5b31",
+      "apps/desktop/frontend/src/app/services/library/library-analysis-input.ts": "06932e948628e2b8a37973da7e00d26692b7add02e37e5d0077b2382449e28ed",
+      "apps/desktop/frontend/src/app/services/library/library-analysis-worker.ts": "055a0ea203bc61f210f77fece0658262cc04b9784001f6c08e7a10204309c342",
+      "apps/desktop/frontend/src/app/services/library/library-analysis.worker.ts": "4ff36a1872fb4db166d88a3bd912af7387e0b91e87291e1d37c82a3fc74c296a",
+      "apps/desktop/frontend/src/app/services/library/library-error-strip.ts": "c462e22f8a23ad81ec0044c930b7d7a3797671025dbd7caf4e032cee0caaab21",
+      "apps/desktop/frontend/src/app/services/library/library-fc.ts": "7b744cce2053ec248984b8f018e32a9cd609bc24ae16ace80322aefa28156d64",
+      "apps/desktop/frontend/src/app/services/library/library-metrics.ts": "3b6b05500384010eaaf4880e4d5a28aa1d98bc9c89857a7aaf50630dae81063a",
+      "apps/desktop/frontend/src/app/services/library/library-numerical.ts": "11398436b0a470aa55864a31f8182d44a7b4f69ef3dd4e36aab07b31fa5e02ab",
+      "apps/desktop/frontend/src/app/services/library/library-replay-converter.ts": "8fb9d557dfd79d4a3c9d025f0e500ef3875e9a22dc080a2b46d148c00500f7b2",
+      "apps/desktop/frontend/src/app/services/library/library-replay-parser.ts": "011f1a8f112a68c9117b252dd50121edbfb96e445eaa07e8ab96ce100b4c40cd",
+      "apps/desktop/frontend/src/app/services/library/library-replay-worker.ts": "80a73529688f7f288d4bbe43b67e1ff2b89a96400b0883442e790d8d3eb216e3",
+      "apps/desktop/frontend/src/app/services/library/library-replay.worker.ts": "cb0d2f236b6fb9611aec21b5a1d48164e126a5af4c89a47afada87501c3287f2",
+      "apps/desktop/frontend/src/app/services/library/library-timeline.ts": "509f61881f5764d7d3d78baf93a102097cdb3460c60c61dca73ef6e62ccdd90f",
+      "apps/desktop/frontend/src/app/utils/replay.ts": "020cb957c72abe50a2b37f6d22acaa8d1df4e5fae26f9e9b6ec2c5dad6f16fd6",
+      "apps/desktop/frontend/tsconfig.app.json": "58baec4f2de4010cdaf5d958682004c6de00fe16a87036694d35e43805dbeaa1",
+      "apps/desktop/frontend/tsconfig.json": "4d7d0900cb63f9e2ed4b34490a8188c65bfbd94bab9517f029743b29309bb073",
+      "apps/desktop/main/src/app/library/library-activity-gate.ts": "c029064920cebdfe89160e0ca6c266bd3fa1451571e601777b5d4b044097e78c",
+      "apps/desktop/main/src/app/library/library-aggregate-performance.ts": "a80b383a7efeb5a642ebe494476a83c082c39a52d75bdc86f31a776b73039bf8",
+      "apps/desktop/main/src/app/library/library-analysis-binding.ts": "b36f56c9c116cde69ed67eef8771ef5bdf5b3418301d5eb63b69c55f0a03747e",
+      "apps/desktop/main/src/app/library/library-artwork-cache.ts": "8dcc8d2b5b85ebe961c787dc1f43dbc24fd3763877c8dc15b11b9eea29390e48",
+      "apps/desktop/main/src/app/library/library-current-replay-authority.ts": "cc5f2a4ffd41d42ebde644a97d2d7ef94a5ca3a561e7a8aee9803f37b648883d",
+      "apps/desktop/main/src/app/library/library-fc-target.ts": "5ce4c70c3947b6858716f2e553e05e77bdbbb5bb1a692b32a4fe21c50c9b7074",
+      "apps/desktop/main/src/app/library/library-incidents-preparation.ts": "7a2ad230aef8b7da46aa7cc17505c540a8a6657bd3545307ae7511f6cc1f2173",
+      "apps/desktop/main/src/app/library/library-incidents-store.ts": "98669079cd226426090b469d1e1b7808113a03e72e7f7f8173237be77e52c8cd",
+      "apps/desktop/main/src/app/library/library-incidents-target.ts": "d97ec32eb3267542e69cd3008c7823fecef6f7dee698b87a68e94a0f8d8d03cb",
+      "apps/desktop/main/src/app/library/library-incidents-verification.ts": "6def89730a437c9eea22d510fbe690c03a72fdd627f10e198cfdeabcb8765d96",
+      "apps/desktop/main/src/app/library/library-lzma-client.ts": "313376f105710f0f82797d36db73d637352836b9cac1128b86594668b66d7458",
+      "apps/desktop/main/src/app/library/library-map-performance.ts": "a8c1e6e29d24ff24faaec529107dfb1d2c1139b7a2254f57a586cb9b228fe2be",
+      "apps/desktop/main/src/app/library/library-metric-store.ts": "6da94ed1fd64bea64d389d8e682e8f8defef3ea68ea437550eea2099ed9be8c7",
+      "apps/desktop/main/src/app/library/library-native-admission.ts": "15540206010d1ad5fa403bb9311c7f4044e80df8159b6ccd443722e68524e0d6",
+      "apps/desktop/main/src/app/library/library-numerical-execution.ts": "df1df6af5cec73557b07e0a4f1bf02424b5fb0f0880f8fb910ac77616e5a8fa8",
+      "apps/desktop/main/src/app/library/library-numerical-preparation.ts": "f5a1a7cfc48320b3a0419efca50438a1f7fc9a90c1f9b512a68dfb66db1d706a",
+      "apps/desktop/main/src/app/library/library-numerical-profile.ts": "c1eb3e2b387ec3801418a1ca8da8b0f784b92587f80febaa5482ff0d554e824f",
+      "apps/desktop/main/src/app/library/library-numerical-recipe-store.ts": "84895dee0010f964be28fcb6680c2f2293c030b98cb6363759a9d1d5bae142d2",
+      "apps/desktop/main/src/app/library/library-numerical-resources.ts": "3771226b3abcd57dd154bdf2b115946ea42596e538145f2dade93f595cb0de56",
+      "apps/desktop/main/src/app/library/library-origin-index.ts": "f267f06620bb790748ad33154c748607130f1400dc4d6f2eaeb18b7a9d2de6c5",
+      "apps/desktop/main/src/app/library/library-passive-resources.ts": "f1d4b3e771f30406836e2602b3162b71df27a7db9720c5157e9af9e772c2a004",
+      "apps/desktop/main/src/app/library/library-performance-cache.ts": "bbd316159431d00051a0c60950b4d4711a4b5eb39126183a9cc54e864b40d992",
+      "apps/desktop/main/src/app/library/library-performance-context.ts": "2d6c7637a55ce3aedacd66f55c8d058259262eeb5bb4115d6901dc2263223cc0",
+      "apps/desktop/main/src/app/library/library-performance-dependencies.ts": "5780de288d677d16833675e49e9cbdf05f54822632eb7e97269baeb3a0f294ad",
+      "apps/desktop/main/src/app/library/library-performance-map-resource.ts": "aa1f36d371b726316413498cb866473357124c7b8d9ed1421cfb7c63bc9da38a",
+      "apps/desktop/main/src/app/library/library-performance-native.ts": "0d9342ec38a93197e4e62565121dbb3c63848ffbd5a4e6486f92b851bf008dbd",
+      "apps/desktop/main/src/app/library/library-performance-observation.ts": "6c8ffbd6ac97936225086fb4f8cf2b81a570be5eaf68a1ce28c98291d32a421c",
+      "apps/desktop/main/src/app/library/library-performance-recipe-store.ts": "8c9a45571557ce29857e7ddccf64a313b290c233a3e26bad9947c9d9c89d5597",
+      "apps/desktop/main/src/app/library/library-performance-score-resource.ts": "a19a8de9f5267e3511942aaff0719aa34bd289e3d74784b2a198069090153c89",
+      "apps/desktop/main/src/app/library/library-performance-score.ts": "200c699c40fc6622f7fd55e36ec55700a4e132980a3181fb5fede03e7043b371",
+      "apps/desktop/main/src/app/library/library-performance-versions.ts": "f30fa9b7a1f13f85d689d2f841d9715e29dd3aaec14a78c0f5ec2d79a2b7bbe3",
+      "apps/desktop/main/src/app/library/library-preparation-store.ts": "71d039fb237248c6ed761232c881189d4e563a697595fe88cb0f33a8deb9e191",
+      "apps/desktop/main/src/app/library/library-query-invalidation.ts": "860cbc873a44c88c400edb48d194164309facc83c1ed6fea88c377ae9b41213f",
+      "apps/desktop/main/src/app/library/library-recorded-evidence.ts": "ba4c60564bd5cebc365c650c4e0773901675898ec30f954c95b415efa03f06a3",
+      "apps/desktop/main/src/app/library/library-replay-opener.ts": "b5a94fc56bd38858ed226f390a949aa8c4c93a0babe7d8e7e3b243efe79695d2",
+      "apps/desktop/main/src/app/library/library-resource-changes.ts": "5885226f267a7a97ce0b80eb7bc36cd2a6797f029b7cb04077dd6e2a73f7a167",
+      "apps/desktop/main/src/app/library/library-resource-errors.ts": "8c56f54bbc5705a40a3d3ab6a17217f4ac54ec52fd75bacd031fd1c31e3f8a6f",
+      "apps/desktop/main/src/app/library/library-resource-reader.ts": "c9aaec228e92bbe73beff68f2d09f2e6a8ea72cbee4189a63a46a115be1e1dfe",
+      "apps/desktop/main/src/app/library/library-resource-server.ts": "7c9f7fadab62489223992769c2c085ebf264bdcc91c298c35e886d39e8d64320",
+      "apps/desktop/main/src/app/library/library-resource-sessions.ts": "398dbb5a5008ee1d419e5d5fa8a8534fa8ef7ed712612a8dc922253adb21f159",
+      "apps/desktop/main/src/app/library/library-selected-resources.ts": "81125cd8411a5a644a8659871b398c9bb4528165fa36c476fcc836332c0d7d5f",
+      "apps/desktop/main/src/app/library/library-source-admission.ts": "c6579b72f0b4a22c88f9024de049e07f676c46280c3a1961c848cc5ea1eb1dca",
+      "apps/desktop/main/src/app/library/library-source-binding.ts": "b2f445bf82d822e87600dc0c5a056a235383c13831541b60b0a81199d3f4d3af",
+      "apps/desktop/main/src/app/library/library-source-metrics.ts": "0ba40798856fc721c94cffb667429f6a6a832976f09cada871679310e2e1a551",
+      "apps/desktop/main/src/app/library/library-store.ts": "c641821a374e9a7126d1b95bbadb9f4f495915bdfb1fdee8803ca0715b02cff8",
+      "apps/desktop/main/src/app/library/library-timeline-target.ts": "de94b630160e5d021ef0562ac64f200bc8884c28412ffe34750ce5988960405d",
+      "apps/desktop/main/src/app/library/sources/lazer-source.ts": "4a2bb1d613de2a50fba77358beeaf87e42c33d1db5370e72ab81ddb0efdf1c7c",
+      "apps/desktop/main/src/app/library/sources/replay-file.ts": "da1550f4daa1a81d2fa873072756b50d92b5c92d8c46c243b74add237c1d6261",
+      "apps/desktop/main/src/app/library/sources/source-file.ts": "9c606c5afe4d4d4caafde4d0651f566909627224c4f310c4dbf77718c52b6ada",
+      "apps/desktop/main/src/app/library/sources/stable-scores-source.ts": "1eb0aa3639d0f5ef4685f492510784579e1074ba0a5c36507eef931e3b99857c",
+      "apps/desktop/main/src/app/performance-worker.ts": "10ea5f2b16c6eebcd0e6b0c9c757176a3c24d21828cde66d7260cf716b6bf1a2",
+      "apps/desktop/main/src/app/saved-score-source.ts": "ff564ebd8e8eb79bd160861fc3b81a45976eb65becc05d1dee23ae8ee287d8a3",
+      "apps/desktop/main/tsconfig.app.json": "01f84f07d5bd042c18c7bfbc0237090f4b0b3b151bc884bc0a33455c387facec",
+      "apps/desktop/main/tsconfig.json": "23906cd84a938e80e07dd99ca2555f30de0804a48afa3f95f6d37cab416803eb",
+      "apps/desktop/shared/library-analysis-gate.ts": "03b8c1978690da071b339b923a58cac99e63ab62c85e2ce264d07125365b7282",
+      "apps/desktop/shared/library-analysis.ts": "48d6906a36ee4b81ab097d14c3531ef988392f61fc2a4c8db2e446cd4a4b47fd",
+      "apps/desktop/shared/library-current-replay.ts": "8bc7ec5757f15fb1316a43eab75decf28e2b12be65a615e96b79eacee4470a0d",
+      "apps/desktop/shared/library-error-strip.ts": "c3343dc292d72dd20194dafd12ae7830194a6fb167621e6f0e164e3f4fc66e44",
+      "apps/desktop/shared/library-incidents.ts": "ce2467743abcd079ed458a73a85483e468cf92cd7bfcef05059670bec553691b",
+      "apps/desktop/shared/library-json.ts": "2756fde332783bfdd1848c464164dbbf408f03e1cdce23a5120bdbd5ce8ec0d3",
+      "apps/desktop/shared/library-passive-resources.ts": "5fcb154abe9f011ac430f5a1c87a3c0a900d43504f3c4fb70afdce9d317565e8",
+      "apps/desktop/shared/library-resource-changes.ts": "2d0e2db1a5a8ef4d38d74ddebcb8d974e51290f51216cab8346a481c36dc94d2",
+      "apps/desktop/shared/replay-grade.ts": "835b40b504c94af9f505637f2927cf04e2b2a37062f514cb00d2fb0dd4788f5a",
+      "engine/NuGet.Config": "aec93b5637ab6d62470979a008990a4a336a287ab83a3f2541849ae735674055",
+      "engine/RewindPerformance/LibraryLzmaProtocol.cs": "69e05233aeff95a2e9033f4c48374549ea707710dc335b3015b5b671a9d83a81",
+      "engine/RewindPerformance/LibrarySourceProtocol.cs": "59da5c0a78a0d39038f81de8cb24744ccbe4b03310096bcfd04375969486af15",
+      "engine/RewindPerformance/LibrarySourceReader.cs": "dc028a07472ad366d7a28f4d900257d7472fcc967cddfaeb29ff7b9ef677e094",
+      "engine/RewindPerformance/LibrarySourceStamp.cs": "a62c22ebe8af68c9b2d4d12fce2909b1fa8a9ca36cd7709c390cf4ac517622ca",
+      "engine/RewindPerformance/LibraryWatchProtocol.cs": "5779dabf163499e11d549eebbd49999a8742e1570a23486b1f7ad5501a1868cf",
+      "engine/RewindPerformance/ModConfiguration.cs": "9a1854a170c6ffa38dccd25bf3c0cdf250c0f808d8276b4cc891d0001285deb5",
+      "engine/RewindPerformance/packages.lock.json": "2b45882a90ad557e6571eb1449462306ae5791c3ca90f9ff4d59812145d478d0",
+      "engine/RewindPerformance/PerformanceEngine.cs": "c48292e82209c3b9498647a711d35515fc762ad4724c937ee665576eb2729dae",
+      "engine/RewindPerformance/Program.cs": "8b5de17a6b248871754e7cf018256b37e08cfd9d9fbbf816e2e86242b525b4a3",
+      "engine/RewindPerformance/Protocol.cs": "2efb695d6de8a86d539056117ff3a67436ebc75cfac3cdc417adc49a7ef9f485",
+      "engine/RewindPerformance/RewindPerformance.csproj": "706d0aef66d07334e94cc83a956dae3030b29a93f420a61f29066962efe7e6e5",
+      "global.json": "2e9b757f6a95847dc76f9066183e21063d9f492acbf608c2371aa51c3a687eb9",
+      "libs/osu-local/db-reader/src/library-binary.ts": "5c62add7337f2d23c9ea9a1da315859812b1c580a58ef3ba9d8682f42ec698e4",
+      "libs/osu-local/db-reader/src/library-scores.ts": "ece0423232a5960995862ad3eb6e70a9b218b1d51cbd2172d8cd32a1d6593a50",
+      "libs/osu-local/osr-reader/src/header.ts": "9d25d8e576c5df8a1d6fba331920de2c358201203f624ae73e9bdbbd31f5818e",
+      "libs/osu-local/osr-reader/src/index.ts": "6d20fa81a3a84e75c71ddc9977e869c8ea44959e62183a3564bd86b762d784a1",
+      "libs/osu-local/osr-reader/tsconfig.json": "1d3d16945976fa1ed70f5bbfc155f733f3a1fd47c1dd9c50239d230a9858f589",
+      "libs/osu-local/osr-reader/tsconfig.lib.json": "2ee3aba6e52c4b33fb545f53afe3032ff85367736a6956cb884db1488124762c",
+      "libs/osu/core/src/audio/HitSampleInfo.ts": "c6af051b7e289b79c085b13e79790a7f2ebd2ca2c16f7dcae5aad8b54266a7a1",
+      "libs/osu/core/src/audio/LegacySampleBank.ts": "a6aaac2e5b6d99573a0530961098aa65c85246b8168f6e3d32071d06c1bc693f",
+      "libs/osu/core/src/audio/StoryboardSampleInfo.ts": "4793ff2acb774c972197128310a36a5ab09ba0f23ad9a443cbea6ad8b4b84faf",
+      "libs/osu/core/src/beatmap/Beatmap.ts": "a8194513a0c191108b8181536400f4e0da4dfdeffce919c73e0a2aa0e8c7878b",
+      "libs/osu/core/src/beatmap/BeatmapBuilder.ts": "af41b8644396b1df63c033604db9096f47696ffa41e3f303ddf0d42088d1d414",
+      "libs/osu/core/src/beatmap/BeatmapDifficulty.ts": "825018b86970f7460e937b74ea93ee4f0fb869d00c996d89cc9d5f8f5897dfe9",
+      "libs/osu/core/src/beatmap/ControlPoints/ControlPoint.ts": "38e6d12d5aeb74f96364dc25caa1abb5521351736d1cc984af6225c437f93d12",
+      "libs/osu/core/src/beatmap/ControlPoints/ControlPointGroup.ts": "a1c11ce9aca397ae6dfbf543c2712f8267a93acfcc25449af0b8d7c13b465ccc",
+      "libs/osu/core/src/beatmap/ControlPoints/ControlPointInfo.ts": "400b57e5c02890fddecf4ff79c7a2b0d3efe011208ad3665bfdaf99767a9e558",
+      "libs/osu/core/src/beatmap/ControlPoints/DifficultyControlPoint.ts": "df31602fa156a8ba510ac76eaab227005b6328b16225832938a9cd09c71afc18",
+      "libs/osu/core/src/beatmap/ControlPoints/EffectControlPoint.ts": "06e7d6795e3bdba51928e4591b249058c943beaa689c697c0e2038e556fcebff",
+      "libs/osu/core/src/beatmap/ControlPoints/SampleControlPoint.ts": "9c60249a6b4c77ffa83684dc98737140785a7bff2f4c1acdf7cf83811fbbed97",
+      "libs/osu/core/src/beatmap/ControlPoints/TimingControlPoint.ts": "14f62e5b74c1d6429d97e7edd15631caacebbc67a23a33272812bfa25c05aee0",
+      "libs/osu/core/src/beatmap/LegacyEffectFlag.ts": "f9630a793f0a39196be4ead5f02a2f082a62e1075b5757223eaa02abe307a61f",
+      "libs/osu/core/src/beatmap/TempoSummary.ts": "f39089bbe7622b87b766f710fc687c80aa6da58f40575d72691aa366ab0b8452",
+      "libs/osu/core/src/beatmap/TimeSignatures.ts": "b3eb3dc9de447413a76e81871bec1e723be630d2549ef549555926c503e47122",
+      "libs/osu/core/src/blueprint/Blueprint.ts": "7c5e9ac9f49fa4d628d5d137b41b45f5390c2c7ae9bfa2f327c04a0d6d0597cc",
+      "libs/osu/core/src/blueprint/BlueprintParser.ts": "bb257de2a6ec28d717fc9101b5e053c2e72ac7b4c15999f8a75ade2114076b14",
+      "libs/osu/core/src/blueprint/HitObjectSettings.ts": "a16a5f969fdc7387dbd41408149470e27598bb34b5c2e841b3d4e8628fbcebeb",
+      "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts": "b8668bb6cd1294e9d59784d79f9f309b8812e8ba2d94a83befd80a8054c09814",
+      "libs/osu/core/src/gameplay/error-analysis/ErrorObservations.ts": "ae936c37ad0eddbdd088262057cbcac98c50e360afc51bd6c2c54ec7fe03363d",
+      "libs/osu/core/src/gameplay/GameplayAnalysisEvent.ts": "286d83ea567b079348bee691602ed926d0c9acd433ce77ada1273cce9e6a5467",
+      "libs/osu/core/src/gameplay/GameplayInfo.ts": "f4390bd251a51bdaa3f87385b253c0b3c31d5b5bc684fc0b85dfab186f20a284",
+      "libs/osu/core/src/gameplay/GameState.ts": "312319132c8e3603302b8668797a60b705f52cedfccd73b12f2a51f4102fa0ef",
+      "libs/osu/core/src/gameplay/GameStateEvaluator.ts": "2eb2538d7cb2a48dae9a4c6f172d7d0d05a03081c6c863ebfa00deffb19bb48c",
+      "libs/osu/core/src/gameplay/GameStateTimeMachine.ts": "060c315a655e8abc795b68c6f904d10fd6d6705e2396ee392ba3c172e05e956d",
+      "libs/osu/core/src/gameplay/LazerGameStateEvaluator.ts": "3950fa2053338132249fa77169da9efcff18d435aee7823a6936a9f1ac94110b",
+      "libs/osu/core/src/gameplay/LazerGameStateTimeMachine.ts": "2101a51e997b9f18a034b0e7a7a7b9dc5bf621dcfe5d3fd43b7be55d7b0ca343",
+      "libs/osu/core/src/gameplay/LazerRelaxInput.ts": "f37deed6239127026e6e08f53aff1ce6e37dcca83f83105e2156428708b1ae9a",
+      "libs/osu/core/src/gameplay/miss-explanation/CircleEvidence.ts": "613adf0989a7230af4e698ff56bfff6f6c8789d92df5572c1233523f67085203",
+      "libs/osu/core/src/gameplay/miss-explanation/CircleMissExplanation.ts": "894742f44340ce32332d2a417c7abf12b2e6efb13a335d766fb18c197f2fd957",
+      "libs/osu/core/src/gameplay/miss-explanation/DirectTargetRejections.ts": "b3ff8abee528dbc7b68636517df904039f595bc4a0f3a036606df263ec54a90a",
+      "libs/osu/core/src/gameplay/SpinnerBonus.ts": "fd69879871fe10a3a9f9ed1d92e721f11e1a4b75ff22fc58154758ec08042e5f",
+      "libs/osu/core/src/gameplay/SpinnerTracking.ts": "0e681371b1663377bcf0e6bfad7c8ac19d2ee8414d434b5e272532d927db6940",
+      "libs/osu/core/src/gameplay/SpunOutSpinner.ts": "73ff3e2e875c2d63d0aab148a77373896cccc6a55a92533338233e722732ec96",
+      "libs/osu/core/src/gameplay/StableDifficulty.ts": "464be4158500c007b100b88f9255357dd9d16d67a04aadf017413dfb8208c47c",
+      "libs/osu/core/src/gameplay/StableHitGeometry.ts": "47361342510f6140b5daac71b0425dead90709826b718a0b629df4ebbe5da4d9",
+      "libs/osu/core/src/gameplay/StableSliderBallPath.ts": "5f9331e23e1424f14d63a050a2df4b28133f533744ee9ef27111d4f56a1b3799",
+      "libs/osu/core/src/gameplay/StableSliderPathGeometry.ts": "0c715635bbae128d62a8fec3d9d7539374c1c3ed009bddc2f132b73e6dd4cd84",
+      "libs/osu/core/src/gameplay/StableSliderTiming.ts": "71e6ece2610019b1c777624ab42b22063c4d3873fc90a3e13c02c0b0ee67ec26",
+      "libs/osu/core/src/gameplay/StableSpinnerTracking.ts": "2c54dff30a4faeec7f8f5f447074c15b17643fd2af760e1aa2f0d863bee4c874",
+      "libs/osu/core/src/gameplay/trace/EndpointInputBracket.ts": "49eebcfcb0b2a6d35fec1cd430792c7dd4377a4caf12cfc7b08bb91094b83141",
+      "libs/osu/core/src/gameplay/trace/PlannedTraceCapture.ts": "0291a6b6ea90ee2541a382d1c52a86370be6f1f7581751c12d83da38413c8d16",
+      "libs/osu/core/src/gameplay/trace/ReplayTrace.ts": "29c58ead7246ea8a2737c2ca1900dce5e5ffdcf42d0f1fd8823edce2cb7ff117",
+      "libs/osu/core/src/gameplay/trace/ReplayTraceCollector.ts": "fe38cf1d604c759a4e5fd62ff6462d14cdb72d327fa0246314deed1ca86f1e5e",
+      "libs/osu/core/src/gameplay/trace/ReplayTraceObserver.ts": "79c0cb0404b7a2d59c6328826ee2b8765ca7a99571b10078332f698f2240ad0b",
+      "libs/osu/core/src/gameplay/Verdicts.ts": "a07ae6ef9d3d5e86ff8a7ef4c1673e117aaf68fbe7029c114975166e861d52bc",
+      "libs/osu/core/src/hitobjects/HitCircle.ts": "96c7732008d99bb0dc3de5cd74121b4b22f3fb1643fcddac3401d26787fca303",
+      "libs/osu/core/src/hitobjects/Slider.ts": "327397311a7048c56dca24bfb418a972d75aeb1afdfaca5e87214f4daec60214",
+      "libs/osu/core/src/hitobjects/slider/PathApproximator.ts": "22b1c949fe5acdcb0b82a7d58a0adb3773e894e2bd4ea150edbe7038309a2ac6",
+      "libs/osu/core/src/hitobjects/slider/PathControlPoint.ts": "8799855a14b511955b862145b470c683820638534bfcd829103810fcfe2d4f39",
+      "libs/osu/core/src/hitobjects/slider/PathType.ts": "f5c9db60c89f173c2d1d9d9ed6f91ea51e5aac69fe4b774e9c429548fe6ac92f",
+      "libs/osu/core/src/hitobjects/slider/SliderCheckPointGenerator.ts": "8158f71a15c4c7eb1f16a44e6a65579c8891853ebdfa55fa95dcb581a2ce9b73",
+      "libs/osu/core/src/hitobjects/slider/SliderPath.ts": "c99708737b1a4d26a85ebbb95ab1622674d602ae416498a4fca011e3ed794642",
+      "libs/osu/core/src/hitobjects/SliderCheckPoint.ts": "4805ee5360d480a1cd79b682570ceb33cba8a47fcf0cd296bd54e2de4ff93ad2",
+      "libs/osu/core/src/hitobjects/Spinner.ts": "4de90168037e735d12840f6a45906c2e9ffcce07365d3629a9fff05dfc66260b",
+      "libs/osu/core/src/hitobjects/Types.ts": "8fa59a47d5a2118e08b99a4f903852ed0bd96d243a8cbe30abe11320f1da3661",
+      "libs/osu/core/src/index.ts": "a29b89c44f58b5afc2fcde19573cee212d323f6e4e6b24f09f3c9de2bcd1c69c",
+      "libs/osu/core/src/mods/EasyMod.ts": "14f580294ed0a1916d4776615554b88b4326981ae307fc5ea73d7e67bd1732fb",
+      "libs/osu/core/src/mods/HardRockMod.ts": "e379195bce58b77f332bdff306f81eea44bbbdc28cb74795d62581efe346080e",
+      "libs/osu/core/src/mods/HiddenMod.ts": "f863b5d78d2908bf1d1b6804c3d6a3480526a891d8ae06089cf3f1c0d4813367",
+      "libs/osu/core/src/mods/LazerMods.ts": "1d896e6f2bb0e1434ff843dc80944f9ce31b5542cb8de5f7ace77ce63e48e418",
+      "libs/osu/core/src/mods/Mods.ts": "2212b6b78cecc2ae5eedf9de8ad4063a4a9a850600a16b27a460ffc8129a489d",
+      "libs/osu/core/src/mods/StackingMod.ts": "db42bd7b5e721694d932be585af66093e66c11b5c4686e6727be4365f6013060",
+      "libs/osu/core/src/playfield.ts": "8a6eb7c4af335b5dea361053dfd1ad0311d047e8e1cba531cc98e170d0badfd7",
+      "libs/osu/core/src/replays/RawReplayData.ts": "dd075acd6d74179f19a65c642883cbe3c95734206d9235012affe82775a9705f",
+      "libs/osu/core/src/replays/Replay.ts": "09932025b512b9d60edbefe3559b91bb18d41bb1fd8adfd20475322cbd6c2627",
+      "libs/osu/core/src/replays/ReplayClicks.ts": "e3920e23aa3e0f626490e425ea3d04b1dae68fc24bcf18b204cd918a9cde0734",
+      "libs/osu/core/src/replays/ReplayParser.ts": "84d24ab8c9352ed2c4142f209bfab7a691c3b6c27026f275f17b4d2973358763",
+      "libs/osu/core/src/replays/SavedScoreCandidates.ts": "e6ec90804d5fe26d843798308031b34a92e9bdb68ad99bcaaac1e446e16d142c",
+      "libs/osu/core/src/replays/SavedScoreTimeline.ts": "2225b4995fccfc6aff8c4de219d6efc6f06e094a6213439bdb143b0546a28329",
+      "libs/osu/core/src/utils/CooperativeSteps.ts": "1bab6150d012dbdce8b3bb30784608180f77c721e8ba47d7120f785bd4d1119f",
+      "libs/osu/core/src/utils/index.ts": "bfbd2a00467f6402f5599dc8065d21bc60a8636aafa1db1ffed3a03769acf0c1",
+      "libs/osu/core/src/utils/SortedList.ts": "e4d86f45145b387325a75ac095705648689ab78274c944cce579a0bc53a9f0ff",
+      "libs/osu/core/tsconfig.json": "1d3d16945976fa1ed70f5bbfc155f733f3a1fd47c1dd9c50239d230a9858f589",
+      "libs/osu/core/tsconfig.lib.json": "319b8d9d90955fa2a2088f943530e4bb6daf3c9a0066f33948a3abe47cba8493",
+      "libs/osu/math/src/colors.ts": "62089e7a7357114478a0e0421b457dbb2a40c328b9e83ae65ce7197d90a098e8",
+      "libs/osu/math/src/difficulty.ts": "1d7af910fb834bbfba11ad99fee1c89003d4b2f4366c89e964bcf3b663f70cad",
+      "libs/osu/math/src/easing.ts": "2c77f6e9ac8f455f2616f5ac994bf98fda1c370dba011589375304c7f51fb6d2",
+      "libs/osu/math/src/float32.ts": "f9f86ac6a61ca2d414988dd9cd6c0872972264cd7d5a47452369c85f26431086",
+      "libs/osu/math/src/index.ts": "3d9c0ab977122e76111ffe885dbedb1edee528370fcb14976070c82905c0e00f",
+      "libs/osu/math/src/sliders.ts": "fc746eef08342f5f4dbc1db06d5d70f8e311ab6ee993be620e746565db03d82d",
+      "libs/osu/math/src/time.ts": "517ea526816bc991cbf2cdefdf1047792c4b8a4a035382b95e9706d72c10a834",
+      "libs/osu/math/src/utils.ts": "68e5996d337a9281a1573581d41fa9c293d102fb29bfe969cb9e7a6cabe9d7a8",
+      "libs/osu/math/src/Vec2.ts": "15749c65725dab73abb0164ebea39dbe2bcbe9a0e91100e9f462a3f0d21bc7e2",
+      "libs/osu/math/tsconfig.json": "1d3d16945976fa1ed70f5bbfc155f733f3a1fd47c1dd9c50239d230a9858f589",
+      "libs/osu/math/tsconfig.lib.json": "316cd5a7fe8707cdd3ff9a44a507d337e4a941d623d1c88712f2b424a09556d5",
+      "libs/osu/performance/src/aggregate-result.ts": "3e6a6f531c2502482cfbd6b95337cedc6bb01a0490b545862898da2940307fa7",
+      "libs/osu/performance/src/legacy-score.ts": "d5e6264dc44eb914b6e92c50c1734dd87feec55e12a711f49c84b8ec9703da74",
+      "libs/osu/performance/src/mods.ts": "1be09450004120d342c78e0f082e6b8da3fe6f2afc5f4fe1de34fb35734edb2b",
+      "libs/osu/performance/src/protocol.ts": "947a5e6ba2d5519a2014dea2b106e9df162931b4e87708c9e0c2f30554c5cd01",
+      "libs/osu/performance/src/states.ts": "913834c0682d715d9096dcbe484ae648378984fd13cc85ebefaddec25f1bd992",
+      "package.json": "2c1fa10b1b7a37836b5167f2d69aa5bc4bbc97e0c46f8c01d21fd72593dca35c",
+      "tools/library/incident-semantic-identity.cjs": "b881421263646e95b914e2e5a98e37a8fb77361a5df368508481cbbaab46608f",
+      "tsconfig.base.json": "5c24cac09dbf7e16196d0352c9c8ef49cf05116a0d410fc9b79f7489b07f96fc",
+      "yarn.lock": "218686c93742ca31ef36c60b38deb524194b7ea3bf124c889bb68c55c19a8bb2"
+    },
+    "roots": [
+      "apps/desktop/frontend/src/app/services/library/library-analysis.worker.ts",
+      "apps/desktop/frontend/src/app/services/library/library-replay.worker.ts",
+      "apps/desktop/main/src/app/library/library-numerical-resources.ts",
+      "apps/desktop/main/src/app/library/library-resource-server.ts",
+      "apps/desktop/main/src/app/library/library-incidents-store.ts",
+      "apps/desktop/main/src/app/library/library-numerical-profile.ts",
+      "apps/desktop/main/src/app/library/library-incidents-preparation.ts",
+      "apps/desktop/main/src/app/library/library-origin-index.ts",
+      "apps/desktop/main/src/app/library/library-store.ts"
+    ],
+    "configs": [
+      "package.json",
+      "yarn.lock",
+      "tsconfig.base.json",
+      "apps/desktop/frontend/tsconfig.json",
+      "apps/desktop/frontend/tsconfig.app.json",
+      "apps/desktop/main/tsconfig.json",
+      "apps/desktop/main/tsconfig.app.json",
+      "libs/osu/core/tsconfig.json",
+      "libs/osu/core/tsconfig.lib.json",
+      "libs/osu/math/tsconfig.json",
+      "libs/osu/math/tsconfig.lib.json",
+      "libs/osu-local/osr-reader/tsconfig.json",
+      "libs/osu-local/osr-reader/tsconfig.lib.json"
+    ],
+    "consumedConfigs": [
+      "apps/desktop/frontend/tsconfig.app.json",
+      "apps/desktop/frontend/tsconfig.json",
+      "apps/desktop/main/tsconfig.app.json",
+      "apps/desktop/main/tsconfig.json",
+      "libs/osu-local/osr-reader/tsconfig.json",
+      "libs/osu-local/osr-reader/tsconfig.lib.json",
+      "libs/osu/core/tsconfig.json",
+      "libs/osu/core/tsconfig.lib.json",
+      "libs/osu/math/tsconfig.json",
+      "libs/osu/math/tsconfig.lib.json",
+      "tsconfig.base.json"
+    ],
+    "resolutionInputs": [],
+    "generatedExclusions": [
+      "apps/desktop/shared/library-incident-semantic-revision.ts",
+      "libs/osu/core/src/gameplay/trace/TraceModelRevision.ts"
+    ],
+    "processBoundaries": [
+      "apps/desktop/main/src/app/library/sources/lazer-source.ts",
+      "apps/desktop/main/src/app/library/library-lzma-client.ts",
+      "apps/desktop/main/src/app/performance-worker.ts"
+    ],
+    "external": [
+      "child_process",
+      "crypto",
+      "electron",
+      "fs",
+      "fs/promises",
+      "lzma",
+      "node-osr",
+      "node:sqlite",
+      "os",
+      "path",
+      "timers/promises",
+      "util"
+    ],
+    "edges": {
+      "apps/desktop/frontend/src/app/services/library/library-analysis.worker.ts": [
+        "./library-analysis-worker"
+      ],
+      "apps/desktop/frontend/src/app/services/library/library-analysis-worker.ts": [
+        "../../model/OsuReplay",
+        "../analysis/performance/replay-performance-input",
+        "../common/game/PreparedBeatmapWire",
+        "./library-analysis-gate",
+        "./library-analysis-input",
+        "./library-fc",
+        "./library-numerical",
+        "./library-timeline"
+      ],
+      "apps/desktop/frontend/src/app/model/OsuReplay.ts": [
+        "@osujs/core"
+      ],
+      "libs/osu/core/src/index.ts": [
+        "./audio/HitSampleInfo",
+        "./audio/StoryboardSampleInfo",
+        "./beatmap/Beatmap",
+        "./beatmap/BeatmapBuilder",
+        "./beatmap/BeatmapDifficulty",
+        "./beatmap/ControlPoints/ControlPoint",
+        "./beatmap/ControlPoints/ControlPointGroup",
+        "./beatmap/ControlPoints/DifficultyControlPoint",
+        "./beatmap/ControlPoints/TimingControlPoint",
+        "./beatmap/TempoSummary",
+        "./blueprint/Blueprint",
+        "./blueprint/BlueprintParser",
+        "./blueprint/HitObjectSettings",
+        "./gameplay/GameState",
+        "./gameplay/GameStateEvaluator",
+        "./gameplay/GameStateTimeMachine",
+        "./gameplay/GameplayAnalysisEvent",
+        "./gameplay/GameplayInfo",
+        "./gameplay/LazerGameStateEvaluator",
+        "./gameplay/LazerGameStateTimeMachine",
+        "./gameplay/SpinnerBonus",
+        "./gameplay/SpinnerTracking",
+        "./gameplay/SpunOutSpinner",
+        "./gameplay/StableSpinnerTracking",
+        "./gameplay/Verdicts",
+        "./gameplay/error-analysis/ErrorCapabilities",
+        "./gameplay/miss-explanation/CircleEvidence",
+        "./gameplay/miss-explanation/CircleMissExplanation",
+        "./gameplay/trace/PlannedTraceCapture",
+        "./gameplay/trace/ReplayTrace",
+        "./gameplay/trace/ReplayTraceCollector",
+        "./gameplay/trace/TraceModelRevision",
+        "./hitobjects/HitCircle",
+        "./hitobjects/Slider",
+        "./hitobjects/SliderCheckPoint",
+        "./hitobjects/Spinner",
+        "./hitobjects/Types",
+        "./hitobjects/slider/PathApproximator",
+        "./hitobjects/slider/PathControlPoint",
+        "./hitobjects/slider/PathType",
+        "./hitobjects/slider/SliderPath",
+        "./mods/HardRockMod",
+        "./mods/HiddenMod",
+        "./mods/LazerMods",
+        "./mods/Mods",
+        "./mods/StackingMod",
+        "./playfield",
+        "./replays/RawReplayData",
+        "./replays/Replay",
+        "./replays/ReplayClicks",
+        "./replays/ReplayParser",
+        "./replays/SavedScoreCandidates",
+        "./replays/SavedScoreTimeline",
+        "./utils/index"
+      ],
+      "libs/osu/core/src/audio/HitSampleInfo.ts": [],
+      "libs/osu/core/src/audio/StoryboardSampleInfo.ts": [],
+      "libs/osu/core/src/beatmap/Beatmap.ts": [
+        "../gameplay/StableDifficulty",
+        "../hitobjects/Types",
+        "../mods/LazerMods",
+        "../utils",
+        "./BeatmapDifficulty",
+        "./ControlPoints/ControlPointInfo"
+      ],
+      "libs/osu/core/src/gameplay/StableDifficulty.ts": [
+        "@osujs/math"
+      ],
+      "libs/osu/math/src/index.ts": [
+        "./Vec2",
+        "./colors",
+        "./difficulty",
+        "./easing",
+        "./float32",
+        "./sliders",
+        "./time",
+        "./utils"
+      ],
+      "libs/osu/math/src/Vec2.ts": [
+        "./float32"
+      ],
+      "libs/osu/math/src/float32.ts": [],
+      "libs/osu/math/src/colors.ts": [],
+      "libs/osu/math/src/difficulty.ts": [
+        "./float32"
+      ],
+      "libs/osu/math/src/easing.ts": [],
+      "libs/osu/math/src/sliders.ts": [
+        "./Vec2"
+      ],
+      "libs/osu/math/src/time.ts": [],
+      "libs/osu/math/src/utils.ts": [],
+      "libs/osu/core/src/hitobjects/Types.ts": [],
+      "libs/osu/core/src/mods/LazerMods.ts": [],
+      "libs/osu/core/src/utils/index.ts": [
+        "../hitobjects/Slider",
+        "./CooperativeSteps"
+      ],
+      "libs/osu/core/src/hitobjects/Slider.ts": [
+        "./slider/SliderPath",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/hitobjects/slider/SliderPath.ts": [
+        "./PathApproximator",
+        "./PathType",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/hitobjects/slider/PathApproximator.ts": [
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/hitobjects/slider/PathType.ts": [],
+      "libs/osu/core/src/utils/CooperativeSteps.ts": [],
+      "libs/osu/core/src/beatmap/BeatmapDifficulty.ts": [],
+      "libs/osu/core/src/beatmap/ControlPoints/ControlPointInfo.ts": [
+        "../../utils/SortedList",
+        "./ControlPointGroup",
+        "./DifficultyControlPoint",
+        "./EffectControlPoint",
+        "./SampleControlPoint",
+        "./TimingControlPoint",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/utils/SortedList.ts": [
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/beatmap/ControlPoints/ControlPointGroup.ts": [],
+      "libs/osu/core/src/beatmap/ControlPoints/DifficultyControlPoint.ts": [
+        "./ControlPoint"
+      ],
+      "libs/osu/core/src/beatmap/ControlPoints/ControlPoint.ts": [],
+      "libs/osu/core/src/beatmap/ControlPoints/EffectControlPoint.ts": [
+        "./ControlPoint"
+      ],
+      "libs/osu/core/src/beatmap/ControlPoints/SampleControlPoint.ts": [
+        "./ControlPoint"
+      ],
+      "libs/osu/core/src/beatmap/ControlPoints/TimingControlPoint.ts": [
+        "../TimeSignatures",
+        "./ControlPoint"
+      ],
+      "libs/osu/core/src/beatmap/TimeSignatures.ts": [],
+      "libs/osu/core/src/beatmap/BeatmapBuilder.ts": [
+        "../audio/HitSampleInfo",
+        "../gameplay/StableDifficulty",
+        "../gameplay/StableSliderTiming",
+        "../hitobjects/HitCircle",
+        "../hitobjects/Slider",
+        "../hitobjects/SliderCheckPoint",
+        "../hitobjects/Spinner",
+        "../hitobjects/slider/SliderCheckPointGenerator",
+        "../hitobjects/slider/SliderPath",
+        "../mods/HardRockMod",
+        "../mods/LazerMods",
+        "../mods/Mods",
+        "../mods/StackingMod",
+        "./Beatmap",
+        "./ControlPoints/SampleControlPoint",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/StableSliderTiming.ts": [
+        "../hitobjects/SliderCheckPoint",
+        "./StableSliderPathGeometry",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/hitobjects/SliderCheckPoint.ts": [
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/StableSliderPathGeometry.ts": [
+        "../hitobjects/slider/PathType",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/hitobjects/HitCircle.ts": [],
+      "libs/osu/core/src/hitobjects/Spinner.ts": [],
+      "libs/osu/core/src/hitobjects/slider/SliderCheckPointGenerator.ts": [
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/mods/HardRockMod.ts": [
+        "../hitobjects/Types",
+        "../playfield"
+      ],
+      "libs/osu/core/src/playfield.ts": [],
+      "libs/osu/core/src/mods/Mods.ts": [
+        "./EasyMod",
+        "./HardRockMod"
+      ],
+      "libs/osu/core/src/mods/EasyMod.ts": [],
+      "libs/osu/core/src/mods/StackingMod.ts": [
+        "../hitobjects/Types",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/beatmap/TempoSummary.ts": [],
+      "libs/osu/core/src/blueprint/Blueprint.ts": [],
+      "libs/osu/core/src/blueprint/BlueprintParser.ts": [
+        "../audio/HitSampleInfo",
+        "../audio/LegacySampleBank",
+        "../audio/StoryboardSampleInfo",
+        "../beatmap/ControlPoints/ControlPointInfo",
+        "../beatmap/ControlPoints/DifficultyControlPoint",
+        "../beatmap/ControlPoints/EffectControlPoint",
+        "../beatmap/ControlPoints/SampleControlPoint",
+        "../beatmap/ControlPoints/TimingControlPoint",
+        "../beatmap/LegacyEffectFlag",
+        "../beatmap/TimeSignatures",
+        "../hitobjects/slider/PathType",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/audio/LegacySampleBank.ts": [],
+      "libs/osu/core/src/beatmap/LegacyEffectFlag.ts": [],
+      "libs/osu/core/src/blueprint/HitObjectSettings.ts": [],
+      "libs/osu/core/src/gameplay/GameState.ts": [
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/GameStateEvaluator.ts": [
+        "../hitobjects/Types",
+        "../mods/Mods",
+        "../replays/Replay",
+        "./GameState",
+        "./SpinnerTracking",
+        "./StableDifficulty",
+        "./StableHitGeometry",
+        "./StableSliderBallPath",
+        "./StableSliderTiming",
+        "./StableSpinnerTracking",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/replays/Replay.ts": [],
+      "libs/osu/core/src/gameplay/SpinnerTracking.ts": [],
+      "libs/osu/core/src/gameplay/StableHitGeometry.ts": [
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/StableSliderBallPath.ts": [
+        "./StableSliderPathGeometry",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/StableSpinnerTracking.ts": [
+        "./SpinnerTracking"
+      ],
+      "libs/osu/core/src/gameplay/GameStateTimeMachine.ts": [
+        "./GameState",
+        "./GameStateEvaluator",
+        "./error-analysis/ErrorCapabilities",
+        "./trace/ReplayTraceObserver",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts": [
+        "../../mods/Mods"
+      ],
+      "libs/osu/core/src/gameplay/trace/ReplayTraceObserver.ts": [],
+      "libs/osu/core/src/gameplay/GameplayAnalysisEvent.ts": [
+        "../hitobjects/HitCircle",
+        "../hitobjects/Slider",
+        "../hitobjects/SliderCheckPoint",
+        "../hitobjects/Types",
+        "../utils",
+        "./GameplayInfo"
+      ],
+      "libs/osu/core/src/gameplay/GameplayInfo.ts": [
+        "../hitobjects/HitCircle",
+        "../hitobjects/Slider",
+        "../hitobjects/SliderCheckPoint"
+      ],
+      "libs/osu/core/src/gameplay/LazerGameStateEvaluator.ts": [
+        "../hitobjects/Types",
+        "../mods/Mods",
+        "../replays/Replay",
+        "./GameState",
+        "./GameStateEvaluator",
+        "./LazerRelaxInput",
+        "./SpinnerTracking",
+        "./SpunOutSpinner",
+        "./StableHitGeometry",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/LazerRelaxInput.ts": [
+        "../mods/Mods",
+        "../replays/Replay",
+        "./GameState",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/SpunOutSpinner.ts": [],
+      "libs/osu/core/src/gameplay/LazerGameStateTimeMachine.ts": [
+        "../hitobjects/Types",
+        "./GameState",
+        "./LazerGameStateEvaluator",
+        "./error-analysis/ErrorCapabilities",
+        "./trace/ReplayTraceObserver",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/SpinnerBonus.ts": [],
+      "libs/osu/core/src/gameplay/Verdicts.ts": [],
+      "libs/osu/core/src/gameplay/miss-explanation/CircleEvidence.ts": [
+        "../../hitobjects/HitCircle",
+        "../StableDifficulty",
+        "../StableHitGeometry",
+        "../error-analysis/ErrorCapabilities",
+        "../trace/EndpointInputBracket",
+        "./DirectTargetRejections",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/trace/EndpointInputBracket.ts": [],
+      "libs/osu/core/src/gameplay/miss-explanation/DirectTargetRejections.ts": [
+        "../../hitobjects/HitCircle",
+        "../../hitobjects/Slider",
+        "../../hitobjects/Spinner",
+        "../StableSliderTiming"
+      ],
+      "libs/osu/core/src/gameplay/miss-explanation/CircleMissExplanation.ts": [
+        "./CircleEvidence"
+      ],
+      "libs/osu/core/src/gameplay/trace/PlannedTraceCapture.ts": [
+        "../../hitobjects/HitCircle",
+        "../../hitobjects/Slider",
+        "../../replays/SavedScoreCandidates",
+        "../StableDifficulty",
+        "../error-analysis/ErrorCapabilities",
+        "./ReplayTraceCollector",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/replays/SavedScoreCandidates.ts": [
+        "../gameplay/StableDifficulty",
+        "../gameplay/StableSliderTiming",
+        "../hitobjects/Types"
+      ],
+      "libs/osu/core/src/gameplay/trace/ReplayTraceCollector.ts": [
+        "../error-analysis/ErrorObservations",
+        "./EndpointInputBracket"
+      ],
+      "libs/osu/core/src/gameplay/error-analysis/ErrorObservations.ts": [],
+      "libs/osu/core/src/gameplay/trace/ReplayTrace.ts": [],
+      "libs/osu/core/src/hitobjects/slider/PathControlPoint.ts": [],
+      "libs/osu/core/src/mods/HiddenMod.ts": [],
+      "libs/osu/core/src/replays/RawReplayData.ts": [
+        "../mods/Mods"
+      ],
+      "libs/osu/core/src/replays/ReplayClicks.ts": [
+        "./Replay"
+      ],
+      "libs/osu/core/src/replays/ReplayParser.ts": [
+        "./Replay"
+      ],
+      "libs/osu/core/src/replays/SavedScoreTimeline.ts": [],
+      "apps/desktop/frontend/src/app/services/analysis/performance/replay-performance-input.ts": [
+        "../../../model/OsuReplay",
+        "@osujs/core",
+        "@rewind/osu-performance/legacy-score",
+        "@rewind/osu-performance/mods",
+        "@rewind/osu-performance/states"
+      ],
+      "libs/osu/performance/src/legacy-score.ts": [],
+      "libs/osu/performance/src/mods.ts": [],
+      "libs/osu/performance/src/states.ts": [],
+      "apps/desktop/frontend/src/app/services/common/game/PreparedBeatmapWire.ts": [
+        "../../../../../../../../libs/osu/core/src/beatmap/ControlPoints/ControlPointGroup",
+        "../../../../../../../../libs/osu/core/src/beatmap/ControlPoints/ControlPointInfo",
+        "../../../../../../../../libs/osu/core/src/beatmap/ControlPoints/DifficultyControlPoint",
+        "../../../../../../../../libs/osu/core/src/beatmap/ControlPoints/EffectControlPoint",
+        "../../../../../../../../libs/osu/core/src/beatmap/ControlPoints/SampleControlPoint",
+        "../../../../../../../../libs/osu/core/src/beatmap/ControlPoints/TimingControlPoint",
+        "../../../../../../../../libs/osu/core/src/hitobjects/slider/SliderPath",
+        "../../../../../../../../libs/osu/core/src/utils/SortedList",
+        "@osujs/core"
+      ],
+      "apps/desktop/frontend/src/app/services/library/library-analysis-gate.ts": [
+        "../../../../../shared/library-analysis-gate"
+      ],
+      "apps/desktop/shared/library-analysis-gate.ts": [],
+      "apps/desktop/frontend/src/app/services/library/library-analysis-input.ts": [
+        "./library-replay-parser",
+        "@osujs/core"
+      ],
+      "apps/desktop/frontend/src/app/services/library/library-replay-parser.ts": [
+        "../../../../../shared/library-json",
+        "./library-replay-converter",
+        "@osujs/core"
+      ],
+      "apps/desktop/shared/library-json.ts": [],
+      "apps/desktop/frontend/src/app/services/library/library-replay-converter.ts": [
+        "../../model/replay-from-source"
+      ],
+      "apps/desktop/frontend/src/app/model/replay-from-source.ts": [
+        "./OsuReplay",
+        "@osujs/core"
+      ],
+      "apps/desktop/frontend/src/app/services/library/library-fc.ts": [
+        "../../../../../shared/library-analysis",
+        "@rewind/osu-performance/aggregate-result",
+        "@rewind/osu-performance/protocol"
+      ],
+      "apps/desktop/shared/library-analysis.ts": [],
+      "libs/osu/performance/src/aggregate-result.ts": [
+        "./protocol"
+      ],
+      "libs/osu/performance/src/protocol.ts": [],
+      "apps/desktop/frontend/src/app/services/library/library-numerical.ts": [
+        "../../model/OsuReplay",
+        "../analysis/live-replay-stats",
+        "../analysis/performance/replay-performance-input",
+        "../common/game/ReplayNumericalFacts",
+        "../common/game/ReplayScoringFrames",
+        "./library-error-strip",
+        "./library-metrics",
+        "@osujs/core"
+      ],
+      "apps/desktop/frontend/src/app/services/analysis/live-replay-stats.ts": [
+        "./replay-events",
+        "./stable-slider-end-misses"
+      ],
+      "apps/desktop/frontend/src/app/services/analysis/replay-events.ts": [
+        "./stable-slider-end-misses",
+        "@osujs/core"
+      ],
+      "apps/desktop/frontend/src/app/services/analysis/stable-slider-end-misses.ts": [
+        "@osujs/core"
+      ],
+      "apps/desktop/frontend/src/app/services/common/game/ReplayNumericalFacts.ts": [
+        "@osujs/core"
+      ],
+      "apps/desktop/frontend/src/app/services/common/game/ReplayScoringFrames.ts": [
+        "../../../model/OsuReplay",
+        "../../../utils/replay",
+        "../../analysis/performance/replay-performance-input",
+        "@osujs/core"
+      ],
+      "apps/desktop/frontend/src/app/utils/replay.ts": [
+        "@osujs/math"
+      ],
+      "apps/desktop/frontend/src/app/services/library/library-error-strip.ts": [
+        "../../../../../shared/library-error-strip",
+        "../analysis/replay-events"
+      ],
+      "apps/desktop/shared/library-error-strip.ts": [],
+      "apps/desktop/frontend/src/app/services/library/library-metrics.ts": [
+        "../../../../../shared/library-analysis",
+        "../analysis/full-map-analysis"
+      ],
+      "apps/desktop/frontend/src/app/services/analysis/full-map-analysis.ts": [
+        "./stable-slider-end-misses",
+        "@osujs/core"
+      ],
+      "apps/desktop/frontend/src/app/services/library/library-timeline.ts": [
+        "../../../../../shared/library-analysis",
+        "./library-metrics",
+        "@rewind/osu-performance/protocol"
+      ],
+      "apps/desktop/frontend/src/app/services/library/library-replay.worker.ts": [
+        "./library-replay-worker"
+      ],
+      "apps/desktop/frontend/src/app/services/library/library-replay-worker.ts": [
+        "./library-replay-parser"
+      ],
+      "apps/desktop/main/src/app/library/library-numerical-resources.ts": [
+        "../../../../shared/library-analysis",
+        "../../../../shared/library-incidents",
+        "./library-fc-target",
+        "./library-numerical-profile",
+        "./library-replay-opener",
+        "./library-timeline-target",
+        "crypto"
+      ],
+      "apps/desktop/shared/library-incidents.ts": [
+        "./library-incident-semantic-revision"
+      ],
+      "apps/desktop/main/src/app/library/library-fc-target.ts": [
+        "../../../../shared/library-analysis",
+        "./library-source-metrics",
+        "@rewind/osu-performance/protocol"
+      ],
+      "apps/desktop/main/src/app/library/library-source-metrics.ts": [
+        "../../../../shared/replay-grade",
+        "@osujs/core",
+        "crypto"
+      ],
+      "apps/desktop/shared/replay-grade.ts": [],
+      "apps/desktop/main/src/app/library/library-numerical-profile.ts": [
+        "./library-source-metrics"
+      ],
+      "apps/desktop/main/src/app/library/library-replay-opener.ts": [
+        "../../../../shared/library-analysis",
+        "../../../../shared/library-current-replay",
+        "./library-current-replay-authority",
+        "crypto"
+      ],
+      "apps/desktop/shared/library-current-replay.ts": [],
+      "apps/desktop/main/src/app/library/library-current-replay-authority.ts": [
+        "../../../../shared/library-analysis",
+        "./library-numerical-profile",
+        "crypto",
+        "util"
+      ],
+      "apps/desktop/main/src/app/library/library-timeline-target.ts": [
+        "../../../../shared/library-analysis",
+        "./library-source-metrics",
+        "@rewind/osu-performance/protocol"
+      ],
+      "apps/desktop/main/src/app/library/library-resource-server.ts": [
+        "./library-lzma-client",
+        "./library-native-admission",
+        "./library-passive-resources",
+        "./library-performance-map-resource",
+        "./library-performance-native",
+        "./library-performance-score-resource",
+        "./library-resource-reader",
+        "./library-resource-sessions",
+        "./library-selected-resources",
+        "./library-source-binding",
+        "./sources/lazer-source",
+        "path"
+      ],
+      "apps/desktop/main/src/app/library/library-lzma-client.ts": [
+        "./library-native-admission",
+        "child_process"
+      ],
+      "apps/desktop/main/src/app/library/library-native-admission.ts": [],
+      "apps/desktop/main/src/app/library/library-passive-resources.ts": [
+        "../../../../shared/library-error-strip",
+        "../../../../shared/library-passive-resources",
+        "./library-artwork-cache",
+        "./library-resource-reader",
+        "./sources/source-file",
+        "crypto",
+        "electron",
+        "fs/promises",
+        "path",
+        "timers/promises",
+        "util"
+      ],
+      "apps/desktop/shared/library-passive-resources.ts": [],
+      "apps/desktop/main/src/app/library/library-artwork-cache.ts": [
+        "../../../../shared/library-passive-resources",
+        "crypto",
+        "fs/promises",
+        "path"
+      ],
+      "apps/desktop/main/src/app/library/library-resource-reader.ts": [
+        "./sources/source-file",
+        "crypto",
+        "fs/promises",
+        "timers/promises"
+      ],
+      "apps/desktop/main/src/app/library/sources/source-file.ts": [
+        "crypto",
+        "fs/promises",
+        "timers/promises"
+      ],
+      "apps/desktop/main/src/app/library/library-performance-map-resource.ts": [
+        "./library-resource-reader",
+        "./library-source-binding",
+        "@osujs/core",
+        "@osujs/math",
+        "path",
+        "timers/promises",
+        "util"
+      ],
+      "apps/desktop/main/src/app/library/library-source-binding.ts": [
+        "./library-source-metrics"
+      ],
+      "apps/desktop/main/src/app/library/library-performance-native.ts": [
+        "../performance-worker",
+        "./library-native-admission"
+      ],
+      "apps/desktop/main/src/app/performance-worker.ts": [
+        "@rewind/osu-performance/protocol",
+        "child_process",
+        "crypto",
+        "os"
+      ],
+      "apps/desktop/main/src/app/library/library-performance-score-resource.ts": [
+        "../../../../shared/library-json",
+        "./library-native-admission",
+        "./library-performance-map-resource",
+        "./library-performance-observation",
+        "./library-resource-reader",
+        "@rewind/osu-local/osr-reader",
+        "path",
+        "timers/promises"
+      ],
+      "apps/desktop/main/src/app/library/library-performance-observation.ts": [
+        "./library-source-binding"
+      ],
+      "libs/osu-local/osr-reader/src/index.ts": [
+        "./header",
+        "fs",
+        "fs/promises",
+        "lzma",
+        "node-osr",
+        "util"
+      ],
+      "libs/osu-local/osr-reader/src/header.ts": [
+        "fs/promises",
+        "util"
+      ],
+      "apps/desktop/main/src/app/library/library-resource-sessions.ts": [
+        "../../../../shared/library-analysis-gate",
+        "./library-analysis-binding",
+        "./library-native-admission",
+        "./library-performance-map-resource",
+        "./library-resource-errors",
+        "crypto",
+        "timers/promises"
+      ],
+      "apps/desktop/main/src/app/library/library-analysis-binding.ts": [
+        "../../../../frontend/src/app/model/OsuReplay",
+        "../../../../shared/library-analysis",
+        "./library-numerical-profile",
+        "./library-source-metrics",
+        "@osujs/core"
+      ],
+      "apps/desktop/main/src/app/library/library-resource-errors.ts": [],
+      "apps/desktop/main/src/app/library/library-selected-resources.ts": [
+        "../../../../shared/library-json",
+        "../saved-score-source",
+        "./library-resource-errors",
+        "./library-resource-reader",
+        "./sources/stable-scores-source",
+        "@rewind/osu-local/osr-reader",
+        "fs/promises",
+        "path",
+        "timers/promises"
+      ],
+      "apps/desktop/main/src/app/saved-score-source.ts": [
+        "@osujs/core",
+        "crypto",
+        "fs/promises",
+        "path"
+      ],
+      "apps/desktop/main/src/app/library/sources/stable-scores-source.ts": [
+        "./replay-file",
+        "./source-file",
+        "@rewind/osu-local/db-reader/library-scores",
+        "fs/promises",
+        "path",
+        "timers/promises"
+      ],
+      "apps/desktop/main/src/app/library/sources/replay-file.ts": [
+        "@rewind/osu-local/osr-reader/header",
+        "crypto",
+        "fs/promises",
+        "timers/promises"
+      ],
+      "libs/osu-local/db-reader/src/library-scores.ts": [
+        "./library-binary",
+        "crypto"
+      ],
+      "libs/osu-local/db-reader/src/library-binary.ts": [
+        "util"
+      ],
+      "apps/desktop/main/src/app/library/sources/lazer-source.ts": [
+        "../../../../../shared/library-json",
+        "../library-native-admission",
+        "child_process",
+        "path"
+      ],
+      "apps/desktop/main/src/app/library/library-incidents-store.ts": [
+        "../../../../shared/library-incidents",
+        "./library-incidents-target"
+      ],
+      "apps/desktop/main/src/app/library/library-incidents-target.ts": [
+        "../../../../shared/library-incidents",
+        "./library-source-metrics"
+      ],
+      "apps/desktop/main/src/app/library/library-incidents-preparation.ts": [
+        "./library-incidents-verification",
+        "./library-numerical-preparation",
+        "crypto"
+      ],
+      "apps/desktop/main/src/app/library/library-incidents-verification.ts": [
+        "../../../../shared/library-incidents",
+        "./library-numerical-preparation",
+        "crypto",
+        "path"
+      ],
+      "apps/desktop/main/src/app/library/library-numerical-preparation.ts": [
+        "./library-numerical-execution"
+      ],
+      "apps/desktop/main/src/app/library/library-numerical-execution.ts": [
+        "../../../../shared/library-incidents",
+        "./library-fc-target",
+        "./library-numerical-preparation",
+        "./library-timeline-target"
+      ],
+      "apps/desktop/main/src/app/library/library-origin-index.ts": [
+        "../../../../shared/library-analysis",
+        "./library-activity-gate",
+        "./library-fc-target",
+        "./library-performance-dependencies",
+        "./library-resource-reader",
+        "./library-source-metrics",
+        "./library-timeline-target",
+        "fs",
+        "path"
+      ],
+      "apps/desktop/main/src/app/library/library-activity-gate.ts": [
+        "timers/promises"
+      ],
+      "apps/desktop/main/src/app/library/library-performance-dependencies.ts": [
+        "./library-aggregate-performance",
+        "./library-map-performance",
+        "./library-performance-score",
+        "./library-performance-versions",
+        "./library-source-binding",
+        "./library-source-metrics",
+        "@rewind/osu-performance/protocol"
+      ],
+      "apps/desktop/main/src/app/library/library-aggregate-performance.ts": [
+        "./library-source-metrics",
+        "@rewind/osu-performance/aggregate-result",
+        "@rewind/osu-performance/mods",
+        "@rewind/osu-performance/protocol",
+        "crypto"
+      ],
+      "apps/desktop/main/src/app/library/library-map-performance.ts": [
+        "./library-source-metrics",
+        "@rewind/osu-performance/mods",
+        "@rewind/osu-performance/protocol",
+        "crypto"
+      ],
+      "apps/desktop/main/src/app/library/library-performance-score.ts": [
+        "./library-map-performance",
+        "./library-source-metrics",
+        "@osujs/core"
+      ],
+      "apps/desktop/main/src/app/library/library-performance-versions.ts": [],
+      "apps/desktop/main/src/app/library/library-store.ts": [
+        "../../../../shared/library-analysis",
+        "./library-analysis-activity",
+        "./library-current-replay-authority",
+        "./library-fc-target",
+        "./library-incidents-store",
+        "./library-metric-store",
+        "./library-numerical-profile",
+        "./library-numerical-recipe-store",
+        "./library-performance-cache",
+        "./library-performance-context",
+        "./library-performance-dependencies",
+        "./library-performance-recipe-store",
+        "./library-performance-versions",
+        "./library-preparation-store",
+        "./library-query",
+        "./library-query-invalidation",
+        "./library-query-projection",
+        "./library-query-readiness",
+        "./library-recorded-evidence",
+        "./library-resource-changes",
+        "./library-source-admission",
+        "./library-source-binding",
+        "./library-source-metrics",
+        "./library-timeline-target",
+        "@rewind/osu-performance/protocol",
+        "crypto",
+        "node:sqlite"
+      ],
+      "apps/desktop/main/src/app/library/library-metric-store.ts": [
+        "../../../../shared/library-analysis",
+        "../../../../shared/library-error-strip",
+        "./library-fc-target",
+        "./library-performance-versions",
+        "./library-recorded-evidence",
+        "./library-timeline-target",
+        "@rewind/osu-performance/protocol",
+        "crypto"
+      ],
+      "apps/desktop/main/src/app/library/library-recorded-evidence.ts": [],
+      "apps/desktop/main/src/app/library/library-numerical-recipe-store.ts": [
+        "../../../../shared/library-analysis",
+        "./library-numerical-profile",
+        "./library-timeline-target"
+      ],
+      "apps/desktop/main/src/app/library/library-performance-cache.ts": [],
+      "apps/desktop/main/src/app/library/library-performance-context.ts": [
+        "./library-performance-dependencies",
+        "./library-performance-observation",
+        "./library-performance-score",
+        "./library-source-binding",
+        "./library-source-metrics"
+      ],
+      "apps/desktop/main/src/app/library/library-performance-recipe-store.ts": [
+        "./library-metric-store",
+        "./library-performance-versions",
+        "./library-source-metrics"
+      ],
+      "apps/desktop/main/src/app/library/library-preparation-store.ts": [
+        "./library-recorded-evidence",
+        "crypto"
+      ],
+      "apps/desktop/main/src/app/library/library-resource-changes.ts": [
+        "../../../../shared/library-resource-changes"
+      ],
+      "apps/desktop/shared/library-resource-changes.ts": [],
+      "apps/desktop/main/src/app/library/library-source-admission.ts": [
+        "./library-query-invalidation"
+      ],
+      "apps/desktop/main/src/app/library/library-query-invalidation.ts": [
+        "./library-source-binding"
+      ]
+    },
+    "resolutions": {
+      "apps/desktop/frontend/src/app/model/OsuReplay.ts": {
+        "@osujs/core": "libs/osu/core/src/index.ts"
+      },
+      "apps/desktop/frontend/src/app/model/replay-from-source.ts": {
+        "./OsuReplay": "apps/desktop/frontend/src/app/model/OsuReplay.ts",
+        "@osujs/core": "libs/osu/core/src/index.ts"
+      },
+      "apps/desktop/frontend/src/app/services/analysis/full-map-analysis.ts": {
+        "./stable-slider-end-misses": "apps/desktop/frontend/src/app/services/analysis/stable-slider-end-misses.ts",
+        "@osujs/core": "libs/osu/core/src/index.ts"
+      },
+      "apps/desktop/frontend/src/app/services/analysis/live-replay-stats.ts": {
+        "./replay-events": "apps/desktop/frontend/src/app/services/analysis/replay-events.ts",
+        "./stable-slider-end-misses": "apps/desktop/frontend/src/app/services/analysis/stable-slider-end-misses.ts"
+      },
+      "apps/desktop/frontend/src/app/services/analysis/performance/replay-performance-input.ts": {
+        "../../../model/OsuReplay": "apps/desktop/frontend/src/app/model/OsuReplay.ts",
+        "@osujs/core": "libs/osu/core/src/index.ts",
+        "@rewind/osu-performance/legacy-score": "libs/osu/performance/src/legacy-score.ts",
+        "@rewind/osu-performance/mods": "libs/osu/performance/src/mods.ts",
+        "@rewind/osu-performance/states": "libs/osu/performance/src/states.ts"
+      },
+      "apps/desktop/frontend/src/app/services/analysis/replay-events.ts": {
+        "./stable-slider-end-misses": "apps/desktop/frontend/src/app/services/analysis/stable-slider-end-misses.ts",
+        "@osujs/core": "libs/osu/core/src/index.ts"
+      },
+      "apps/desktop/frontend/src/app/services/analysis/stable-slider-end-misses.ts": {
+        "@osujs/core": "libs/osu/core/src/index.ts"
+      },
+      "apps/desktop/frontend/src/app/services/common/game/PreparedBeatmapWire.ts": {
+        "../../../../../../../../libs/osu/core/src/beatmap/ControlPoints/ControlPointGroup": "libs/osu/core/src/beatmap/ControlPoints/ControlPointGroup.ts",
+        "../../../../../../../../libs/osu/core/src/beatmap/ControlPoints/ControlPointInfo": "libs/osu/core/src/beatmap/ControlPoints/ControlPointInfo.ts",
+        "../../../../../../../../libs/osu/core/src/beatmap/ControlPoints/DifficultyControlPoint": "libs/osu/core/src/beatmap/ControlPoints/DifficultyControlPoint.ts",
+        "../../../../../../../../libs/osu/core/src/beatmap/ControlPoints/EffectControlPoint": "libs/osu/core/src/beatmap/ControlPoints/EffectControlPoint.ts",
+        "../../../../../../../../libs/osu/core/src/beatmap/ControlPoints/SampleControlPoint": "libs/osu/core/src/beatmap/ControlPoints/SampleControlPoint.ts",
+        "../../../../../../../../libs/osu/core/src/beatmap/ControlPoints/TimingControlPoint": "libs/osu/core/src/beatmap/ControlPoints/TimingControlPoint.ts",
+        "../../../../../../../../libs/osu/core/src/hitobjects/slider/SliderPath": "libs/osu/core/src/hitobjects/slider/SliderPath.ts",
+        "../../../../../../../../libs/osu/core/src/utils/SortedList": "libs/osu/core/src/utils/SortedList.ts",
+        "@osujs/core": "libs/osu/core/src/index.ts"
+      },
+      "apps/desktop/frontend/src/app/services/common/game/ReplayNumericalFacts.ts": {
+        "@osujs/core": "libs/osu/core/src/index.ts"
+      },
+      "apps/desktop/frontend/src/app/services/common/game/ReplayScoringFrames.ts": {
+        "../../../model/OsuReplay": "apps/desktop/frontend/src/app/model/OsuReplay.ts",
+        "../../../utils/replay": "apps/desktop/frontend/src/app/utils/replay.ts",
+        "../../analysis/performance/replay-performance-input": "apps/desktop/frontend/src/app/services/analysis/performance/replay-performance-input.ts",
+        "@osujs/core": "libs/osu/core/src/index.ts"
+      },
+      "apps/desktop/frontend/src/app/services/library/library-analysis-gate.ts": {
+        "../../../../../shared/library-analysis-gate": "apps/desktop/shared/library-analysis-gate.ts"
+      },
+      "apps/desktop/frontend/src/app/services/library/library-analysis-input.ts": {
+        "./library-replay-parser": "apps/desktop/frontend/src/app/services/library/library-replay-parser.ts",
+        "@osujs/core": "libs/osu/core/src/index.ts"
+      },
+      "apps/desktop/frontend/src/app/services/library/library-analysis-worker.ts": {
+        "../../model/OsuReplay": "apps/desktop/frontend/src/app/model/OsuReplay.ts",
+        "../analysis/performance/replay-performance-input": "apps/desktop/frontend/src/app/services/analysis/performance/replay-performance-input.ts",
+        "../common/game/PreparedBeatmapWire": "apps/desktop/frontend/src/app/services/common/game/PreparedBeatmapWire.ts",
+        "./library-analysis-gate": "apps/desktop/frontend/src/app/services/library/library-analysis-gate.ts",
+        "./library-analysis-input": "apps/desktop/frontend/src/app/services/library/library-analysis-input.ts",
+        "./library-fc": "apps/desktop/frontend/src/app/services/library/library-fc.ts",
+        "./library-numerical": "apps/desktop/frontend/src/app/services/library/library-numerical.ts",
+        "./library-timeline": "apps/desktop/frontend/src/app/services/library/library-timeline.ts"
+      },
+      "apps/desktop/frontend/src/app/services/library/library-analysis.worker.ts": {
+        "./library-analysis-worker": "apps/desktop/frontend/src/app/services/library/library-analysis-worker.ts"
+      },
+      "apps/desktop/frontend/src/app/services/library/library-error-strip.ts": {
+        "../../../../../shared/library-error-strip": "apps/desktop/shared/library-error-strip.ts",
+        "../analysis/replay-events": "apps/desktop/frontend/src/app/services/analysis/replay-events.ts"
+      },
+      "apps/desktop/frontend/src/app/services/library/library-fc.ts": {
+        "../../../../../shared/library-analysis": "apps/desktop/shared/library-analysis.ts",
+        "@rewind/osu-performance/aggregate-result": "libs/osu/performance/src/aggregate-result.ts",
+        "@rewind/osu-performance/protocol": "libs/osu/performance/src/protocol.ts"
+      },
+      "apps/desktop/frontend/src/app/services/library/library-metrics.ts": {
+        "../../../../../shared/library-analysis": "apps/desktop/shared/library-analysis.ts",
+        "../analysis/full-map-analysis": "apps/desktop/frontend/src/app/services/analysis/full-map-analysis.ts"
+      },
+      "apps/desktop/frontend/src/app/services/library/library-numerical.ts": {
+        "../../model/OsuReplay": "apps/desktop/frontend/src/app/model/OsuReplay.ts",
+        "../analysis/live-replay-stats": "apps/desktop/frontend/src/app/services/analysis/live-replay-stats.ts",
+        "../analysis/performance/replay-performance-input": "apps/desktop/frontend/src/app/services/analysis/performance/replay-performance-input.ts",
+        "../common/game/ReplayNumericalFacts": "apps/desktop/frontend/src/app/services/common/game/ReplayNumericalFacts.ts",
+        "../common/game/ReplayScoringFrames": "apps/desktop/frontend/src/app/services/common/game/ReplayScoringFrames.ts",
+        "./library-error-strip": "apps/desktop/frontend/src/app/services/library/library-error-strip.ts",
+        "./library-metrics": "apps/desktop/frontend/src/app/services/library/library-metrics.ts",
+        "@osujs/core": "libs/osu/core/src/index.ts"
+      },
+      "apps/desktop/frontend/src/app/services/library/library-replay-converter.ts": {
+        "../../model/replay-from-source": "apps/desktop/frontend/src/app/model/replay-from-source.ts"
+      },
+      "apps/desktop/frontend/src/app/services/library/library-replay-parser.ts": {
+        "../../../../../shared/library-json": "apps/desktop/shared/library-json.ts",
+        "./library-replay-converter": "apps/desktop/frontend/src/app/services/library/library-replay-converter.ts",
+        "@osujs/core": "libs/osu/core/src/index.ts"
+      },
+      "apps/desktop/frontend/src/app/services/library/library-replay-worker.ts": {
+        "./library-replay-parser": "apps/desktop/frontend/src/app/services/library/library-replay-parser.ts"
+      },
+      "apps/desktop/frontend/src/app/services/library/library-replay.worker.ts": {
+        "./library-replay-worker": "apps/desktop/frontend/src/app/services/library/library-replay-worker.ts"
+      },
+      "apps/desktop/frontend/src/app/services/library/library-timeline.ts": {
+        "../../../../../shared/library-analysis": "apps/desktop/shared/library-analysis.ts",
+        "./library-metrics": "apps/desktop/frontend/src/app/services/library/library-metrics.ts",
+        "@rewind/osu-performance/protocol": "libs/osu/performance/src/protocol.ts"
+      },
+      "apps/desktop/frontend/src/app/utils/replay.ts": {
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "apps/desktop/main/src/app/library/library-activity-gate.ts": {
+        "timers/promises": "external:timers/promises"
+      },
+      "apps/desktop/main/src/app/library/library-aggregate-performance.ts": {
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts",
+        "@rewind/osu-performance/aggregate-result": "libs/osu/performance/src/aggregate-result.ts",
+        "@rewind/osu-performance/mods": "libs/osu/performance/src/mods.ts",
+        "@rewind/osu-performance/protocol": "libs/osu/performance/src/protocol.ts",
+        "crypto": "external:crypto"
+      },
+      "apps/desktop/main/src/app/library/library-analysis-binding.ts": {
+        "../../../../frontend/src/app/model/OsuReplay": "apps/desktop/frontend/src/app/model/OsuReplay.ts",
+        "../../../../shared/library-analysis": "apps/desktop/shared/library-analysis.ts",
+        "./library-numerical-profile": "apps/desktop/main/src/app/library/library-numerical-profile.ts",
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts",
+        "@osujs/core": "libs/osu/core/src/index.ts"
+      },
+      "apps/desktop/main/src/app/library/library-artwork-cache.ts": {
+        "../../../../shared/library-passive-resources": "apps/desktop/shared/library-passive-resources.ts",
+        "crypto": "external:crypto",
+        "fs/promises": "external:fs/promises",
+        "path": "external:path"
+      },
+      "apps/desktop/main/src/app/library/library-current-replay-authority.ts": {
+        "../../../../shared/library-analysis": "apps/desktop/shared/library-analysis.ts",
+        "./library-numerical-profile": "apps/desktop/main/src/app/library/library-numerical-profile.ts",
+        "crypto": "external:crypto",
+        "util": "external:util"
+      },
+      "apps/desktop/main/src/app/library/library-fc-target.ts": {
+        "../../../../shared/library-analysis": "apps/desktop/shared/library-analysis.ts",
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts",
+        "@rewind/osu-performance/protocol": "libs/osu/performance/src/protocol.ts"
+      },
+      "apps/desktop/main/src/app/library/library-incidents-preparation.ts": {
+        "./library-incidents-verification": "apps/desktop/main/src/app/library/library-incidents-verification.ts",
+        "./library-numerical-preparation": "apps/desktop/main/src/app/library/library-numerical-preparation.ts",
+        "crypto": "external:crypto"
+      },
+      "apps/desktop/main/src/app/library/library-incidents-store.ts": {
+        "../../../../shared/library-incidents": "apps/desktop/shared/library-incidents.ts",
+        "./library-incidents-target": "apps/desktop/main/src/app/library/library-incidents-target.ts"
+      },
+      "apps/desktop/main/src/app/library/library-incidents-target.ts": {
+        "../../../../shared/library-incidents": "apps/desktop/shared/library-incidents.ts",
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts"
+      },
+      "apps/desktop/main/src/app/library/library-incidents-verification.ts": {
+        "../../../../shared/library-incidents": "apps/desktop/shared/library-incidents.ts",
+        "./library-numerical-preparation": "apps/desktop/main/src/app/library/library-numerical-preparation.ts",
+        "crypto": "external:crypto",
+        "path": "external:path"
+      },
+      "apps/desktop/main/src/app/library/library-lzma-client.ts": {
+        "./library-native-admission": "apps/desktop/main/src/app/library/library-native-admission.ts",
+        "child_process": "external:child_process"
+      },
+      "apps/desktop/main/src/app/library/library-map-performance.ts": {
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts",
+        "@rewind/osu-performance/mods": "libs/osu/performance/src/mods.ts",
+        "@rewind/osu-performance/protocol": "libs/osu/performance/src/protocol.ts",
+        "crypto": "external:crypto"
+      },
+      "apps/desktop/main/src/app/library/library-metric-store.ts": {
+        "../../../../shared/library-analysis": "apps/desktop/shared/library-analysis.ts",
+        "../../../../shared/library-error-strip": "apps/desktop/shared/library-error-strip.ts",
+        "./library-fc-target": "apps/desktop/main/src/app/library/library-fc-target.ts",
+        "./library-performance-versions": "apps/desktop/main/src/app/library/library-performance-versions.ts",
+        "./library-recorded-evidence": "apps/desktop/main/src/app/library/library-recorded-evidence.ts",
+        "./library-timeline-target": "apps/desktop/main/src/app/library/library-timeline-target.ts",
+        "@rewind/osu-performance/protocol": "libs/osu/performance/src/protocol.ts",
+        "crypto": "external:crypto"
+      },
+      "apps/desktop/main/src/app/library/library-numerical-execution.ts": {
+        "../../../../shared/library-incidents": "apps/desktop/shared/library-incidents.ts",
+        "./library-fc-target": "apps/desktop/main/src/app/library/library-fc-target.ts",
+        "./library-numerical-preparation": "apps/desktop/main/src/app/library/library-numerical-preparation.ts",
+        "./library-timeline-target": "apps/desktop/main/src/app/library/library-timeline-target.ts"
+      },
+      "apps/desktop/main/src/app/library/library-numerical-preparation.ts": {
+        "./library-numerical-execution": "apps/desktop/main/src/app/library/library-numerical-execution.ts"
+      },
+      "apps/desktop/main/src/app/library/library-numerical-profile.ts": {
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts"
+      },
+      "apps/desktop/main/src/app/library/library-numerical-recipe-store.ts": {
+        "../../../../shared/library-analysis": "apps/desktop/shared/library-analysis.ts",
+        "./library-numerical-profile": "apps/desktop/main/src/app/library/library-numerical-profile.ts",
+        "./library-timeline-target": "apps/desktop/main/src/app/library/library-timeline-target.ts"
+      },
+      "apps/desktop/main/src/app/library/library-numerical-resources.ts": {
+        "../../../../shared/library-analysis": "apps/desktop/shared/library-analysis.ts",
+        "../../../../shared/library-incidents": "apps/desktop/shared/library-incidents.ts",
+        "./library-fc-target": "apps/desktop/main/src/app/library/library-fc-target.ts",
+        "./library-numerical-profile": "apps/desktop/main/src/app/library/library-numerical-profile.ts",
+        "./library-replay-opener": "apps/desktop/main/src/app/library/library-replay-opener.ts",
+        "./library-timeline-target": "apps/desktop/main/src/app/library/library-timeline-target.ts",
+        "crypto": "external:crypto"
+      },
+      "apps/desktop/main/src/app/library/library-origin-index.ts": {
+        "../../../../shared/library-analysis": "apps/desktop/shared/library-analysis.ts",
+        "./library-activity-gate": "apps/desktop/main/src/app/library/library-activity-gate.ts",
+        "./library-fc-target": "apps/desktop/main/src/app/library/library-fc-target.ts",
+        "./library-performance-dependencies": "apps/desktop/main/src/app/library/library-performance-dependencies.ts",
+        "./library-resource-reader": "apps/desktop/main/src/app/library/library-resource-reader.ts",
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts",
+        "./library-timeline-target": "apps/desktop/main/src/app/library/library-timeline-target.ts",
+        "fs": "external:fs",
+        "path": "external:path"
+      },
+      "apps/desktop/main/src/app/library/library-passive-resources.ts": {
+        "../../../../shared/library-error-strip": "apps/desktop/shared/library-error-strip.ts",
+        "../../../../shared/library-passive-resources": "apps/desktop/shared/library-passive-resources.ts",
+        "./library-artwork-cache": "apps/desktop/main/src/app/library/library-artwork-cache.ts",
+        "./library-resource-reader": "apps/desktop/main/src/app/library/library-resource-reader.ts",
+        "./sources/source-file": "apps/desktop/main/src/app/library/sources/source-file.ts",
+        "crypto": "external:crypto",
+        "electron": "external:electron",
+        "fs/promises": "external:fs/promises",
+        "path": "external:path",
+        "timers/promises": "external:timers/promises",
+        "util": "external:util"
+      },
+      "apps/desktop/main/src/app/library/library-performance-context.ts": {
+        "./library-performance-dependencies": "apps/desktop/main/src/app/library/library-performance-dependencies.ts",
+        "./library-performance-observation": "apps/desktop/main/src/app/library/library-performance-observation.ts",
+        "./library-performance-score": "apps/desktop/main/src/app/library/library-performance-score.ts",
+        "./library-source-binding": "apps/desktop/main/src/app/library/library-source-binding.ts",
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts"
+      },
+      "apps/desktop/main/src/app/library/library-performance-dependencies.ts": {
+        "./library-aggregate-performance": "apps/desktop/main/src/app/library/library-aggregate-performance.ts",
+        "./library-map-performance": "apps/desktop/main/src/app/library/library-map-performance.ts",
+        "./library-performance-score": "apps/desktop/main/src/app/library/library-performance-score.ts",
+        "./library-performance-versions": "apps/desktop/main/src/app/library/library-performance-versions.ts",
+        "./library-source-binding": "apps/desktop/main/src/app/library/library-source-binding.ts",
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts",
+        "@rewind/osu-performance/protocol": "libs/osu/performance/src/protocol.ts"
+      },
+      "apps/desktop/main/src/app/library/library-performance-map-resource.ts": {
+        "./library-resource-reader": "apps/desktop/main/src/app/library/library-resource-reader.ts",
+        "./library-source-binding": "apps/desktop/main/src/app/library/library-source-binding.ts",
+        "@osujs/core": "libs/osu/core/src/index.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts",
+        "path": "external:path",
+        "timers/promises": "external:timers/promises",
+        "util": "external:util"
+      },
+      "apps/desktop/main/src/app/library/library-performance-native.ts": {
+        "../performance-worker": "apps/desktop/main/src/app/performance-worker.ts",
+        "./library-native-admission": "apps/desktop/main/src/app/library/library-native-admission.ts"
+      },
+      "apps/desktop/main/src/app/library/library-performance-observation.ts": {
+        "./library-source-binding": "apps/desktop/main/src/app/library/library-source-binding.ts"
+      },
+      "apps/desktop/main/src/app/library/library-performance-recipe-store.ts": {
+        "./library-metric-store": "apps/desktop/main/src/app/library/library-metric-store.ts",
+        "./library-performance-versions": "apps/desktop/main/src/app/library/library-performance-versions.ts",
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts"
+      },
+      "apps/desktop/main/src/app/library/library-performance-score-resource.ts": {
+        "../../../../shared/library-json": "apps/desktop/shared/library-json.ts",
+        "./library-native-admission": "apps/desktop/main/src/app/library/library-native-admission.ts",
+        "./library-performance-map-resource": "apps/desktop/main/src/app/library/library-performance-map-resource.ts",
+        "./library-performance-observation": "apps/desktop/main/src/app/library/library-performance-observation.ts",
+        "./library-resource-reader": "apps/desktop/main/src/app/library/library-resource-reader.ts",
+        "@rewind/osu-local/osr-reader": "libs/osu-local/osr-reader/src/index.ts",
+        "path": "external:path",
+        "timers/promises": "external:timers/promises"
+      },
+      "apps/desktop/main/src/app/library/library-performance-score.ts": {
+        "./library-map-performance": "apps/desktop/main/src/app/library/library-map-performance.ts",
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts",
+        "@osujs/core": "libs/osu/core/src/index.ts"
+      },
+      "apps/desktop/main/src/app/library/library-preparation-store.ts": {
+        "./library-recorded-evidence": "apps/desktop/main/src/app/library/library-recorded-evidence.ts",
+        "crypto": "external:crypto"
+      },
+      "apps/desktop/main/src/app/library/library-query-invalidation.ts": {
+        "./library-source-binding": "apps/desktop/main/src/app/library/library-source-binding.ts"
+      },
+      "apps/desktop/main/src/app/library/library-replay-opener.ts": {
+        "../../../../shared/library-analysis": "apps/desktop/shared/library-analysis.ts",
+        "../../../../shared/library-current-replay": "apps/desktop/shared/library-current-replay.ts",
+        "./library-current-replay-authority": "apps/desktop/main/src/app/library/library-current-replay-authority.ts",
+        "crypto": "external:crypto"
+      },
+      "apps/desktop/main/src/app/library/library-resource-changes.ts": {
+        "../../../../shared/library-resource-changes": "apps/desktop/shared/library-resource-changes.ts"
+      },
+      "apps/desktop/main/src/app/library/library-resource-reader.ts": {
+        "./sources/source-file": "apps/desktop/main/src/app/library/sources/source-file.ts",
+        "crypto": "external:crypto",
+        "fs/promises": "external:fs/promises",
+        "timers/promises": "external:timers/promises"
+      },
+      "apps/desktop/main/src/app/library/library-resource-server.ts": {
+        "./library-lzma-client": "apps/desktop/main/src/app/library/library-lzma-client.ts",
+        "./library-native-admission": "apps/desktop/main/src/app/library/library-native-admission.ts",
+        "./library-passive-resources": "apps/desktop/main/src/app/library/library-passive-resources.ts",
+        "./library-performance-map-resource": "apps/desktop/main/src/app/library/library-performance-map-resource.ts",
+        "./library-performance-native": "apps/desktop/main/src/app/library/library-performance-native.ts",
+        "./library-performance-score-resource": "apps/desktop/main/src/app/library/library-performance-score-resource.ts",
+        "./library-resource-reader": "apps/desktop/main/src/app/library/library-resource-reader.ts",
+        "./library-resource-sessions": "apps/desktop/main/src/app/library/library-resource-sessions.ts",
+        "./library-selected-resources": "apps/desktop/main/src/app/library/library-selected-resources.ts",
+        "./library-source-binding": "apps/desktop/main/src/app/library/library-source-binding.ts",
+        "./sources/lazer-source": "apps/desktop/main/src/app/library/sources/lazer-source.ts",
+        "path": "external:path"
+      },
+      "apps/desktop/main/src/app/library/library-resource-sessions.ts": {
+        "../../../../shared/library-analysis-gate": "apps/desktop/shared/library-analysis-gate.ts",
+        "./library-analysis-binding": "apps/desktop/main/src/app/library/library-analysis-binding.ts",
+        "./library-native-admission": "apps/desktop/main/src/app/library/library-native-admission.ts",
+        "./library-performance-map-resource": "apps/desktop/main/src/app/library/library-performance-map-resource.ts",
+        "./library-resource-errors": "apps/desktop/main/src/app/library/library-resource-errors.ts",
+        "crypto": "external:crypto",
+        "timers/promises": "external:timers/promises"
+      },
+      "apps/desktop/main/src/app/library/library-selected-resources.ts": {
+        "../../../../shared/library-json": "apps/desktop/shared/library-json.ts",
+        "../saved-score-source": "apps/desktop/main/src/app/saved-score-source.ts",
+        "./library-resource-errors": "apps/desktop/main/src/app/library/library-resource-errors.ts",
+        "./library-resource-reader": "apps/desktop/main/src/app/library/library-resource-reader.ts",
+        "./sources/stable-scores-source": "apps/desktop/main/src/app/library/sources/stable-scores-source.ts",
+        "@rewind/osu-local/osr-reader": "libs/osu-local/osr-reader/src/index.ts",
+        "fs/promises": "external:fs/promises",
+        "path": "external:path",
+        "timers/promises": "external:timers/promises"
+      },
+      "apps/desktop/main/src/app/library/library-source-admission.ts": {
+        "./library-query-invalidation": "apps/desktop/main/src/app/library/library-query-invalidation.ts"
+      },
+      "apps/desktop/main/src/app/library/library-source-binding.ts": {
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts"
+      },
+      "apps/desktop/main/src/app/library/library-source-metrics.ts": {
+        "../../../../shared/replay-grade": "apps/desktop/shared/replay-grade.ts",
+        "@osujs/core": "libs/osu/core/src/index.ts",
+        "crypto": "external:crypto"
+      },
+      "apps/desktop/main/src/app/library/library-store.ts": {
+        "../../../../shared/library-analysis": "apps/desktop/shared/library-analysis.ts",
+        "./library-current-replay-authority": "apps/desktop/main/src/app/library/library-current-replay-authority.ts",
+        "./library-fc-target": "apps/desktop/main/src/app/library/library-fc-target.ts",
+        "./library-incidents-store": "apps/desktop/main/src/app/library/library-incidents-store.ts",
+        "./library-metric-store": "apps/desktop/main/src/app/library/library-metric-store.ts",
+        "./library-numerical-profile": "apps/desktop/main/src/app/library/library-numerical-profile.ts",
+        "./library-numerical-recipe-store": "apps/desktop/main/src/app/library/library-numerical-recipe-store.ts",
+        "./library-performance-cache": "apps/desktop/main/src/app/library/library-performance-cache.ts",
+        "./library-performance-context": "apps/desktop/main/src/app/library/library-performance-context.ts",
+        "./library-performance-dependencies": "apps/desktop/main/src/app/library/library-performance-dependencies.ts",
+        "./library-performance-recipe-store": "apps/desktop/main/src/app/library/library-performance-recipe-store.ts",
+        "./library-performance-versions": "apps/desktop/main/src/app/library/library-performance-versions.ts",
+        "./library-preparation-store": "apps/desktop/main/src/app/library/library-preparation-store.ts",
+        "./library-recorded-evidence": "apps/desktop/main/src/app/library/library-recorded-evidence.ts",
+        "./library-resource-changes": "apps/desktop/main/src/app/library/library-resource-changes.ts",
+        "./library-source-admission": "apps/desktop/main/src/app/library/library-source-admission.ts",
+        "./library-source-binding": "apps/desktop/main/src/app/library/library-source-binding.ts",
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts",
+        "./library-timeline-target": "apps/desktop/main/src/app/library/library-timeline-target.ts",
+        "@rewind/osu-performance/protocol": "libs/osu/performance/src/protocol.ts",
+        "crypto": "external:crypto",
+        "node:sqlite": "external:node:sqlite"
+      },
+      "apps/desktop/main/src/app/library/library-timeline-target.ts": {
+        "../../../../shared/library-analysis": "apps/desktop/shared/library-analysis.ts",
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts",
+        "@rewind/osu-performance/protocol": "libs/osu/performance/src/protocol.ts"
+      },
+      "apps/desktop/main/src/app/library/sources/lazer-source.ts": {
+        "../../../../../shared/library-json": "apps/desktop/shared/library-json.ts",
+        "../library-native-admission": "apps/desktop/main/src/app/library/library-native-admission.ts",
+        "child_process": "external:child_process",
+        "path": "external:path"
+      },
+      "apps/desktop/main/src/app/library/sources/replay-file.ts": {
+        "@rewind/osu-local/osr-reader/header": "libs/osu-local/osr-reader/src/header.ts",
+        "crypto": "external:crypto",
+        "fs/promises": "external:fs/promises",
+        "timers/promises": "external:timers/promises"
+      },
+      "apps/desktop/main/src/app/library/sources/source-file.ts": {
+        "crypto": "external:crypto",
+        "fs/promises": "external:fs/promises",
+        "timers/promises": "external:timers/promises"
+      },
+      "apps/desktop/main/src/app/library/sources/stable-scores-source.ts": {
+        "./replay-file": "apps/desktop/main/src/app/library/sources/replay-file.ts",
+        "./source-file": "apps/desktop/main/src/app/library/sources/source-file.ts",
+        "@rewind/osu-local/db-reader/library-scores": "libs/osu-local/db-reader/src/library-scores.ts",
+        "fs/promises": "external:fs/promises",
+        "path": "external:path",
+        "timers/promises": "external:timers/promises"
+      },
+      "apps/desktop/main/src/app/performance-worker.ts": {
+        "@rewind/osu-performance/protocol": "libs/osu/performance/src/protocol.ts",
+        "child_process": "external:child_process",
+        "crypto": "external:crypto",
+        "os": "external:os"
+      },
+      "apps/desktop/main/src/app/saved-score-source.ts": {
+        "@osujs/core": "libs/osu/core/src/index.ts",
+        "crypto": "external:crypto",
+        "fs/promises": "external:fs/promises",
+        "path": "external:path"
+      },
+      "apps/desktop/shared/library-incidents.ts": {
+        "./library-incident-semantic-revision": "apps/desktop/shared/library-incident-semantic-revision.ts"
+      },
+      "libs/osu-local/db-reader/src/library-binary.ts": {
+        "util": "external:util"
+      },
+      "libs/osu-local/db-reader/src/library-scores.ts": {
+        "./library-binary": "libs/osu-local/db-reader/src/library-binary.ts",
+        "crypto": "external:crypto"
+      },
+      "libs/osu-local/osr-reader/src/header.ts": {
+        "fs/promises": "external:fs/promises",
+        "util": "external:util"
+      },
+      "libs/osu-local/osr-reader/src/index.ts": {
+        "./header": "libs/osu-local/osr-reader/src/header.ts",
+        "fs": "external:fs",
+        "fs/promises": "external:fs/promises",
+        "lzma": "external:lzma",
+        "node-osr": "external:node-osr",
+        "util": "external:util"
+      },
+      "libs/osu/core/src/beatmap/Beatmap.ts": {
+        "../gameplay/StableDifficulty": "libs/osu/core/src/gameplay/StableDifficulty.ts",
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "../mods/LazerMods": "libs/osu/core/src/mods/LazerMods.ts",
+        "../utils": "libs/osu/core/src/utils/index.ts",
+        "./BeatmapDifficulty": "libs/osu/core/src/beatmap/BeatmapDifficulty.ts",
+        "./ControlPoints/ControlPointInfo": "libs/osu/core/src/beatmap/ControlPoints/ControlPointInfo.ts"
+      },
+      "libs/osu/core/src/beatmap/BeatmapBuilder.ts": {
+        "../audio/HitSampleInfo": "libs/osu/core/src/audio/HitSampleInfo.ts",
+        "../gameplay/StableDifficulty": "libs/osu/core/src/gameplay/StableDifficulty.ts",
+        "../gameplay/StableSliderTiming": "libs/osu/core/src/gameplay/StableSliderTiming.ts",
+        "../hitobjects/HitCircle": "libs/osu/core/src/hitobjects/HitCircle.ts",
+        "../hitobjects/Slider": "libs/osu/core/src/hitobjects/Slider.ts",
+        "../hitobjects/SliderCheckPoint": "libs/osu/core/src/hitobjects/SliderCheckPoint.ts",
+        "../hitobjects/Spinner": "libs/osu/core/src/hitobjects/Spinner.ts",
+        "../hitobjects/slider/SliderCheckPointGenerator": "libs/osu/core/src/hitobjects/slider/SliderCheckPointGenerator.ts",
+        "../hitobjects/slider/SliderPath": "libs/osu/core/src/hitobjects/slider/SliderPath.ts",
+        "../mods/HardRockMod": "libs/osu/core/src/mods/HardRockMod.ts",
+        "../mods/LazerMods": "libs/osu/core/src/mods/LazerMods.ts",
+        "../mods/Mods": "libs/osu/core/src/mods/Mods.ts",
+        "../mods/StackingMod": "libs/osu/core/src/mods/StackingMod.ts",
+        "./Beatmap": "libs/osu/core/src/beatmap/Beatmap.ts",
+        "./ControlPoints/SampleControlPoint": "libs/osu/core/src/beatmap/ControlPoints/SampleControlPoint.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/beatmap/ControlPoints/ControlPointInfo.ts": {
+        "../../utils/SortedList": "libs/osu/core/src/utils/SortedList.ts",
+        "./ControlPointGroup": "libs/osu/core/src/beatmap/ControlPoints/ControlPointGroup.ts",
+        "./DifficultyControlPoint": "libs/osu/core/src/beatmap/ControlPoints/DifficultyControlPoint.ts",
+        "./EffectControlPoint": "libs/osu/core/src/beatmap/ControlPoints/EffectControlPoint.ts",
+        "./SampleControlPoint": "libs/osu/core/src/beatmap/ControlPoints/SampleControlPoint.ts",
+        "./TimingControlPoint": "libs/osu/core/src/beatmap/ControlPoints/TimingControlPoint.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/beatmap/ControlPoints/DifficultyControlPoint.ts": {
+        "./ControlPoint": "libs/osu/core/src/beatmap/ControlPoints/ControlPoint.ts"
+      },
+      "libs/osu/core/src/beatmap/ControlPoints/EffectControlPoint.ts": {
+        "./ControlPoint": "libs/osu/core/src/beatmap/ControlPoints/ControlPoint.ts"
+      },
+      "libs/osu/core/src/beatmap/ControlPoints/SampleControlPoint.ts": {
+        "./ControlPoint": "libs/osu/core/src/beatmap/ControlPoints/ControlPoint.ts"
+      },
+      "libs/osu/core/src/beatmap/ControlPoints/TimingControlPoint.ts": {
+        "../TimeSignatures": "libs/osu/core/src/beatmap/TimeSignatures.ts",
+        "./ControlPoint": "libs/osu/core/src/beatmap/ControlPoints/ControlPoint.ts"
+      },
+      "libs/osu/core/src/blueprint/BlueprintParser.ts": {
+        "../audio/HitSampleInfo": "libs/osu/core/src/audio/HitSampleInfo.ts",
+        "../audio/LegacySampleBank": "libs/osu/core/src/audio/LegacySampleBank.ts",
+        "../audio/StoryboardSampleInfo": "libs/osu/core/src/audio/StoryboardSampleInfo.ts",
+        "../beatmap/ControlPoints/ControlPointInfo": "libs/osu/core/src/beatmap/ControlPoints/ControlPointInfo.ts",
+        "../beatmap/ControlPoints/DifficultyControlPoint": "libs/osu/core/src/beatmap/ControlPoints/DifficultyControlPoint.ts",
+        "../beatmap/ControlPoints/EffectControlPoint": "libs/osu/core/src/beatmap/ControlPoints/EffectControlPoint.ts",
+        "../beatmap/ControlPoints/SampleControlPoint": "libs/osu/core/src/beatmap/ControlPoints/SampleControlPoint.ts",
+        "../beatmap/ControlPoints/TimingControlPoint": "libs/osu/core/src/beatmap/ControlPoints/TimingControlPoint.ts",
+        "../beatmap/LegacyEffectFlag": "libs/osu/core/src/beatmap/LegacyEffectFlag.ts",
+        "../beatmap/TimeSignatures": "libs/osu/core/src/beatmap/TimeSignatures.ts",
+        "../hitobjects/slider/PathType": "libs/osu/core/src/hitobjects/slider/PathType.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts": {
+        "../../mods/Mods": "libs/osu/core/src/mods/Mods.ts"
+      },
+      "libs/osu/core/src/gameplay/GameplayAnalysisEvent.ts": {
+        "../hitobjects/HitCircle": "libs/osu/core/src/hitobjects/HitCircle.ts",
+        "../hitobjects/Slider": "libs/osu/core/src/hitobjects/Slider.ts",
+        "../hitobjects/SliderCheckPoint": "libs/osu/core/src/hitobjects/SliderCheckPoint.ts",
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "../utils": "libs/osu/core/src/utils/index.ts",
+        "./GameplayInfo": "libs/osu/core/src/gameplay/GameplayInfo.ts"
+      },
+      "libs/osu/core/src/gameplay/GameplayInfo.ts": {
+        "../hitobjects/HitCircle": "libs/osu/core/src/hitobjects/HitCircle.ts",
+        "../hitobjects/Slider": "libs/osu/core/src/hitobjects/Slider.ts",
+        "../hitobjects/SliderCheckPoint": "libs/osu/core/src/hitobjects/SliderCheckPoint.ts"
+      },
+      "libs/osu/core/src/gameplay/GameState.ts": {
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/GameStateEvaluator.ts": {
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "../mods/Mods": "libs/osu/core/src/mods/Mods.ts",
+        "../replays/Replay": "libs/osu/core/src/replays/Replay.ts",
+        "./GameState": "libs/osu/core/src/gameplay/GameState.ts",
+        "./SpinnerTracking": "libs/osu/core/src/gameplay/SpinnerTracking.ts",
+        "./StableDifficulty": "libs/osu/core/src/gameplay/StableDifficulty.ts",
+        "./StableHitGeometry": "libs/osu/core/src/gameplay/StableHitGeometry.ts",
+        "./StableSliderBallPath": "libs/osu/core/src/gameplay/StableSliderBallPath.ts",
+        "./StableSliderTiming": "libs/osu/core/src/gameplay/StableSliderTiming.ts",
+        "./StableSpinnerTracking": "libs/osu/core/src/gameplay/StableSpinnerTracking.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/GameStateTimeMachine.ts": {
+        "./GameState": "libs/osu/core/src/gameplay/GameState.ts",
+        "./GameStateEvaluator": "libs/osu/core/src/gameplay/GameStateEvaluator.ts",
+        "./error-analysis/ErrorCapabilities": "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts",
+        "./trace/ReplayTraceObserver": "libs/osu/core/src/gameplay/trace/ReplayTraceObserver.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/LazerGameStateEvaluator.ts": {
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "../mods/Mods": "libs/osu/core/src/mods/Mods.ts",
+        "../replays/Replay": "libs/osu/core/src/replays/Replay.ts",
+        "./GameState": "libs/osu/core/src/gameplay/GameState.ts",
+        "./GameStateEvaluator": "libs/osu/core/src/gameplay/GameStateEvaluator.ts",
+        "./LazerRelaxInput": "libs/osu/core/src/gameplay/LazerRelaxInput.ts",
+        "./SpinnerTracking": "libs/osu/core/src/gameplay/SpinnerTracking.ts",
+        "./SpunOutSpinner": "libs/osu/core/src/gameplay/SpunOutSpinner.ts",
+        "./StableHitGeometry": "libs/osu/core/src/gameplay/StableHitGeometry.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/LazerGameStateTimeMachine.ts": {
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "./GameState": "libs/osu/core/src/gameplay/GameState.ts",
+        "./LazerGameStateEvaluator": "libs/osu/core/src/gameplay/LazerGameStateEvaluator.ts",
+        "./error-analysis/ErrorCapabilities": "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts",
+        "./trace/ReplayTraceObserver": "libs/osu/core/src/gameplay/trace/ReplayTraceObserver.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/LazerRelaxInput.ts": {
+        "../mods/Mods": "libs/osu/core/src/mods/Mods.ts",
+        "../replays/Replay": "libs/osu/core/src/replays/Replay.ts",
+        "./GameState": "libs/osu/core/src/gameplay/GameState.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/miss-explanation/CircleEvidence.ts": {
+        "../../hitobjects/HitCircle": "libs/osu/core/src/hitobjects/HitCircle.ts",
+        "../StableDifficulty": "libs/osu/core/src/gameplay/StableDifficulty.ts",
+        "../StableHitGeometry": "libs/osu/core/src/gameplay/StableHitGeometry.ts",
+        "../error-analysis/ErrorCapabilities": "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts",
+        "../trace/EndpointInputBracket": "libs/osu/core/src/gameplay/trace/EndpointInputBracket.ts",
+        "./DirectTargetRejections": "libs/osu/core/src/gameplay/miss-explanation/DirectTargetRejections.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/miss-explanation/CircleMissExplanation.ts": {
+        "./CircleEvidence": "libs/osu/core/src/gameplay/miss-explanation/CircleEvidence.ts"
+      },
+      "libs/osu/core/src/gameplay/miss-explanation/DirectTargetRejections.ts": {
+        "../../hitobjects/HitCircle": "libs/osu/core/src/hitobjects/HitCircle.ts",
+        "../../hitobjects/Slider": "libs/osu/core/src/hitobjects/Slider.ts",
+        "../../hitobjects/Spinner": "libs/osu/core/src/hitobjects/Spinner.ts",
+        "../StableSliderTiming": "libs/osu/core/src/gameplay/StableSliderTiming.ts"
+      },
+      "libs/osu/core/src/gameplay/StableDifficulty.ts": {
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/StableHitGeometry.ts": {
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/StableSliderBallPath.ts": {
+        "./StableSliderPathGeometry": "libs/osu/core/src/gameplay/StableSliderPathGeometry.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/StableSliderPathGeometry.ts": {
+        "../hitobjects/slider/PathType": "libs/osu/core/src/hitobjects/slider/PathType.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/StableSliderTiming.ts": {
+        "../hitobjects/SliderCheckPoint": "libs/osu/core/src/hitobjects/SliderCheckPoint.ts",
+        "./StableSliderPathGeometry": "libs/osu/core/src/gameplay/StableSliderPathGeometry.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/StableSpinnerTracking.ts": {
+        "./SpinnerTracking": "libs/osu/core/src/gameplay/SpinnerTracking.ts"
+      },
+      "libs/osu/core/src/gameplay/trace/PlannedTraceCapture.ts": {
+        "../../hitobjects/HitCircle": "libs/osu/core/src/hitobjects/HitCircle.ts",
+        "../../hitobjects/Slider": "libs/osu/core/src/hitobjects/Slider.ts",
+        "../../replays/SavedScoreCandidates": "libs/osu/core/src/replays/SavedScoreCandidates.ts",
+        "../StableDifficulty": "libs/osu/core/src/gameplay/StableDifficulty.ts",
+        "../error-analysis/ErrorCapabilities": "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts",
+        "./ReplayTraceCollector": "libs/osu/core/src/gameplay/trace/ReplayTraceCollector.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/trace/ReplayTraceCollector.ts": {
+        "../error-analysis/ErrorObservations": "libs/osu/core/src/gameplay/error-analysis/ErrorObservations.ts",
+        "./EndpointInputBracket": "libs/osu/core/src/gameplay/trace/EndpointInputBracket.ts"
+      },
+      "libs/osu/core/src/hitobjects/Slider.ts": {
+        "./slider/SliderPath": "libs/osu/core/src/hitobjects/slider/SliderPath.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/hitobjects/slider/PathApproximator.ts": {
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/hitobjects/slider/SliderCheckPointGenerator.ts": {
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/hitobjects/slider/SliderPath.ts": {
+        "./PathApproximator": "libs/osu/core/src/hitobjects/slider/PathApproximator.ts",
+        "./PathType": "libs/osu/core/src/hitobjects/slider/PathType.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/hitobjects/SliderCheckPoint.ts": {
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/index.ts": {
+        "./audio/HitSampleInfo": "libs/osu/core/src/audio/HitSampleInfo.ts",
+        "./audio/StoryboardSampleInfo": "libs/osu/core/src/audio/StoryboardSampleInfo.ts",
+        "./beatmap/Beatmap": "libs/osu/core/src/beatmap/Beatmap.ts",
+        "./beatmap/BeatmapBuilder": "libs/osu/core/src/beatmap/BeatmapBuilder.ts",
+        "./beatmap/BeatmapDifficulty": "libs/osu/core/src/beatmap/BeatmapDifficulty.ts",
+        "./beatmap/ControlPoints/ControlPoint": "libs/osu/core/src/beatmap/ControlPoints/ControlPoint.ts",
+        "./beatmap/ControlPoints/ControlPointGroup": "libs/osu/core/src/beatmap/ControlPoints/ControlPointGroup.ts",
+        "./beatmap/ControlPoints/DifficultyControlPoint": "libs/osu/core/src/beatmap/ControlPoints/DifficultyControlPoint.ts",
+        "./beatmap/ControlPoints/TimingControlPoint": "libs/osu/core/src/beatmap/ControlPoints/TimingControlPoint.ts",
+        "./beatmap/TempoSummary": "libs/osu/core/src/beatmap/TempoSummary.ts",
+        "./blueprint/Blueprint": "libs/osu/core/src/blueprint/Blueprint.ts",
+        "./blueprint/BlueprintParser": "libs/osu/core/src/blueprint/BlueprintParser.ts",
+        "./blueprint/HitObjectSettings": "libs/osu/core/src/blueprint/HitObjectSettings.ts",
+        "./gameplay/GameState": "libs/osu/core/src/gameplay/GameState.ts",
+        "./gameplay/GameStateEvaluator": "libs/osu/core/src/gameplay/GameStateEvaluator.ts",
+        "./gameplay/GameStateTimeMachine": "libs/osu/core/src/gameplay/GameStateTimeMachine.ts",
+        "./gameplay/GameplayAnalysisEvent": "libs/osu/core/src/gameplay/GameplayAnalysisEvent.ts",
+        "./gameplay/GameplayInfo": "libs/osu/core/src/gameplay/GameplayInfo.ts",
+        "./gameplay/LazerGameStateEvaluator": "libs/osu/core/src/gameplay/LazerGameStateEvaluator.ts",
+        "./gameplay/LazerGameStateTimeMachine": "libs/osu/core/src/gameplay/LazerGameStateTimeMachine.ts",
+        "./gameplay/SpinnerBonus": "libs/osu/core/src/gameplay/SpinnerBonus.ts",
+        "./gameplay/SpinnerTracking": "libs/osu/core/src/gameplay/SpinnerTracking.ts",
+        "./gameplay/SpunOutSpinner": "libs/osu/core/src/gameplay/SpunOutSpinner.ts",
+        "./gameplay/StableSpinnerTracking": "libs/osu/core/src/gameplay/StableSpinnerTracking.ts",
+        "./gameplay/Verdicts": "libs/osu/core/src/gameplay/Verdicts.ts",
+        "./gameplay/error-analysis/ErrorCapabilities": "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts",
+        "./gameplay/miss-explanation/CircleEvidence": "libs/osu/core/src/gameplay/miss-explanation/CircleEvidence.ts",
+        "./gameplay/miss-explanation/CircleMissExplanation": "libs/osu/core/src/gameplay/miss-explanation/CircleMissExplanation.ts",
+        "./gameplay/trace/PlannedTraceCapture": "libs/osu/core/src/gameplay/trace/PlannedTraceCapture.ts",
+        "./gameplay/trace/ReplayTrace": "libs/osu/core/src/gameplay/trace/ReplayTrace.ts",
+        "./gameplay/trace/ReplayTraceCollector": "libs/osu/core/src/gameplay/trace/ReplayTraceCollector.ts",
+        "./gameplay/trace/TraceModelRevision": "libs/osu/core/src/gameplay/trace/TraceModelRevision.ts",
+        "./hitobjects/HitCircle": "libs/osu/core/src/hitobjects/HitCircle.ts",
+        "./hitobjects/Slider": "libs/osu/core/src/hitobjects/Slider.ts",
+        "./hitobjects/SliderCheckPoint": "libs/osu/core/src/hitobjects/SliderCheckPoint.ts",
+        "./hitobjects/Spinner": "libs/osu/core/src/hitobjects/Spinner.ts",
+        "./hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "./hitobjects/slider/PathApproximator": "libs/osu/core/src/hitobjects/slider/PathApproximator.ts",
+        "./hitobjects/slider/PathControlPoint": "libs/osu/core/src/hitobjects/slider/PathControlPoint.ts",
+        "./hitobjects/slider/PathType": "libs/osu/core/src/hitobjects/slider/PathType.ts",
+        "./hitobjects/slider/SliderPath": "libs/osu/core/src/hitobjects/slider/SliderPath.ts",
+        "./mods/HardRockMod": "libs/osu/core/src/mods/HardRockMod.ts",
+        "./mods/HiddenMod": "libs/osu/core/src/mods/HiddenMod.ts",
+        "./mods/LazerMods": "libs/osu/core/src/mods/LazerMods.ts",
+        "./mods/Mods": "libs/osu/core/src/mods/Mods.ts",
+        "./mods/StackingMod": "libs/osu/core/src/mods/StackingMod.ts",
+        "./playfield": "libs/osu/core/src/playfield.ts",
+        "./replays/RawReplayData": "libs/osu/core/src/replays/RawReplayData.ts",
+        "./replays/Replay": "libs/osu/core/src/replays/Replay.ts",
+        "./replays/ReplayClicks": "libs/osu/core/src/replays/ReplayClicks.ts",
+        "./replays/ReplayParser": "libs/osu/core/src/replays/ReplayParser.ts",
+        "./replays/SavedScoreCandidates": "libs/osu/core/src/replays/SavedScoreCandidates.ts",
+        "./replays/SavedScoreTimeline": "libs/osu/core/src/replays/SavedScoreTimeline.ts",
+        "./utils/index": "libs/osu/core/src/utils/index.ts"
+      },
+      "libs/osu/core/src/mods/HardRockMod.ts": {
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "../playfield": "libs/osu/core/src/playfield.ts"
+      },
+      "libs/osu/core/src/mods/Mods.ts": {
+        "./EasyMod": "libs/osu/core/src/mods/EasyMod.ts",
+        "./HardRockMod": "libs/osu/core/src/mods/HardRockMod.ts"
+      },
+      "libs/osu/core/src/mods/StackingMod.ts": {
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/replays/RawReplayData.ts": {
+        "../mods/Mods": "libs/osu/core/src/mods/Mods.ts"
+      },
+      "libs/osu/core/src/replays/ReplayClicks.ts": {
+        "./Replay": "libs/osu/core/src/replays/Replay.ts"
+      },
+      "libs/osu/core/src/replays/ReplayParser.ts": {
+        "./Replay": "libs/osu/core/src/replays/Replay.ts"
+      },
+      "libs/osu/core/src/replays/SavedScoreCandidates.ts": {
+        "../gameplay/StableDifficulty": "libs/osu/core/src/gameplay/StableDifficulty.ts",
+        "../gameplay/StableSliderTiming": "libs/osu/core/src/gameplay/StableSliderTiming.ts",
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts"
+      },
+      "libs/osu/core/src/utils/index.ts": {
+        "../hitobjects/Slider": "libs/osu/core/src/hitobjects/Slider.ts",
+        "./CooperativeSteps": "libs/osu/core/src/utils/CooperativeSteps.ts"
+      },
+      "libs/osu/core/src/utils/SortedList.ts": {
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/math/src/difficulty.ts": {
+        "./float32": "libs/osu/math/src/float32.ts"
+      },
+      "libs/osu/math/src/index.ts": {
+        "./Vec2": "libs/osu/math/src/Vec2.ts",
+        "./colors": "libs/osu/math/src/colors.ts",
+        "./difficulty": "libs/osu/math/src/difficulty.ts",
+        "./easing": "libs/osu/math/src/easing.ts",
+        "./float32": "libs/osu/math/src/float32.ts",
+        "./sliders": "libs/osu/math/src/sliders.ts",
+        "./time": "libs/osu/math/src/time.ts",
+        "./utils": "libs/osu/math/src/utils.ts"
+      },
+      "libs/osu/math/src/sliders.ts": {
+        "./Vec2": "libs/osu/math/src/Vec2.ts"
+      },
+      "libs/osu/math/src/Vec2.ts": {
+        "./float32": "libs/osu/math/src/float32.ts"
+      },
+      "libs/osu/performance/src/aggregate-result.ts": {
+        "./protocol": "libs/osu/performance/src/protocol.ts"
+      }
+    },
+    "nativeRoot": "engine/RewindPerformance",
+    "storeBoundary": {
+      "path": "apps/desktop/main/src/app/library/library-store.ts",
+      "imports": [
+        "node:sqlite",
+        "crypto",
+        "@rewind/osu-performance/protocol",
+        "./library-metric-store",
+        "./library-numerical-recipe-store",
+        "./library-numerical-profile",
+        "./library-incidents-store",
+        "./library-query-projection",
+        "./library-query-invalidation",
+        "./library-source-admission",
+        "./library-query",
+        "./library-recorded-evidence",
+        "./library-performance-cache",
+        "./library-performance-recipe-store",
+        "./library-performance-dependencies",
+        "./library-performance-versions",
+        "./library-performance-context",
+        "./library-preparation-store",
+        "./library-source-binding",
+        "./library-source-metrics",
+        "../../../../shared/library-analysis",
+        "./library-timeline-target",
+        "./library-fc-target",
+        "./library-current-replay-authority",
+        "./library-query-readiness",
+        "./library-analysis-activity",
+        "./library-resource-changes"
+      ],
+      "bindings": [
+        "DatabaseSync",
+        "randomUUID",
+        "PERFORMANCE_ENGINE_VERSION",
+        "LibraryMetricStore,libraryCapabilityAttempt",
+        "LibraryNumericalRecipeStore",
+        "numericalModsHash,numericalProfileKey,validateNumericalRecipe",
+        "LibraryIncidentRecipeStore",
+        "LibraryQueryProjection,registerLibraryPlayerFold,LIBRARY_FILTER_EVIDENCE_REVISION",
+        "LibraryQueryInvalidation",
+        "LibrarySourceAdmission",
+        "LibraryQueryReader",
+        "libraryKnownNonstandardSql",
+        "LibraryPerformanceCache",
+        "LibraryPerformanceRecipeStore",
+        "performanceDependencyKeys",
+        "LIBRARY_P_PRODUCER_VERSION",
+        "composePerformanceContext",
+        "LibraryPreparationStore",
+        "projectSourceEvidence,projectStableMapEvidence,sourceMapEvidence",
+        "LIBRARY_SOURCE_PROJECTION_VERSION,metricInputKey",
+        "LIBRARY_NUMERIC_PROJECTION_VERSION,LIBRARY_REPLAY_PARSER_VERSION,LIBRARY_RESOURCE_PREPARATION_VERSION",
+        "libraryTimelineTarget",
+        "libraryFcTarget",
+        "LibraryCurrentReplayAuthorities,currentReplayDescriptor",
+        "libraryQueryReadiness",
+        "LibraryAnalysisActivityStore",
+        "LibraryResourceChangesJournal"
+      ],
+      "excludedEdges": {
+        "./library-query": "Passive reader creation only; no C producer or admission decision.",
+        "./library-query-projection": "Derived scalar cache, query evidence revision and query-only Unicode player fold registration; callbacks invoke Store-owned admission methods whose full source is hashed. Recorded admission SQL is traversed independently through library-recorded-evidence.",
+        "./library-query-invalidation": "Bounded dirty/scope queues; not a C classifier, evidence or target producer.",
+        "./library-query-readiness": "Read-only committed-queue/schema inspection for passive query readiness and source-only notification proof; no metric/admission writes. Store callers and semantic-dirty guards remain fully hashed.",
+        "./library-analysis-activity": "Connection-local TEMP display/status counters and triggers observing existing intent/eligibility rows; writes only its TEMP projection, never admits work or publishes metrics/query evidence. Store construction/call sites remain fully hashed; recorded admission evidence is independently traversed through library-recorded-evidence."
+      }
+    },
+    "boundary": "Runtime TypeScript emit graph including barrels/literal dynamic imports; full source bytes; package lock/config; complete native source project. Generated C identity self and broad TRACE identity token excluded; TRACE implementation remains traversed. Type-only edges erased by compiler are not runtime dependencies."
+  },
+  "query": {
+    "digest": "7116ffb3a7dd4dd45eb20cbedd93b4b5ebafcfd5a1d872551659510ddb1dd44c",
+    "sources": {
+      "apps/desktop/frontend/tsconfig.app.json": "58baec4f2de4010cdaf5d958682004c6de00fe16a87036694d35e43805dbeaa1",
+      "apps/desktop/frontend/tsconfig.json": "4d7d0900cb63f9e2ed4b34490a8188c65bfbd94bab9517f029743b29309bb073",
+      "apps/desktop/main/src/app/library/library-incidents-target.ts": "d97ec32eb3267542e69cd3008c7823fecef6f7dee698b87a68e94a0f8d8d03cb",
+      "apps/desktop/main/src/app/library/library-query-invalidation.ts": "860cbc873a44c88c400edb48d194164309facc83c1ed6fea88c377ae9b41213f",
+      "apps/desktop/main/src/app/library/library-query-projection.ts": "9b6b1f3417dadd2e24b58053e2e532095e2a3bf3bbc81385921a34758e49bfa2",
+      "apps/desktop/main/src/app/library/library-recorded-evidence.ts": "ba4c60564bd5cebc365c650c4e0773901675898ec30f954c95b415efa03f06a3",
+      "apps/desktop/main/src/app/library/library-source-binding.ts": "b2f445bf82d822e87600dc0c5a056a235383c13831541b60b0a81199d3f4d3af",
+      "apps/desktop/main/src/app/library/library-source-metrics.ts": "0ba40798856fc721c94cffb667429f6a6a832976f09cada871679310e2e1a551",
+      "apps/desktop/main/tsconfig.app.json": "01f84f07d5bd042c18c7bfbc0237090f4b0b3b151bc884bc0a33455c387facec",
+      "apps/desktop/main/tsconfig.json": "23906cd84a938e80e07dd99ca2555f30de0804a48afa3f95f6d37cab416803eb",
+      "apps/desktop/shared/library-incidents.ts": "ce2467743abcd079ed458a73a85483e468cf92cd7bfcef05059670bec553691b",
+      "apps/desktop/shared/library-query.ts": "a66a7c8fe7d7d41623d2b6ad3d8799f6179d8615ddef99505734fd898ebd8721",
+      "apps/desktop/shared/replay-grade.ts": "835b40b504c94af9f505637f2927cf04e2b2a37062f514cb00d2fb0dd4788f5a",
+      "libs/osu-local/osr-reader/tsconfig.json": "1d3d16945976fa1ed70f5bbfc155f733f3a1fd47c1dd9c50239d230a9858f589",
+      "libs/osu-local/osr-reader/tsconfig.lib.json": "2ee3aba6e52c4b33fb545f53afe3032ff85367736a6956cb884db1488124762c",
+      "libs/osu/core/src/audio/HitSampleInfo.ts": "c6af051b7e289b79c085b13e79790a7f2ebd2ca2c16f7dcae5aad8b54266a7a1",
+      "libs/osu/core/src/audio/LegacySampleBank.ts": "a6aaac2e5b6d99573a0530961098aa65c85246b8168f6e3d32071d06c1bc693f",
+      "libs/osu/core/src/audio/StoryboardSampleInfo.ts": "4793ff2acb774c972197128310a36a5ab09ba0f23ad9a443cbea6ad8b4b84faf",
+      "libs/osu/core/src/beatmap/Beatmap.ts": "a8194513a0c191108b8181536400f4e0da4dfdeffce919c73e0a2aa0e8c7878b",
+      "libs/osu/core/src/beatmap/BeatmapBuilder.ts": "af41b8644396b1df63c033604db9096f47696ffa41e3f303ddf0d42088d1d414",
+      "libs/osu/core/src/beatmap/BeatmapDifficulty.ts": "825018b86970f7460e937b74ea93ee4f0fb869d00c996d89cc9d5f8f5897dfe9",
+      "libs/osu/core/src/beatmap/ControlPoints/ControlPoint.ts": "38e6d12d5aeb74f96364dc25caa1abb5521351736d1cc984af6225c437f93d12",
+      "libs/osu/core/src/beatmap/ControlPoints/ControlPointGroup.ts": "a1c11ce9aca397ae6dfbf543c2712f8267a93acfcc25449af0b8d7c13b465ccc",
+      "libs/osu/core/src/beatmap/ControlPoints/ControlPointInfo.ts": "400b57e5c02890fddecf4ff79c7a2b0d3efe011208ad3665bfdaf99767a9e558",
+      "libs/osu/core/src/beatmap/ControlPoints/DifficultyControlPoint.ts": "df31602fa156a8ba510ac76eaab227005b6328b16225832938a9cd09c71afc18",
+      "libs/osu/core/src/beatmap/ControlPoints/EffectControlPoint.ts": "06e7d6795e3bdba51928e4591b249058c943beaa689c697c0e2038e556fcebff",
+      "libs/osu/core/src/beatmap/ControlPoints/SampleControlPoint.ts": "9c60249a6b4c77ffa83684dc98737140785a7bff2f4c1acdf7cf83811fbbed97",
+      "libs/osu/core/src/beatmap/ControlPoints/TimingControlPoint.ts": "14f62e5b74c1d6429d97e7edd15631caacebbc67a23a33272812bfa25c05aee0",
+      "libs/osu/core/src/beatmap/LegacyEffectFlag.ts": "f9630a793f0a39196be4ead5f02a2f082a62e1075b5757223eaa02abe307a61f",
+      "libs/osu/core/src/beatmap/TempoSummary.ts": "f39089bbe7622b87b766f710fc687c80aa6da58f40575d72691aa366ab0b8452",
+      "libs/osu/core/src/beatmap/TimeSignatures.ts": "b3eb3dc9de447413a76e81871bec1e723be630d2549ef549555926c503e47122",
+      "libs/osu/core/src/blueprint/Blueprint.ts": "7c5e9ac9f49fa4d628d5d137b41b45f5390c2c7ae9bfa2f327c04a0d6d0597cc",
+      "libs/osu/core/src/blueprint/BlueprintParser.ts": "bb257de2a6ec28d717fc9101b5e053c2e72ac7b4c15999f8a75ade2114076b14",
+      "libs/osu/core/src/blueprint/HitObjectSettings.ts": "a16a5f969fdc7387dbd41408149470e27598bb34b5c2e841b3d4e8628fbcebeb",
+      "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts": "b8668bb6cd1294e9d59784d79f9f309b8812e8ba2d94a83befd80a8054c09814",
+      "libs/osu/core/src/gameplay/error-analysis/ErrorObservations.ts": "ae936c37ad0eddbdd088262057cbcac98c50e360afc51bd6c2c54ec7fe03363d",
+      "libs/osu/core/src/gameplay/GameplayAnalysisEvent.ts": "286d83ea567b079348bee691602ed926d0c9acd433ce77ada1273cce9e6a5467",
+      "libs/osu/core/src/gameplay/GameplayInfo.ts": "f4390bd251a51bdaa3f87385b253c0b3c31d5b5bc684fc0b85dfab186f20a284",
+      "libs/osu/core/src/gameplay/GameState.ts": "312319132c8e3603302b8668797a60b705f52cedfccd73b12f2a51f4102fa0ef",
+      "libs/osu/core/src/gameplay/GameStateEvaluator.ts": "2eb2538d7cb2a48dae9a4c6f172d7d0d05a03081c6c863ebfa00deffb19bb48c",
+      "libs/osu/core/src/gameplay/GameStateTimeMachine.ts": "060c315a655e8abc795b68c6f904d10fd6d6705e2396ee392ba3c172e05e956d",
+      "libs/osu/core/src/gameplay/LazerGameStateEvaluator.ts": "3950fa2053338132249fa77169da9efcff18d435aee7823a6936a9f1ac94110b",
+      "libs/osu/core/src/gameplay/LazerGameStateTimeMachine.ts": "2101a51e997b9f18a034b0e7a7a7b9dc5bf621dcfe5d3fd43b7be55d7b0ca343",
+      "libs/osu/core/src/gameplay/LazerRelaxInput.ts": "f37deed6239127026e6e08f53aff1ce6e37dcca83f83105e2156428708b1ae9a",
+      "libs/osu/core/src/gameplay/miss-explanation/CircleEvidence.ts": "613adf0989a7230af4e698ff56bfff6f6c8789d92df5572c1233523f67085203",
+      "libs/osu/core/src/gameplay/miss-explanation/CircleMissExplanation.ts": "894742f44340ce32332d2a417c7abf12b2e6efb13a335d766fb18c197f2fd957",
+      "libs/osu/core/src/gameplay/miss-explanation/DirectTargetRejections.ts": "b3ff8abee528dbc7b68636517df904039f595bc4a0f3a036606df263ec54a90a",
+      "libs/osu/core/src/gameplay/SpinnerBonus.ts": "fd69879871fe10a3a9f9ed1d92e721f11e1a4b75ff22fc58154758ec08042e5f",
+      "libs/osu/core/src/gameplay/SpinnerTracking.ts": "0e681371b1663377bcf0e6bfad7c8ac19d2ee8414d434b5e272532d927db6940",
+      "libs/osu/core/src/gameplay/SpunOutSpinner.ts": "73ff3e2e875c2d63d0aab148a77373896cccc6a55a92533338233e722732ec96",
+      "libs/osu/core/src/gameplay/StableDifficulty.ts": "464be4158500c007b100b88f9255357dd9d16d67a04aadf017413dfb8208c47c",
+      "libs/osu/core/src/gameplay/StableHitGeometry.ts": "47361342510f6140b5daac71b0425dead90709826b718a0b629df4ebbe5da4d9",
+      "libs/osu/core/src/gameplay/StableSliderBallPath.ts": "5f9331e23e1424f14d63a050a2df4b28133f533744ee9ef27111d4f56a1b3799",
+      "libs/osu/core/src/gameplay/StableSliderPathGeometry.ts": "0c715635bbae128d62a8fec3d9d7539374c1c3ed009bddc2f132b73e6dd4cd84",
+      "libs/osu/core/src/gameplay/StableSliderTiming.ts": "71e6ece2610019b1c777624ab42b22063c4d3873fc90a3e13c02c0b0ee67ec26",
+      "libs/osu/core/src/gameplay/StableSpinnerTracking.ts": "2c54dff30a4faeec7f8f5f447074c15b17643fd2af760e1aa2f0d863bee4c874",
+      "libs/osu/core/src/gameplay/trace/EndpointInputBracket.ts": "49eebcfcb0b2a6d35fec1cd430792c7dd4377a4caf12cfc7b08bb91094b83141",
+      "libs/osu/core/src/gameplay/trace/PlannedTraceCapture.ts": "0291a6b6ea90ee2541a382d1c52a86370be6f1f7581751c12d83da38413c8d16",
+      "libs/osu/core/src/gameplay/trace/ReplayTrace.ts": "29c58ead7246ea8a2737c2ca1900dce5e5ffdcf42d0f1fd8823edce2cb7ff117",
+      "libs/osu/core/src/gameplay/trace/ReplayTraceCollector.ts": "fe38cf1d604c759a4e5fd62ff6462d14cdb72d327fa0246314deed1ca86f1e5e",
+      "libs/osu/core/src/gameplay/trace/ReplayTraceObserver.ts": "79c0cb0404b7a2d59c6328826ee2b8765ca7a99571b10078332f698f2240ad0b",
+      "libs/osu/core/src/gameplay/Verdicts.ts": "a07ae6ef9d3d5e86ff8a7ef4c1673e117aaf68fbe7029c114975166e861d52bc",
+      "libs/osu/core/src/hitobjects/HitCircle.ts": "96c7732008d99bb0dc3de5cd74121b4b22f3fb1643fcddac3401d26787fca303",
+      "libs/osu/core/src/hitobjects/Slider.ts": "327397311a7048c56dca24bfb418a972d75aeb1afdfaca5e87214f4daec60214",
+      "libs/osu/core/src/hitobjects/slider/PathApproximator.ts": "22b1c949fe5acdcb0b82a7d58a0adb3773e894e2bd4ea150edbe7038309a2ac6",
+      "libs/osu/core/src/hitobjects/slider/PathControlPoint.ts": "8799855a14b511955b862145b470c683820638534bfcd829103810fcfe2d4f39",
+      "libs/osu/core/src/hitobjects/slider/PathType.ts": "f5c9db60c89f173c2d1d9d9ed6f91ea51e5aac69fe4b774e9c429548fe6ac92f",
+      "libs/osu/core/src/hitobjects/slider/SliderCheckPointGenerator.ts": "8158f71a15c4c7eb1f16a44e6a65579c8891853ebdfa55fa95dcb581a2ce9b73",
+      "libs/osu/core/src/hitobjects/slider/SliderPath.ts": "c99708737b1a4d26a85ebbb95ab1622674d602ae416498a4fca011e3ed794642",
+      "libs/osu/core/src/hitobjects/SliderCheckPoint.ts": "4805ee5360d480a1cd79b682570ceb33cba8a47fcf0cd296bd54e2de4ff93ad2",
+      "libs/osu/core/src/hitobjects/Spinner.ts": "4de90168037e735d12840f6a45906c2e9ffcce07365d3629a9fff05dfc66260b",
+      "libs/osu/core/src/hitobjects/Types.ts": "8fa59a47d5a2118e08b99a4f903852ed0bd96d243a8cbe30abe11320f1da3661",
+      "libs/osu/core/src/index.ts": "a29b89c44f58b5afc2fcde19573cee212d323f6e4e6b24f09f3c9de2bcd1c69c",
+      "libs/osu/core/src/mods/EasyMod.ts": "14f580294ed0a1916d4776615554b88b4326981ae307fc5ea73d7e67bd1732fb",
+      "libs/osu/core/src/mods/HardRockMod.ts": "e379195bce58b77f332bdff306f81eea44bbbdc28cb74795d62581efe346080e",
+      "libs/osu/core/src/mods/HiddenMod.ts": "f863b5d78d2908bf1d1b6804c3d6a3480526a891d8ae06089cf3f1c0d4813367",
+      "libs/osu/core/src/mods/LazerMods.ts": "1d896e6f2bb0e1434ff843dc80944f9ce31b5542cb8de5f7ace77ce63e48e418",
+      "libs/osu/core/src/mods/Mods.ts": "2212b6b78cecc2ae5eedf9de8ad4063a4a9a850600a16b27a460ffc8129a489d",
+      "libs/osu/core/src/mods/StackingMod.ts": "db42bd7b5e721694d932be585af66093e66c11b5c4686e6727be4365f6013060",
+      "libs/osu/core/src/playfield.ts": "8a6eb7c4af335b5dea361053dfd1ad0311d047e8e1cba531cc98e170d0badfd7",
+      "libs/osu/core/src/replays/RawReplayData.ts": "dd075acd6d74179f19a65c642883cbe3c95734206d9235012affe82775a9705f",
+      "libs/osu/core/src/replays/Replay.ts": "09932025b512b9d60edbefe3559b91bb18d41bb1fd8adfd20475322cbd6c2627",
+      "libs/osu/core/src/replays/ReplayClicks.ts": "e3920e23aa3e0f626490e425ea3d04b1dae68fc24bcf18b204cd918a9cde0734",
+      "libs/osu/core/src/replays/ReplayParser.ts": "84d24ab8c9352ed2c4142f209bfab7a691c3b6c27026f275f17b4d2973358763",
+      "libs/osu/core/src/replays/SavedScoreCandidates.ts": "e6ec90804d5fe26d843798308031b34a92e9bdb68ad99bcaaac1e446e16d142c",
+      "libs/osu/core/src/replays/SavedScoreTimeline.ts": "2225b4995fccfc6aff8c4de219d6efc6f06e094a6213439bdb143b0546a28329",
+      "libs/osu/core/src/utils/CooperativeSteps.ts": "1bab6150d012dbdce8b3bb30784608180f77c721e8ba47d7120f785bd4d1119f",
+      "libs/osu/core/src/utils/index.ts": "bfbd2a00467f6402f5599dc8065d21bc60a8636aafa1db1ffed3a03769acf0c1",
+      "libs/osu/core/src/utils/SortedList.ts": "e4d86f45145b387325a75ac095705648689ab78274c944cce579a0bc53a9f0ff",
+      "libs/osu/core/tsconfig.json": "1d3d16945976fa1ed70f5bbfc155f733f3a1fd47c1dd9c50239d230a9858f589",
+      "libs/osu/core/tsconfig.lib.json": "319b8d9d90955fa2a2088f943530e4bb6daf3c9a0066f33948a3abe47cba8493",
+      "libs/osu/math/src/colors.ts": "62089e7a7357114478a0e0421b457dbb2a40c328b9e83ae65ce7197d90a098e8",
+      "libs/osu/math/src/difficulty.ts": "1d7af910fb834bbfba11ad99fee1c89003d4b2f4366c89e964bcf3b663f70cad",
+      "libs/osu/math/src/easing.ts": "2c77f6e9ac8f455f2616f5ac994bf98fda1c370dba011589375304c7f51fb6d2",
+      "libs/osu/math/src/float32.ts": "f9f86ac6a61ca2d414988dd9cd6c0872972264cd7d5a47452369c85f26431086",
+      "libs/osu/math/src/index.ts": "3d9c0ab977122e76111ffe885dbedb1edee528370fcb14976070c82905c0e00f",
+      "libs/osu/math/src/sliders.ts": "fc746eef08342f5f4dbc1db06d5d70f8e311ab6ee993be620e746565db03d82d",
+      "libs/osu/math/src/time.ts": "517ea526816bc991cbf2cdefdf1047792c4b8a4a035382b95e9706d72c10a834",
+      "libs/osu/math/src/utils.ts": "68e5996d337a9281a1573581d41fa9c293d102fb29bfe969cb9e7a6cabe9d7a8",
+      "libs/osu/math/src/Vec2.ts": "15749c65725dab73abb0164ebea39dbe2bcbe9a0e91100e9f462a3f0d21bc7e2",
+      "libs/osu/math/tsconfig.json": "1d3d16945976fa1ed70f5bbfc155f733f3a1fd47c1dd9c50239d230a9858f589",
+      "libs/osu/math/tsconfig.lib.json": "316cd5a7fe8707cdd3ff9a44a507d337e4a941d623d1c88712f2b424a09556d5",
+      "package.json": "2c1fa10b1b7a37836b5167f2d69aa5bc4bbc97e0c46f8c01d21fd72593dca35c",
+      "tools/library/incident-semantic-identity.cjs": "b881421263646e95b914e2e5a98e37a8fb77361a5df368508481cbbaab46608f",
+      "tsconfig.base.json": "5c24cac09dbf7e16196d0352c9c8ef49cf05116a0d410fc9b79f7489b07f96fc",
+      "yarn.lock": "218686c93742ca31ef36c60b38deb524194b7ea3bf124c889bb68c55c19a8bb2"
+    },
+    "roots": [
+      "apps/desktop/main/src/app/library/library-query-projection.ts"
+    ],
+    "configs": [
+      "package.json",
+      "yarn.lock",
+      "tsconfig.base.json",
+      "apps/desktop/frontend/tsconfig.json",
+      "apps/desktop/frontend/tsconfig.app.json",
+      "apps/desktop/main/tsconfig.json",
+      "apps/desktop/main/tsconfig.app.json",
+      "libs/osu/core/tsconfig.json",
+      "libs/osu/core/tsconfig.lib.json",
+      "libs/osu/math/tsconfig.json",
+      "libs/osu/math/tsconfig.lib.json",
+      "libs/osu-local/osr-reader/tsconfig.json",
+      "libs/osu-local/osr-reader/tsconfig.lib.json"
+    ],
+    "consumedConfigs": [
+      "apps/desktop/main/tsconfig.app.json",
+      "apps/desktop/main/tsconfig.json",
+      "libs/osu/core/tsconfig.json",
+      "libs/osu/core/tsconfig.lib.json",
+      "libs/osu/math/tsconfig.json",
+      "libs/osu/math/tsconfig.lib.json",
+      "tsconfig.base.json"
+    ],
+    "resolutionInputs": [],
+    "generatedExclusions": [
+      "apps/desktop/shared/library-incident-semantic-revision.ts",
+      "libs/osu/core/src/gameplay/trace/TraceModelRevision.ts"
+    ],
+    "processBoundaries": [
+      "apps/desktop/main/src/app/library/sources/lazer-source.ts",
+      "apps/desktop/main/src/app/library/library-lzma-client.ts",
+      "apps/desktop/main/src/app/performance-worker.ts"
+    ],
+    "external": [
+      "crypto"
+    ],
+    "edges": {
+      "apps/desktop/main/src/app/library/library-query-projection.ts": [
+        "../../../../shared/library-incident-semantic-revision",
+        "../../../../shared/library-query",
+        "./library-incidents-target",
+        "./library-query-invalidation",
+        "./library-recorded-evidence"
+      ],
+      "apps/desktop/shared/library-query.ts": [],
+      "apps/desktop/main/src/app/library/library-incidents-target.ts": [
+        "../../../../shared/library-incidents",
+        "./library-source-metrics"
+      ],
+      "apps/desktop/shared/library-incidents.ts": [
+        "./library-incident-semantic-revision"
+      ],
+      "apps/desktop/main/src/app/library/library-source-metrics.ts": [
+        "../../../../shared/replay-grade",
+        "@osujs/core",
+        "crypto"
+      ],
+      "apps/desktop/shared/replay-grade.ts": [],
+      "libs/osu/core/src/index.ts": [
+        "./audio/HitSampleInfo",
+        "./audio/StoryboardSampleInfo",
+        "./beatmap/Beatmap",
+        "./beatmap/BeatmapBuilder",
+        "./beatmap/BeatmapDifficulty",
+        "./beatmap/ControlPoints/ControlPoint",
+        "./beatmap/ControlPoints/ControlPointGroup",
+        "./beatmap/ControlPoints/DifficultyControlPoint",
+        "./beatmap/ControlPoints/TimingControlPoint",
+        "./beatmap/TempoSummary",
+        "./blueprint/Blueprint",
+        "./blueprint/BlueprintParser",
+        "./blueprint/HitObjectSettings",
+        "./gameplay/GameState",
+        "./gameplay/GameStateEvaluator",
+        "./gameplay/GameStateTimeMachine",
+        "./gameplay/GameplayAnalysisEvent",
+        "./gameplay/GameplayInfo",
+        "./gameplay/LazerGameStateEvaluator",
+        "./gameplay/LazerGameStateTimeMachine",
+        "./gameplay/SpinnerBonus",
+        "./gameplay/SpinnerTracking",
+        "./gameplay/SpunOutSpinner",
+        "./gameplay/StableSpinnerTracking",
+        "./gameplay/Verdicts",
+        "./gameplay/error-analysis/ErrorCapabilities",
+        "./gameplay/miss-explanation/CircleEvidence",
+        "./gameplay/miss-explanation/CircleMissExplanation",
+        "./gameplay/trace/PlannedTraceCapture",
+        "./gameplay/trace/ReplayTrace",
+        "./gameplay/trace/ReplayTraceCollector",
+        "./gameplay/trace/TraceModelRevision",
+        "./hitobjects/HitCircle",
+        "./hitobjects/Slider",
+        "./hitobjects/SliderCheckPoint",
+        "./hitobjects/Spinner",
+        "./hitobjects/Types",
+        "./hitobjects/slider/PathApproximator",
+        "./hitobjects/slider/PathControlPoint",
+        "./hitobjects/slider/PathType",
+        "./hitobjects/slider/SliderPath",
+        "./mods/HardRockMod",
+        "./mods/HiddenMod",
+        "./mods/LazerMods",
+        "./mods/Mods",
+        "./mods/StackingMod",
+        "./playfield",
+        "./replays/RawReplayData",
+        "./replays/Replay",
+        "./replays/ReplayClicks",
+        "./replays/ReplayParser",
+        "./replays/SavedScoreCandidates",
+        "./replays/SavedScoreTimeline",
+        "./utils/index"
+      ],
+      "libs/osu/core/src/audio/HitSampleInfo.ts": [],
+      "libs/osu/core/src/audio/StoryboardSampleInfo.ts": [],
+      "libs/osu/core/src/beatmap/Beatmap.ts": [
+        "../gameplay/StableDifficulty",
+        "../hitobjects/Types",
+        "../mods/LazerMods",
+        "../utils",
+        "./BeatmapDifficulty",
+        "./ControlPoints/ControlPointInfo"
+      ],
+      "libs/osu/core/src/gameplay/StableDifficulty.ts": [
+        "@osujs/math"
+      ],
+      "libs/osu/math/src/index.ts": [
+        "./Vec2",
+        "./colors",
+        "./difficulty",
+        "./easing",
+        "./float32",
+        "./sliders",
+        "./time",
+        "./utils"
+      ],
+      "libs/osu/math/src/Vec2.ts": [
+        "./float32"
+      ],
+      "libs/osu/math/src/float32.ts": [],
+      "libs/osu/math/src/colors.ts": [],
+      "libs/osu/math/src/difficulty.ts": [
+        "./float32"
+      ],
+      "libs/osu/math/src/easing.ts": [],
+      "libs/osu/math/src/sliders.ts": [
+        "./Vec2"
+      ],
+      "libs/osu/math/src/time.ts": [],
+      "libs/osu/math/src/utils.ts": [],
+      "libs/osu/core/src/hitobjects/Types.ts": [],
+      "libs/osu/core/src/mods/LazerMods.ts": [],
+      "libs/osu/core/src/utils/index.ts": [
+        "../hitobjects/Slider",
+        "./CooperativeSteps"
+      ],
+      "libs/osu/core/src/hitobjects/Slider.ts": [
+        "./slider/SliderPath",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/hitobjects/slider/SliderPath.ts": [
+        "./PathApproximator",
+        "./PathType",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/hitobjects/slider/PathApproximator.ts": [
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/hitobjects/slider/PathType.ts": [],
+      "libs/osu/core/src/utils/CooperativeSteps.ts": [],
+      "libs/osu/core/src/beatmap/BeatmapDifficulty.ts": [],
+      "libs/osu/core/src/beatmap/ControlPoints/ControlPointInfo.ts": [
+        "../../utils/SortedList",
+        "./ControlPointGroup",
+        "./DifficultyControlPoint",
+        "./EffectControlPoint",
+        "./SampleControlPoint",
+        "./TimingControlPoint",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/utils/SortedList.ts": [
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/beatmap/ControlPoints/ControlPointGroup.ts": [],
+      "libs/osu/core/src/beatmap/ControlPoints/DifficultyControlPoint.ts": [
+        "./ControlPoint"
+      ],
+      "libs/osu/core/src/beatmap/ControlPoints/ControlPoint.ts": [],
+      "libs/osu/core/src/beatmap/ControlPoints/EffectControlPoint.ts": [
+        "./ControlPoint"
+      ],
+      "libs/osu/core/src/beatmap/ControlPoints/SampleControlPoint.ts": [
+        "./ControlPoint"
+      ],
+      "libs/osu/core/src/beatmap/ControlPoints/TimingControlPoint.ts": [
+        "../TimeSignatures",
+        "./ControlPoint"
+      ],
+      "libs/osu/core/src/beatmap/TimeSignatures.ts": [],
+      "libs/osu/core/src/beatmap/BeatmapBuilder.ts": [
+        "../audio/HitSampleInfo",
+        "../gameplay/StableDifficulty",
+        "../gameplay/StableSliderTiming",
+        "../hitobjects/HitCircle",
+        "../hitobjects/Slider",
+        "../hitobjects/SliderCheckPoint",
+        "../hitobjects/Spinner",
+        "../hitobjects/slider/SliderCheckPointGenerator",
+        "../hitobjects/slider/SliderPath",
+        "../mods/HardRockMod",
+        "../mods/LazerMods",
+        "../mods/Mods",
+        "../mods/StackingMod",
+        "./Beatmap",
+        "./ControlPoints/SampleControlPoint",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/StableSliderTiming.ts": [
+        "../hitobjects/SliderCheckPoint",
+        "./StableSliderPathGeometry",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/hitobjects/SliderCheckPoint.ts": [
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/StableSliderPathGeometry.ts": [
+        "../hitobjects/slider/PathType",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/hitobjects/HitCircle.ts": [],
+      "libs/osu/core/src/hitobjects/Spinner.ts": [],
+      "libs/osu/core/src/hitobjects/slider/SliderCheckPointGenerator.ts": [
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/mods/HardRockMod.ts": [
+        "../hitobjects/Types",
+        "../playfield"
+      ],
+      "libs/osu/core/src/playfield.ts": [],
+      "libs/osu/core/src/mods/Mods.ts": [
+        "./EasyMod",
+        "./HardRockMod"
+      ],
+      "libs/osu/core/src/mods/EasyMod.ts": [],
+      "libs/osu/core/src/mods/StackingMod.ts": [
+        "../hitobjects/Types",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/beatmap/TempoSummary.ts": [],
+      "libs/osu/core/src/blueprint/Blueprint.ts": [],
+      "libs/osu/core/src/blueprint/BlueprintParser.ts": [
+        "../audio/HitSampleInfo",
+        "../audio/LegacySampleBank",
+        "../audio/StoryboardSampleInfo",
+        "../beatmap/ControlPoints/ControlPointInfo",
+        "../beatmap/ControlPoints/DifficultyControlPoint",
+        "../beatmap/ControlPoints/EffectControlPoint",
+        "../beatmap/ControlPoints/SampleControlPoint",
+        "../beatmap/ControlPoints/TimingControlPoint",
+        "../beatmap/LegacyEffectFlag",
+        "../beatmap/TimeSignatures",
+        "../hitobjects/slider/PathType",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/audio/LegacySampleBank.ts": [],
+      "libs/osu/core/src/beatmap/LegacyEffectFlag.ts": [],
+      "libs/osu/core/src/blueprint/HitObjectSettings.ts": [],
+      "libs/osu/core/src/gameplay/GameState.ts": [
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/GameStateEvaluator.ts": [
+        "../hitobjects/Types",
+        "../mods/Mods",
+        "../replays/Replay",
+        "./GameState",
+        "./SpinnerTracking",
+        "./StableDifficulty",
+        "./StableHitGeometry",
+        "./StableSliderBallPath",
+        "./StableSliderTiming",
+        "./StableSpinnerTracking",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/replays/Replay.ts": [],
+      "libs/osu/core/src/gameplay/SpinnerTracking.ts": [],
+      "libs/osu/core/src/gameplay/StableHitGeometry.ts": [
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/StableSliderBallPath.ts": [
+        "./StableSliderPathGeometry",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/StableSpinnerTracking.ts": [
+        "./SpinnerTracking"
+      ],
+      "libs/osu/core/src/gameplay/GameStateTimeMachine.ts": [
+        "./GameState",
+        "./GameStateEvaluator",
+        "./error-analysis/ErrorCapabilities",
+        "./trace/ReplayTraceObserver",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts": [
+        "../../mods/Mods"
+      ],
+      "libs/osu/core/src/gameplay/trace/ReplayTraceObserver.ts": [],
+      "libs/osu/core/src/gameplay/GameplayAnalysisEvent.ts": [
+        "../hitobjects/HitCircle",
+        "../hitobjects/Slider",
+        "../hitobjects/SliderCheckPoint",
+        "../hitobjects/Types",
+        "../utils",
+        "./GameplayInfo"
+      ],
+      "libs/osu/core/src/gameplay/GameplayInfo.ts": [
+        "../hitobjects/HitCircle",
+        "../hitobjects/Slider",
+        "../hitobjects/SliderCheckPoint"
+      ],
+      "libs/osu/core/src/gameplay/LazerGameStateEvaluator.ts": [
+        "../hitobjects/Types",
+        "../mods/Mods",
+        "../replays/Replay",
+        "./GameState",
+        "./GameStateEvaluator",
+        "./LazerRelaxInput",
+        "./SpinnerTracking",
+        "./SpunOutSpinner",
+        "./StableHitGeometry",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/LazerRelaxInput.ts": [
+        "../mods/Mods",
+        "../replays/Replay",
+        "./GameState",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/SpunOutSpinner.ts": [],
+      "libs/osu/core/src/gameplay/LazerGameStateTimeMachine.ts": [
+        "../hitobjects/Types",
+        "./GameState",
+        "./LazerGameStateEvaluator",
+        "./error-analysis/ErrorCapabilities",
+        "./trace/ReplayTraceObserver",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/SpinnerBonus.ts": [],
+      "libs/osu/core/src/gameplay/Verdicts.ts": [],
+      "libs/osu/core/src/gameplay/miss-explanation/CircleEvidence.ts": [
+        "../../hitobjects/HitCircle",
+        "../StableDifficulty",
+        "../StableHitGeometry",
+        "../error-analysis/ErrorCapabilities",
+        "../trace/EndpointInputBracket",
+        "./DirectTargetRejections",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/gameplay/trace/EndpointInputBracket.ts": [],
+      "libs/osu/core/src/gameplay/miss-explanation/DirectTargetRejections.ts": [
+        "../../hitobjects/HitCircle",
+        "../../hitobjects/Slider",
+        "../../hitobjects/Spinner",
+        "../StableSliderTiming"
+      ],
+      "libs/osu/core/src/gameplay/miss-explanation/CircleMissExplanation.ts": [
+        "./CircleEvidence"
+      ],
+      "libs/osu/core/src/gameplay/trace/PlannedTraceCapture.ts": [
+        "../../hitobjects/HitCircle",
+        "../../hitobjects/Slider",
+        "../../replays/SavedScoreCandidates",
+        "../StableDifficulty",
+        "../error-analysis/ErrorCapabilities",
+        "./ReplayTraceCollector",
+        "@osujs/math"
+      ],
+      "libs/osu/core/src/replays/SavedScoreCandidates.ts": [
+        "../gameplay/StableDifficulty",
+        "../gameplay/StableSliderTiming",
+        "../hitobjects/Types"
+      ],
+      "libs/osu/core/src/gameplay/trace/ReplayTraceCollector.ts": [
+        "../error-analysis/ErrorObservations",
+        "./EndpointInputBracket"
+      ],
+      "libs/osu/core/src/gameplay/error-analysis/ErrorObservations.ts": [],
+      "libs/osu/core/src/gameplay/trace/ReplayTrace.ts": [],
+      "libs/osu/core/src/hitobjects/slider/PathControlPoint.ts": [],
+      "libs/osu/core/src/mods/HiddenMod.ts": [],
+      "libs/osu/core/src/replays/RawReplayData.ts": [
+        "../mods/Mods"
+      ],
+      "libs/osu/core/src/replays/ReplayClicks.ts": [
+        "./Replay"
+      ],
+      "libs/osu/core/src/replays/ReplayParser.ts": [
+        "./Replay"
+      ],
+      "libs/osu/core/src/replays/SavedScoreTimeline.ts": [],
+      "apps/desktop/main/src/app/library/library-query-invalidation.ts": [
+        "./library-source-binding"
+      ],
+      "apps/desktop/main/src/app/library/library-source-binding.ts": [
+        "./library-source-metrics"
+      ],
+      "apps/desktop/main/src/app/library/library-recorded-evidence.ts": []
+    },
+    "resolutions": {
+      "apps/desktop/main/src/app/library/library-incidents-target.ts": {
+        "../../../../shared/library-incidents": "apps/desktop/shared/library-incidents.ts",
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts"
+      },
+      "apps/desktop/main/src/app/library/library-query-invalidation.ts": {
+        "./library-source-binding": "apps/desktop/main/src/app/library/library-source-binding.ts"
+      },
+      "apps/desktop/main/src/app/library/library-query-projection.ts": {
+        "../../../../shared/library-incident-semantic-revision": "apps/desktop/shared/library-incident-semantic-revision.ts",
+        "../../../../shared/library-query": "apps/desktop/shared/library-query.ts",
+        "./library-incidents-target": "apps/desktop/main/src/app/library/library-incidents-target.ts",
+        "./library-query-invalidation": "apps/desktop/main/src/app/library/library-query-invalidation.ts",
+        "./library-recorded-evidence": "apps/desktop/main/src/app/library/library-recorded-evidence.ts"
+      },
+      "apps/desktop/main/src/app/library/library-source-binding.ts": {
+        "./library-source-metrics": "apps/desktop/main/src/app/library/library-source-metrics.ts"
+      },
+      "apps/desktop/main/src/app/library/library-source-metrics.ts": {
+        "../../../../shared/replay-grade": "apps/desktop/shared/replay-grade.ts",
+        "@osujs/core": "libs/osu/core/src/index.ts",
+        "crypto": "external:crypto"
+      },
+      "apps/desktop/shared/library-incidents.ts": {
+        "./library-incident-semantic-revision": "apps/desktop/shared/library-incident-semantic-revision.ts"
+      },
+      "libs/osu/core/src/beatmap/Beatmap.ts": {
+        "../gameplay/StableDifficulty": "libs/osu/core/src/gameplay/StableDifficulty.ts",
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "../mods/LazerMods": "libs/osu/core/src/mods/LazerMods.ts",
+        "../utils": "libs/osu/core/src/utils/index.ts",
+        "./BeatmapDifficulty": "libs/osu/core/src/beatmap/BeatmapDifficulty.ts",
+        "./ControlPoints/ControlPointInfo": "libs/osu/core/src/beatmap/ControlPoints/ControlPointInfo.ts"
+      },
+      "libs/osu/core/src/beatmap/BeatmapBuilder.ts": {
+        "../audio/HitSampleInfo": "libs/osu/core/src/audio/HitSampleInfo.ts",
+        "../gameplay/StableDifficulty": "libs/osu/core/src/gameplay/StableDifficulty.ts",
+        "../gameplay/StableSliderTiming": "libs/osu/core/src/gameplay/StableSliderTiming.ts",
+        "../hitobjects/HitCircle": "libs/osu/core/src/hitobjects/HitCircle.ts",
+        "../hitobjects/Slider": "libs/osu/core/src/hitobjects/Slider.ts",
+        "../hitobjects/SliderCheckPoint": "libs/osu/core/src/hitobjects/SliderCheckPoint.ts",
+        "../hitobjects/Spinner": "libs/osu/core/src/hitobjects/Spinner.ts",
+        "../hitobjects/slider/SliderCheckPointGenerator": "libs/osu/core/src/hitobjects/slider/SliderCheckPointGenerator.ts",
+        "../hitobjects/slider/SliderPath": "libs/osu/core/src/hitobjects/slider/SliderPath.ts",
+        "../mods/HardRockMod": "libs/osu/core/src/mods/HardRockMod.ts",
+        "../mods/LazerMods": "libs/osu/core/src/mods/LazerMods.ts",
+        "../mods/Mods": "libs/osu/core/src/mods/Mods.ts",
+        "../mods/StackingMod": "libs/osu/core/src/mods/StackingMod.ts",
+        "./Beatmap": "libs/osu/core/src/beatmap/Beatmap.ts",
+        "./ControlPoints/SampleControlPoint": "libs/osu/core/src/beatmap/ControlPoints/SampleControlPoint.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/beatmap/ControlPoints/ControlPointInfo.ts": {
+        "../../utils/SortedList": "libs/osu/core/src/utils/SortedList.ts",
+        "./ControlPointGroup": "libs/osu/core/src/beatmap/ControlPoints/ControlPointGroup.ts",
+        "./DifficultyControlPoint": "libs/osu/core/src/beatmap/ControlPoints/DifficultyControlPoint.ts",
+        "./EffectControlPoint": "libs/osu/core/src/beatmap/ControlPoints/EffectControlPoint.ts",
+        "./SampleControlPoint": "libs/osu/core/src/beatmap/ControlPoints/SampleControlPoint.ts",
+        "./TimingControlPoint": "libs/osu/core/src/beatmap/ControlPoints/TimingControlPoint.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/beatmap/ControlPoints/DifficultyControlPoint.ts": {
+        "./ControlPoint": "libs/osu/core/src/beatmap/ControlPoints/ControlPoint.ts"
+      },
+      "libs/osu/core/src/beatmap/ControlPoints/EffectControlPoint.ts": {
+        "./ControlPoint": "libs/osu/core/src/beatmap/ControlPoints/ControlPoint.ts"
+      },
+      "libs/osu/core/src/beatmap/ControlPoints/SampleControlPoint.ts": {
+        "./ControlPoint": "libs/osu/core/src/beatmap/ControlPoints/ControlPoint.ts"
+      },
+      "libs/osu/core/src/beatmap/ControlPoints/TimingControlPoint.ts": {
+        "../TimeSignatures": "libs/osu/core/src/beatmap/TimeSignatures.ts",
+        "./ControlPoint": "libs/osu/core/src/beatmap/ControlPoints/ControlPoint.ts"
+      },
+      "libs/osu/core/src/blueprint/BlueprintParser.ts": {
+        "../audio/HitSampleInfo": "libs/osu/core/src/audio/HitSampleInfo.ts",
+        "../audio/LegacySampleBank": "libs/osu/core/src/audio/LegacySampleBank.ts",
+        "../audio/StoryboardSampleInfo": "libs/osu/core/src/audio/StoryboardSampleInfo.ts",
+        "../beatmap/ControlPoints/ControlPointInfo": "libs/osu/core/src/beatmap/ControlPoints/ControlPointInfo.ts",
+        "../beatmap/ControlPoints/DifficultyControlPoint": "libs/osu/core/src/beatmap/ControlPoints/DifficultyControlPoint.ts",
+        "../beatmap/ControlPoints/EffectControlPoint": "libs/osu/core/src/beatmap/ControlPoints/EffectControlPoint.ts",
+        "../beatmap/ControlPoints/SampleControlPoint": "libs/osu/core/src/beatmap/ControlPoints/SampleControlPoint.ts",
+        "../beatmap/ControlPoints/TimingControlPoint": "libs/osu/core/src/beatmap/ControlPoints/TimingControlPoint.ts",
+        "../beatmap/LegacyEffectFlag": "libs/osu/core/src/beatmap/LegacyEffectFlag.ts",
+        "../beatmap/TimeSignatures": "libs/osu/core/src/beatmap/TimeSignatures.ts",
+        "../hitobjects/slider/PathType": "libs/osu/core/src/hitobjects/slider/PathType.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts": {
+        "../../mods/Mods": "libs/osu/core/src/mods/Mods.ts"
+      },
+      "libs/osu/core/src/gameplay/GameplayAnalysisEvent.ts": {
+        "../hitobjects/HitCircle": "libs/osu/core/src/hitobjects/HitCircle.ts",
+        "../hitobjects/Slider": "libs/osu/core/src/hitobjects/Slider.ts",
+        "../hitobjects/SliderCheckPoint": "libs/osu/core/src/hitobjects/SliderCheckPoint.ts",
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "../utils": "libs/osu/core/src/utils/index.ts",
+        "./GameplayInfo": "libs/osu/core/src/gameplay/GameplayInfo.ts"
+      },
+      "libs/osu/core/src/gameplay/GameplayInfo.ts": {
+        "../hitobjects/HitCircle": "libs/osu/core/src/hitobjects/HitCircle.ts",
+        "../hitobjects/Slider": "libs/osu/core/src/hitobjects/Slider.ts",
+        "../hitobjects/SliderCheckPoint": "libs/osu/core/src/hitobjects/SliderCheckPoint.ts"
+      },
+      "libs/osu/core/src/gameplay/GameState.ts": {
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/GameStateEvaluator.ts": {
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "../mods/Mods": "libs/osu/core/src/mods/Mods.ts",
+        "../replays/Replay": "libs/osu/core/src/replays/Replay.ts",
+        "./GameState": "libs/osu/core/src/gameplay/GameState.ts",
+        "./SpinnerTracking": "libs/osu/core/src/gameplay/SpinnerTracking.ts",
+        "./StableDifficulty": "libs/osu/core/src/gameplay/StableDifficulty.ts",
+        "./StableHitGeometry": "libs/osu/core/src/gameplay/StableHitGeometry.ts",
+        "./StableSliderBallPath": "libs/osu/core/src/gameplay/StableSliderBallPath.ts",
+        "./StableSliderTiming": "libs/osu/core/src/gameplay/StableSliderTiming.ts",
+        "./StableSpinnerTracking": "libs/osu/core/src/gameplay/StableSpinnerTracking.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/GameStateTimeMachine.ts": {
+        "./GameState": "libs/osu/core/src/gameplay/GameState.ts",
+        "./GameStateEvaluator": "libs/osu/core/src/gameplay/GameStateEvaluator.ts",
+        "./error-analysis/ErrorCapabilities": "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts",
+        "./trace/ReplayTraceObserver": "libs/osu/core/src/gameplay/trace/ReplayTraceObserver.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/LazerGameStateEvaluator.ts": {
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "../mods/Mods": "libs/osu/core/src/mods/Mods.ts",
+        "../replays/Replay": "libs/osu/core/src/replays/Replay.ts",
+        "./GameState": "libs/osu/core/src/gameplay/GameState.ts",
+        "./GameStateEvaluator": "libs/osu/core/src/gameplay/GameStateEvaluator.ts",
+        "./LazerRelaxInput": "libs/osu/core/src/gameplay/LazerRelaxInput.ts",
+        "./SpinnerTracking": "libs/osu/core/src/gameplay/SpinnerTracking.ts",
+        "./SpunOutSpinner": "libs/osu/core/src/gameplay/SpunOutSpinner.ts",
+        "./StableHitGeometry": "libs/osu/core/src/gameplay/StableHitGeometry.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/LazerGameStateTimeMachine.ts": {
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "./GameState": "libs/osu/core/src/gameplay/GameState.ts",
+        "./LazerGameStateEvaluator": "libs/osu/core/src/gameplay/LazerGameStateEvaluator.ts",
+        "./error-analysis/ErrorCapabilities": "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts",
+        "./trace/ReplayTraceObserver": "libs/osu/core/src/gameplay/trace/ReplayTraceObserver.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/LazerRelaxInput.ts": {
+        "../mods/Mods": "libs/osu/core/src/mods/Mods.ts",
+        "../replays/Replay": "libs/osu/core/src/replays/Replay.ts",
+        "./GameState": "libs/osu/core/src/gameplay/GameState.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/miss-explanation/CircleEvidence.ts": {
+        "../../hitobjects/HitCircle": "libs/osu/core/src/hitobjects/HitCircle.ts",
+        "../StableDifficulty": "libs/osu/core/src/gameplay/StableDifficulty.ts",
+        "../StableHitGeometry": "libs/osu/core/src/gameplay/StableHitGeometry.ts",
+        "../error-analysis/ErrorCapabilities": "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts",
+        "../trace/EndpointInputBracket": "libs/osu/core/src/gameplay/trace/EndpointInputBracket.ts",
+        "./DirectTargetRejections": "libs/osu/core/src/gameplay/miss-explanation/DirectTargetRejections.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/miss-explanation/CircleMissExplanation.ts": {
+        "./CircleEvidence": "libs/osu/core/src/gameplay/miss-explanation/CircleEvidence.ts"
+      },
+      "libs/osu/core/src/gameplay/miss-explanation/DirectTargetRejections.ts": {
+        "../../hitobjects/HitCircle": "libs/osu/core/src/hitobjects/HitCircle.ts",
+        "../../hitobjects/Slider": "libs/osu/core/src/hitobjects/Slider.ts",
+        "../../hitobjects/Spinner": "libs/osu/core/src/hitobjects/Spinner.ts",
+        "../StableSliderTiming": "libs/osu/core/src/gameplay/StableSliderTiming.ts"
+      },
+      "libs/osu/core/src/gameplay/StableDifficulty.ts": {
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/StableHitGeometry.ts": {
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/StableSliderBallPath.ts": {
+        "./StableSliderPathGeometry": "libs/osu/core/src/gameplay/StableSliderPathGeometry.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/StableSliderPathGeometry.ts": {
+        "../hitobjects/slider/PathType": "libs/osu/core/src/hitobjects/slider/PathType.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/StableSliderTiming.ts": {
+        "../hitobjects/SliderCheckPoint": "libs/osu/core/src/hitobjects/SliderCheckPoint.ts",
+        "./StableSliderPathGeometry": "libs/osu/core/src/gameplay/StableSliderPathGeometry.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/StableSpinnerTracking.ts": {
+        "./SpinnerTracking": "libs/osu/core/src/gameplay/SpinnerTracking.ts"
+      },
+      "libs/osu/core/src/gameplay/trace/PlannedTraceCapture.ts": {
+        "../../hitobjects/HitCircle": "libs/osu/core/src/hitobjects/HitCircle.ts",
+        "../../hitobjects/Slider": "libs/osu/core/src/hitobjects/Slider.ts",
+        "../../replays/SavedScoreCandidates": "libs/osu/core/src/replays/SavedScoreCandidates.ts",
+        "../StableDifficulty": "libs/osu/core/src/gameplay/StableDifficulty.ts",
+        "../error-analysis/ErrorCapabilities": "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts",
+        "./ReplayTraceCollector": "libs/osu/core/src/gameplay/trace/ReplayTraceCollector.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/gameplay/trace/ReplayTraceCollector.ts": {
+        "../error-analysis/ErrorObservations": "libs/osu/core/src/gameplay/error-analysis/ErrorObservations.ts",
+        "./EndpointInputBracket": "libs/osu/core/src/gameplay/trace/EndpointInputBracket.ts"
+      },
+      "libs/osu/core/src/hitobjects/Slider.ts": {
+        "./slider/SliderPath": "libs/osu/core/src/hitobjects/slider/SliderPath.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/hitobjects/slider/PathApproximator.ts": {
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/hitobjects/slider/SliderCheckPointGenerator.ts": {
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/hitobjects/slider/SliderPath.ts": {
+        "./PathApproximator": "libs/osu/core/src/hitobjects/slider/PathApproximator.ts",
+        "./PathType": "libs/osu/core/src/hitobjects/slider/PathType.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/hitobjects/SliderCheckPoint.ts": {
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/index.ts": {
+        "./audio/HitSampleInfo": "libs/osu/core/src/audio/HitSampleInfo.ts",
+        "./audio/StoryboardSampleInfo": "libs/osu/core/src/audio/StoryboardSampleInfo.ts",
+        "./beatmap/Beatmap": "libs/osu/core/src/beatmap/Beatmap.ts",
+        "./beatmap/BeatmapBuilder": "libs/osu/core/src/beatmap/BeatmapBuilder.ts",
+        "./beatmap/BeatmapDifficulty": "libs/osu/core/src/beatmap/BeatmapDifficulty.ts",
+        "./beatmap/ControlPoints/ControlPoint": "libs/osu/core/src/beatmap/ControlPoints/ControlPoint.ts",
+        "./beatmap/ControlPoints/ControlPointGroup": "libs/osu/core/src/beatmap/ControlPoints/ControlPointGroup.ts",
+        "./beatmap/ControlPoints/DifficultyControlPoint": "libs/osu/core/src/beatmap/ControlPoints/DifficultyControlPoint.ts",
+        "./beatmap/ControlPoints/TimingControlPoint": "libs/osu/core/src/beatmap/ControlPoints/TimingControlPoint.ts",
+        "./beatmap/TempoSummary": "libs/osu/core/src/beatmap/TempoSummary.ts",
+        "./blueprint/Blueprint": "libs/osu/core/src/blueprint/Blueprint.ts",
+        "./blueprint/BlueprintParser": "libs/osu/core/src/blueprint/BlueprintParser.ts",
+        "./blueprint/HitObjectSettings": "libs/osu/core/src/blueprint/HitObjectSettings.ts",
+        "./gameplay/GameState": "libs/osu/core/src/gameplay/GameState.ts",
+        "./gameplay/GameStateEvaluator": "libs/osu/core/src/gameplay/GameStateEvaluator.ts",
+        "./gameplay/GameStateTimeMachine": "libs/osu/core/src/gameplay/GameStateTimeMachine.ts",
+        "./gameplay/GameplayAnalysisEvent": "libs/osu/core/src/gameplay/GameplayAnalysisEvent.ts",
+        "./gameplay/GameplayInfo": "libs/osu/core/src/gameplay/GameplayInfo.ts",
+        "./gameplay/LazerGameStateEvaluator": "libs/osu/core/src/gameplay/LazerGameStateEvaluator.ts",
+        "./gameplay/LazerGameStateTimeMachine": "libs/osu/core/src/gameplay/LazerGameStateTimeMachine.ts",
+        "./gameplay/SpinnerBonus": "libs/osu/core/src/gameplay/SpinnerBonus.ts",
+        "./gameplay/SpinnerTracking": "libs/osu/core/src/gameplay/SpinnerTracking.ts",
+        "./gameplay/SpunOutSpinner": "libs/osu/core/src/gameplay/SpunOutSpinner.ts",
+        "./gameplay/StableSpinnerTracking": "libs/osu/core/src/gameplay/StableSpinnerTracking.ts",
+        "./gameplay/Verdicts": "libs/osu/core/src/gameplay/Verdicts.ts",
+        "./gameplay/error-analysis/ErrorCapabilities": "libs/osu/core/src/gameplay/error-analysis/ErrorCapabilities.ts",
+        "./gameplay/miss-explanation/CircleEvidence": "libs/osu/core/src/gameplay/miss-explanation/CircleEvidence.ts",
+        "./gameplay/miss-explanation/CircleMissExplanation": "libs/osu/core/src/gameplay/miss-explanation/CircleMissExplanation.ts",
+        "./gameplay/trace/PlannedTraceCapture": "libs/osu/core/src/gameplay/trace/PlannedTraceCapture.ts",
+        "./gameplay/trace/ReplayTrace": "libs/osu/core/src/gameplay/trace/ReplayTrace.ts",
+        "./gameplay/trace/ReplayTraceCollector": "libs/osu/core/src/gameplay/trace/ReplayTraceCollector.ts",
+        "./gameplay/trace/TraceModelRevision": "libs/osu/core/src/gameplay/trace/TraceModelRevision.ts",
+        "./hitobjects/HitCircle": "libs/osu/core/src/hitobjects/HitCircle.ts",
+        "./hitobjects/Slider": "libs/osu/core/src/hitobjects/Slider.ts",
+        "./hitobjects/SliderCheckPoint": "libs/osu/core/src/hitobjects/SliderCheckPoint.ts",
+        "./hitobjects/Spinner": "libs/osu/core/src/hitobjects/Spinner.ts",
+        "./hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "./hitobjects/slider/PathApproximator": "libs/osu/core/src/hitobjects/slider/PathApproximator.ts",
+        "./hitobjects/slider/PathControlPoint": "libs/osu/core/src/hitobjects/slider/PathControlPoint.ts",
+        "./hitobjects/slider/PathType": "libs/osu/core/src/hitobjects/slider/PathType.ts",
+        "./hitobjects/slider/SliderPath": "libs/osu/core/src/hitobjects/slider/SliderPath.ts",
+        "./mods/HardRockMod": "libs/osu/core/src/mods/HardRockMod.ts",
+        "./mods/HiddenMod": "libs/osu/core/src/mods/HiddenMod.ts",
+        "./mods/LazerMods": "libs/osu/core/src/mods/LazerMods.ts",
+        "./mods/Mods": "libs/osu/core/src/mods/Mods.ts",
+        "./mods/StackingMod": "libs/osu/core/src/mods/StackingMod.ts",
+        "./playfield": "libs/osu/core/src/playfield.ts",
+        "./replays/RawReplayData": "libs/osu/core/src/replays/RawReplayData.ts",
+        "./replays/Replay": "libs/osu/core/src/replays/Replay.ts",
+        "./replays/ReplayClicks": "libs/osu/core/src/replays/ReplayClicks.ts",
+        "./replays/ReplayParser": "libs/osu/core/src/replays/ReplayParser.ts",
+        "./replays/SavedScoreCandidates": "libs/osu/core/src/replays/SavedScoreCandidates.ts",
+        "./replays/SavedScoreTimeline": "libs/osu/core/src/replays/SavedScoreTimeline.ts",
+        "./utils/index": "libs/osu/core/src/utils/index.ts"
+      },
+      "libs/osu/core/src/mods/HardRockMod.ts": {
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "../playfield": "libs/osu/core/src/playfield.ts"
+      },
+      "libs/osu/core/src/mods/Mods.ts": {
+        "./EasyMod": "libs/osu/core/src/mods/EasyMod.ts",
+        "./HardRockMod": "libs/osu/core/src/mods/HardRockMod.ts"
+      },
+      "libs/osu/core/src/mods/StackingMod.ts": {
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts",
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/core/src/replays/RawReplayData.ts": {
+        "../mods/Mods": "libs/osu/core/src/mods/Mods.ts"
+      },
+      "libs/osu/core/src/replays/ReplayClicks.ts": {
+        "./Replay": "libs/osu/core/src/replays/Replay.ts"
+      },
+      "libs/osu/core/src/replays/ReplayParser.ts": {
+        "./Replay": "libs/osu/core/src/replays/Replay.ts"
+      },
+      "libs/osu/core/src/replays/SavedScoreCandidates.ts": {
+        "../gameplay/StableDifficulty": "libs/osu/core/src/gameplay/StableDifficulty.ts",
+        "../gameplay/StableSliderTiming": "libs/osu/core/src/gameplay/StableSliderTiming.ts",
+        "../hitobjects/Types": "libs/osu/core/src/hitobjects/Types.ts"
+      },
+      "libs/osu/core/src/utils/index.ts": {
+        "../hitobjects/Slider": "libs/osu/core/src/hitobjects/Slider.ts",
+        "./CooperativeSteps": "libs/osu/core/src/utils/CooperativeSteps.ts"
+      },
+      "libs/osu/core/src/utils/SortedList.ts": {
+        "@osujs/math": "libs/osu/math/src/index.ts"
+      },
+      "libs/osu/math/src/difficulty.ts": {
+        "./float32": "libs/osu/math/src/float32.ts"
+      },
+      "libs/osu/math/src/index.ts": {
+        "./Vec2": "libs/osu/math/src/Vec2.ts",
+        "./colors": "libs/osu/math/src/colors.ts",
+        "./difficulty": "libs/osu/math/src/difficulty.ts",
+        "./easing": "libs/osu/math/src/easing.ts",
+        "./float32": "libs/osu/math/src/float32.ts",
+        "./sliders": "libs/osu/math/src/sliders.ts",
+        "./time": "libs/osu/math/src/time.ts",
+        "./utils": "libs/osu/math/src/utils.ts"
+      },
+      "libs/osu/math/src/sliders.ts": {
+        "./Vec2": "libs/osu/math/src/Vec2.ts"
+      },
+      "libs/osu/math/src/Vec2.ts": {
+        "./float32": "libs/osu/math/src/float32.ts"
+      }
+    },
+    "nativeRoot": null,
+    "storeBoundary": {
+      "path": "apps/desktop/main/src/app/library/library-store.ts",
+      "imports": [
+        "node:sqlite",
+        "crypto",
+        "@rewind/osu-performance/protocol",
+        "./library-metric-store",
+        "./library-numerical-recipe-store",
+        "./library-numerical-profile",
+        "./library-incidents-store",
+        "./library-query-projection",
+        "./library-query-invalidation",
+        "./library-source-admission",
+        "./library-query",
+        "./library-recorded-evidence",
+        "./library-performance-cache",
+        "./library-performance-recipe-store",
+        "./library-performance-dependencies",
+        "./library-performance-versions",
+        "./library-performance-context",
+        "./library-preparation-store",
+        "./library-source-binding",
+        "./library-source-metrics",
+        "../../../../shared/library-analysis",
+        "./library-timeline-target",
+        "./library-fc-target",
+        "./library-current-replay-authority",
+        "./library-query-readiness",
+        "./library-analysis-activity",
+        "./library-resource-changes"
+      ],
+      "bindings": [
+        "DatabaseSync",
+        "randomUUID",
+        "PERFORMANCE_ENGINE_VERSION",
+        "LibraryMetricStore,libraryCapabilityAttempt",
+        "LibraryNumericalRecipeStore",
+        "numericalModsHash,numericalProfileKey,validateNumericalRecipe",
+        "LibraryIncidentRecipeStore",
+        "LibraryQueryProjection,registerLibraryPlayerFold,LIBRARY_FILTER_EVIDENCE_REVISION",
+        "LibraryQueryInvalidation",
+        "LibrarySourceAdmission",
+        "LibraryQueryReader",
+        "libraryKnownNonstandardSql",
+        "LibraryPerformanceCache",
+        "LibraryPerformanceRecipeStore",
+        "performanceDependencyKeys",
+        "LIBRARY_P_PRODUCER_VERSION",
+        "composePerformanceContext",
+        "LibraryPreparationStore",
+        "projectSourceEvidence,projectStableMapEvidence,sourceMapEvidence",
+        "LIBRARY_SOURCE_PROJECTION_VERSION,metricInputKey",
+        "LIBRARY_NUMERIC_PROJECTION_VERSION,LIBRARY_REPLAY_PARSER_VERSION,LIBRARY_RESOURCE_PREPARATION_VERSION",
+        "libraryTimelineTarget",
+        "libraryFcTarget",
+        "LibraryCurrentReplayAuthorities,currentReplayDescriptor",
+        "libraryQueryReadiness",
+        "LibraryAnalysisActivityStore",
+        "LibraryResourceChangesJournal"
+      ],
+      "excludedEdges": {
+        "./library-query": "Passive reader creation only; no C producer or admission decision.",
+        "./library-query-projection": "Derived scalar cache, query evidence revision and query-only Unicode player fold registration; callbacks invoke Store-owned admission methods whose full source is hashed. Recorded admission SQL is traversed independently through library-recorded-evidence.",
+        "./library-query-invalidation": "Bounded dirty/scope queues; not a C classifier, evidence or target producer.",
+        "./library-query-readiness": "Read-only committed-queue/schema inspection for passive query readiness and source-only notification proof; no metric/admission writes. Store callers and semantic-dirty guards remain fully hashed.",
+        "./library-analysis-activity": "Connection-local TEMP display/status counters and triggers observing existing intent/eligibility rows; writes only its TEMP projection, never admits work or publishes metrics/query evidence. Store construction/call sites remain fully hashed; recorded admission evidence is independently traversed through library-recorded-evidence."
+      }
+    },
+    "boundary": "Runtime TypeScript emit graph including barrels/literal dynamic imports; full source bytes; package lock/config; complete native source project. Generated C identity self and broad TRACE identity token excluded; TRACE implementation remains traversed. Type-only edges erased by compiler are not runtime dependencies."
+  }
+}

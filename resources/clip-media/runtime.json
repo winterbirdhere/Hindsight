@@ -1,0 +1,16 @@
+{
+  "name": "FFmpeg",
+  "version": "9.0.1",
+  "provider": "Gyan Doshi / gyan.dev",
+  "platform": "win32-x64",
+  "executable": "win-x64/ffmpeg.exe",
+  "executableBytes": 102856192,
+  "executableSha256": "72a489eccd008c2ec2c0a5856c5c75bc3d8bbfa90166c4566865c246445e6aa3",
+  "archiveUrl": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-9.0.1-essentials_build.zip",
+  "archiveSha256": "fec81ae03971d9dd4be3ebe02e263bd2ec1d789483f931bdba5f5715e65da2e9",
+  "archiveSha256Url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-9.0.1-essentials_build.zip.sha256",
+  "upstreamSource": "https://github.com/FFmpeg/FFmpeg/commit/bf1b838f2a",
+  "buildProvider": "https://www.gyan.dev/ffmpeg/builds/",
+  "license": "GPL-3.0",
+  "purpose": "Separate local subprocess for deterministic H.264 frame encoding, audio muxing and indexed MP4 finalization; no user PATH dependency"
+}

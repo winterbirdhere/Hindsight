@@ -1,0 +1,1139 @@
+{
+  "generatedUtc": "2026-10-25T08:31:38.064Z",
+  "scope": "Bounded supplemental notices, no native rehash or final candidate certification",
+  "packages": [
+    {
+      "name": "rxjs-hooks",
+      "version": "0.7.0",
+      "repo": "LeetCode-OpenSource/rxjs-hooks",
+      "commit": "a9ca80f1100d70ac794cb1b19676eb107d51a7ba",
+      "tag": "v0.7.0",
+      "tagObject": "0eff5728751edf0f18cd1e7faae240664827cbb9",
+      "registryUrl": "https://registry.npmjs.org/rxjs-hooks/0.7.0",
+      "registryLicense": "MIT",
+      "registryGitHead": "a9ca80f1100d70ac794cb1b19676eb107d51a7ba",
+      "annotatedTagUrl": "https://api.github.com/repos/LeetCode-OpenSource/rxjs-hooks/git/tags/0eff5728751edf0f18cd1e7faae240664827cbb9",
+      "tagTargetVerified": true,
+      "pinnedTreeUrl": "https://api.github.com/repos/LeetCode-OpenSource/rxjs-hooks/git/trees/a9ca80f1100d70ac794cb1b19676eb107d51a7ba?recursive=1",
+      "pinnedLicensePaths": []
+    },
+    {
+      "name": "use-constant",
+      "version": "1.1.1",
+      "repo": "Andarist/use-constant",
+      "commit": "bdd74e6348c14b7947c278fa5a5abdc03a635ac2",
+      "tag": "v1.1.1",
+      "tagObject": "0d260b10695ddab35172f5eb028927693243a3c9",
+      "registryUrl": "https://registry.npmjs.org/use-constant/1.1.1",
+      "registryLicense": "MIT",
+      "registryGitHead": "bdd74e6348c14b7947c278fa5a5abdc03a635ac2",
+      "annotatedTagUrl": "https://api.github.com/repos/Andarist/use-constant/git/tags/0d260b10695ddab35172f5eb028927693243a3c9",
+      "tagTargetVerified": true,
+      "pinnedTreeUrl": "https://api.github.com/repos/Andarist/use-constant/git/trees/bdd74e6348c14b7947c278fa5a5abdc03a635ac2?recursive=1",
+      "pinnedLicensePaths": []
+    }
+  ],
+  "downloadsAndCopies": [
+    {
+      "file": "provenance/rxjs-hooks-0.7.0-package.json",
+      "sourceUrl": "https://raw.githubusercontent.com/LeetCode-OpenSource/rxjs-hooks/a9ca80f1100d70ac794cb1b19676eb107d51a7ba/package.json",
+      "bytes": 2739,
+      "sha256": "3f2a8c33cc13a99bb5b67fdd8116782d18281ebe05135c8b79207dff9f3be2c1",
+      "commit": "a9ca80f1100d70ac794cb1b19676eb107d51a7ba",
+      "tag": "v0.7.0"
+    },
+    {
+      "file": "provenance/use-constant-1.1.1-package.json",
+      "sourceUrl": "https://raw.githubusercontent.com/Andarist/use-constant/bdd74e6348c14b7947c278fa5a5abdc03a635ac2/package.json",
+      "bytes": 1364,
+      "sha256": "0da163233dcfe446946457b6579b5f94969bf097c5031e8a4a46f24fb0251373",
+      "commit": "bdd74e6348c14b7947c278fa5a5abdc03a635ac2",
+      "tag": "v1.1.1"
+    },
+    {
+      "file": "use-constant-1.1.1-UPSTREAM-LICENSE.txt",
+      "sourceUrl": "https://raw.githubusercontent.com/Andarist/use-constant/20784f1f6999e5ce7c482fb07e925549706022ad/LICENSE",
+      "bytes": 1060,
+      "sha256": "c2452d345744508572ba50731ccbe84faea80ba507bd6d52c2a34f831ce95574",
+      "commit": "20784f1f6999e5ce7c482fb07e925549706022ad",
+      "copyrightPreservedVerbatim": "Copyright (c) Andarist",
+      "applicability": "Immediately subsequent upstream commit adds only LICENSE; release source unchanged",
+      "comparisonUrl": "https://api.github.com/repos/Andarist/use-constant/compare/bdd74e6348c14b7947c278fa5a5abdc03a635ac2...20784f1f6999e5ce7c482fb07e925549706022ad"
+    },
+    {
+      "file": "provenance/SPDX-MIT-template.txt",
+      "sourceUrl": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+      "bytes": 1078,
+      "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+      "commit": "31ba1a50e5397e00a304dbadc76531740e89ee48"
+    },
+    {
+      "file": "rxjs-hooks-0.7.0-MIT-NOTICE.txt",
+      "sha256": "f3f47d70c00418caf3790c88663e7e0d83300648979acae22cd723ff9114ecd5",
+      "bytes": 1667,
+      "type": "Curated MIT terms from verified official SPDX declaration; not an upstream license file",
+      "sourceCommit": "a9ca80f1100d70ac794cb1b19676eb107d51a7ba",
+      "upstreamCopyrightNoticeSupplied": false
+    },
+    {
+      "file": "osu-resources-Legacy-CC-BY-NC-4.0.md",
+      "sourceUrl": "https://raw.githubusercontent.com/ppy/osu-resources/46d344264e5938e168cfbbd2c8fab5f572ebeda4/LICENCE.md",
+      "bytes": 17893,
+      "sha256": "30b914824784b6ba6b30a44b22bea4f3c6fbc10f3f0e74fde5ca76a92ef57244",
+      "commit": "46d344264e5938e168cfbbd2c8fab5f572ebeda4"
+    },
+    {
+      "file": "osu-resources-ModIcons-CC-BY-NC-4.0.md",
+      "sourceUrl": "https://raw.githubusercontent.com/ppy/osu-resources/d8d01c29ce0f298159aea3644b947d8b4a1882a2/LICENCE.md",
+      "bytes": 17893,
+      "sha256": "30b914824784b6ba6b30a44b22bea4f3c6fbc10f3f0e74fde5ca76a92ef57244",
+      "commit": "d8d01c29ce0f298159aea3644b947d8b4a1882a2"
+    },
+    {
+      "file": "osu-web-palette-MIT-LICENCE.txt",
+      "sourceUrl": "https://raw.githubusercontent.com/ppy/osu-web/61b0a41431395f86ff68fa12744f3266448ec885/LICENCE",
+      "bytes": 34454,
+      "sha256": "d6e820b6147f08d6fffe461c8b44fc921263ff5b4f38a4f1488d9cecc332480f",
+      "commit": "61b0a41431395f86ff68fa12744f3266448ec885"
+    },
+    {
+      "file": "Google-Material-Icons-APACHE-2.0.txt",
+      "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/10ecc14790612ca8fd164e3f4ffe9c16fc50d5b7/LICENSE",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "commit": "10ecc14790612ca8fd164e3f4ffe9c16fc50d5b7",
+      "scope": "Original Material Icons artwork; used through MUI SVG wrappers"
+    },
+    {
+      "file": "mui-icons-material-5.16.14-MIT-LICENSE.txt",
+      "sourcePath": "node_modules/@mui/icons-material/LICENSE",
+      "bytes": 1078,
+      "sha256": "f776953f07d3086635fd33953bcde47ba66fedaeb9a7cbc6ece2d4cb03cc56f8"
+    },
+    {
+      "file": "Geist-5.3.0-OFL-LICENSE.txt",
+      "sourcePath": "node_modules/@fontsource/geist/LICENSE",
+      "bytes": 4486,
+      "sha256": "71609cbb5c78b5870d712eab73a31d76622635c6ed034ab5cee3b9ecbda8685f"
+    },
+    {
+      "file": "Geist-Mono-5.3.0-OFL-LICENSE.txt",
+      "sourcePath": "node_modules/@fontsource/geist-mono/LICENSE",
+      "bytes": 4498,
+      "sha256": "cc815ed4fc045f0e991abb10395b7932bd028c6a067deb13316d6002105074e6"
+    }
+  ],
+  "legacy": {
+    "revision": "46d344264e5938e168cfbbd2c8fab5f572ebeda4",
+    "treeSourceUrl": "https://api.github.com/repos/ppy/osu-resources/git/trees/46d344264e5938e168cfbbd2c8fab5f572ebeda4?recursive=1",
+    "localPayloadFiles": 105,
+    "allPayloadFilesMatched": true,
+    "excludedLocalDocumentation": [
+      "README.md"
+    ],
+    "files": [
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/applause.mp3",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/applause.mp3",
+        "bytes": 141363,
+        "sha256": "4cf89d58198f11922a38e2b407f5593f0de6c6a438da35d4ec27e23bf8516beb",
+        "gitBlobSha1": "5c151e84a6bfbb6c6a19dfc93f0e7a7a1ef0f2f2",
+        "upstreamBlobSha1": "5c151e84a6bfbb6c6a19dfc93f0e7a7a1ef0f2f2"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/approachcircle@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/approachcircle@2x.png",
+        "bytes": 18164,
+        "sha256": "01fa223f26112d18e9e6679d3c5f97e419f8b927905470beddab2a913639d175",
+        "gitBlobSha1": "db2f4a5730b80c3488c618fe825e322742e4007c",
+        "upstreamBlobSha1": "db2f4a5730b80c3488c618fe825e322742e4007c"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/combobreak.mp3",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/combobreak.mp3",
+        "bytes": 20880,
+        "sha256": "6399731b7eac8bf80de4121e0257f1e4416e871b3ed9c3523da236dbbe8ffddc",
+        "gitBlobSha1": "64415cbdc94ca385ea239eaa294a5f55cebb860e",
+        "upstreamBlobSha1": "64415cbdc94ca385ea239eaa294a5f55cebb860e"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/count.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/count.wav",
+        "bytes": 12852,
+        "sha256": "340bbabd14837c716f0fb6fa4c1b536b47af027430ccddc638e8bf3fd1c84d76",
+        "gitBlobSha1": "2d4ee0227c332ce0ad02eb8a3f8bb3b1c4d28f15",
+        "upstreamBlobSha1": "2d4ee0227c332ce0ad02eb8a3f8bb3b1c4d28f15"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/cursor@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/cursor@2x.png",
+        "bytes": 29019,
+        "sha256": "71a0024ff600210559192b0ac18258cf0f53dc9ad452c02305a8eb80759d8244",
+        "gitBlobSha1": "fd5ba5358a5a925893be4c3942bbc6acb9410bfa",
+        "upstreamBlobSha1": "fd5ba5358a5a925893be4c3942bbc6acb9410bfa"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/cursormiddle@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/cursormiddle@2x.png",
+        "bytes": 7285,
+        "sha256": "506643d53761233d56ab88a8088e19ccb8b089fc452a250906df06a91fa732f5",
+        "gitBlobSha1": "8fa634040a0fc6485af70cfb8fb5e518d9e59fbe",
+        "upstreamBlobSha1": "8fa634040a0fc6485af70cfb8fb5e518d9e59fbe"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/cursortrail@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/cursortrail@2x.png",
+        "bytes": 3442,
+        "sha256": "b230a3e0b411e43e24da1ac8a76eb05619718aaddfbdeeba934a9343b2f8b63d",
+        "gitBlobSha1": "8260fb774c3318c34a835410fa4da58eccdcb0f7",
+        "upstreamBlobSha1": "8260fb774c3318c34a835410fa4da58eccdcb0f7"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/default-0@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/default-0@2x.png",
+        "bytes": 7926,
+        "sha256": "b75d21b178785051ef3f6df2231616a460e6310cfe33009ed7d255bd8ceea501",
+        "gitBlobSha1": "3f7b606d895ba247998424f24d696b3b5ea3f6a9",
+        "upstreamBlobSha1": "3f7b606d895ba247998424f24d696b3b5ea3f6a9"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/default-1@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/default-1@2x.png",
+        "bytes": 4337,
+        "sha256": "0ba2307fb5270dca7ff95e9701fbd227bc101f7c5fcf10fddbe43594bdda7b26",
+        "gitBlobSha1": "1901149f32474f77e5c408969ebd01650e41ead7",
+        "upstreamBlobSha1": "1901149f32474f77e5c408969ebd01650e41ead7"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/default-2@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/default-2@2x.png",
+        "bytes": 6865,
+        "sha256": "5bf3fcdce83d6aa807a5b9e50a3fab1463e918592495795d0b09f1ddfa7d93b1",
+        "gitBlobSha1": "24cbde7241896cb8ea963218f10500836ab550ed",
+        "upstreamBlobSha1": "24cbde7241896cb8ea963218f10500836ab550ed"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/default-3@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/default-3@2x.png",
+        "bytes": 7802,
+        "sha256": "738cb7260efb954ea316f294c5fe24812221cf934bec73ed324cc32206de2a6f",
+        "gitBlobSha1": "551345175b4a1a72cb497b1ad433704123d32a69",
+        "upstreamBlobSha1": "551345175b4a1a72cb497b1ad433704123d32a69"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/default-4@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/default-4@2x.png",
+        "bytes": 5328,
+        "sha256": "436a53ade74ddaf67317eada7fcfeca364f796a072feca93376aaf78f0ba66a4",
+        "gitBlobSha1": "d7099a4af7479b2694dc4d8dd89220a5622195ea",
+        "upstreamBlobSha1": "d7099a4af7479b2694dc4d8dd89220a5622195ea"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/default-5@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/default-5@2x.png",
+        "bytes": 6933,
+        "sha256": "1ee67945bbaf5532e319b2da63b6ef9242e7293be643ff309d16ceb70d01fa5b",
+        "gitBlobSha1": "cf4605400634999fc7f692a68c0b28cf542ad78a",
+        "upstreamBlobSha1": "cf4605400634999fc7f692a68c0b28cf542ad78a"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/default-6@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/default-6@2x.png",
+        "bytes": 8138,
+        "sha256": "e34f3b01dd3606362e1cac4976b6c0c2d39397c45894dffebe9fb9e0842d92f9",
+        "gitBlobSha1": "7b54bb078df9649c1f1fa7687ebf13a0c0c09957",
+        "upstreamBlobSha1": "7b54bb078df9649c1f1fa7687ebf13a0c0c09957"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/default-7@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/default-7@2x.png",
+        "bytes": 5533,
+        "sha256": "56fb9205c90cfbc75f50646df0693e18e1aab381366729a3ef96388bcba14015",
+        "gitBlobSha1": "49cba61fb8cd001f45f85b4f1504616438f80377",
+        "upstreamBlobSha1": "49cba61fb8cd001f45f85b4f1504616438f80377"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/default-8@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/default-8@2x.png",
+        "bytes": 8735,
+        "sha256": "698a1738a02402480f2b4ef1c0b8a7b0267c57ad674320989a8066bc35f81927",
+        "gitBlobSha1": "4220967c4750c7b1d737782cb313697d088ee9fd",
+        "upstreamBlobSha1": "4220967c4750c7b1d737782cb313697d088ee9fd"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/default-9@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/default-9@2x.png",
+        "bytes": 8112,
+        "sha256": "abcbed4ec2df6e93af0a76e8b324292cb9e8578e0eaa4552d52a7c2b9e024eb7",
+        "gitBlobSha1": "5cc332dc3941e9880cc65ebee81e8e811586f117",
+        "upstreamBlobSha1": "5cc332dc3941e9880cc65ebee81e8e811586f117"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/drum-hitclap.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/drum-hitclap.wav",
+        "bytes": 115528,
+        "sha256": "a0b71977c71b72c05f1c570100ecb41fa93d93f77e0ae9ce30853421b765410d",
+        "gitBlobSha1": "893b4972b2134aa10f679cf034cdb1d31cdedd6c",
+        "upstreamBlobSha1": "893b4972b2134aa10f679cf034cdb1d31cdedd6c"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/drum-hitfinish.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/drum-hitfinish.wav",
+        "bytes": 115100,
+        "sha256": "d03a9204720519dd6b2efd3607ae2858f6ca157ebee00ae8a99e3911d12fa7ab",
+        "gitBlobSha1": "b2a4b37d5a139f56fe6c6f716ff176aa298a4ad2",
+        "upstreamBlobSha1": "b2a4b37d5a139f56fe6c6f716ff176aa298a4ad2"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/drum-hitnormal.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/drum-hitnormal.wav",
+        "bytes": 145508,
+        "sha256": "7f49bacb51a0d576eea7358354656f5319caa401de75ea6bcae3fdd7c18352f8",
+        "gitBlobSha1": "6adbb8cc4cbefe267065c0062b878c85e14838eb",
+        "upstreamBlobSha1": "6adbb8cc4cbefe267065c0062b878c85e14838eb"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/drum-hitwhistle.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/drum-hitwhistle.wav",
+        "bytes": 70492,
+        "sha256": "a1c043dff72484d79a9b3bce3c6c1be7a193219dbf2626bc3350a246dffc9b54",
+        "gitBlobSha1": "939b0925642cbdad55d87348c56c5d87ceec23b3",
+        "upstreamBlobSha1": "939b0925642cbdad55d87348c56c5d87ceec23b3"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/drum-sliderslide.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/drum-sliderslide.wav",
+        "bytes": 103760,
+        "sha256": "ad7e2b93b06a617643acc9bdb83ec64a1ec200fa742acf4f9ebcf1b339d04b64",
+        "gitBlobSha1": "40e6cc0dfe77a8b9be7dbc4e5b4a74b17dc943e6",
+        "upstreamBlobSha1": "40e6cc0dfe77a8b9be7dbc4e5b4a74b17dc943e6"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/drum-slidertick.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/drum-slidertick.wav",
+        "bytes": 68364,
+        "sha256": "51ec06c0d71e5a4a022ff9dfad84affec6005d62eec5ec8764380698413d47ab",
+        "gitBlobSha1": "79f345cf6fe0741a0ccc0ab65b655990c876ef55",
+        "upstreamBlobSha1": "79f345cf6fe0741a0ccc0ab65b655990c876ef55"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/drum-sliderwhistle.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/drum-sliderwhistle.wav",
+        "bytes": 67256,
+        "sha256": "5b80e132dd7adf41d45f7e21352dc3420599474382dc87a3b1772f603ce32a81",
+        "gitBlobSha1": "332830172cd1065152b7c67231a49d98a7e4b23d",
+        "upstreamBlobSha1": "332830172cd1065152b7c67231a49d98a7e4b23d"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/failsound.mp3",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/failsound.mp3",
+        "bytes": 46287,
+        "sha256": "413c0c25941455ac67a6f0641536726fbe581dc1c5aa293dfe2415d273ab7a65",
+        "gitBlobSha1": "c96f82899a925292f2bbf29dc119a1e0ec4b3af0",
+        "upstreamBlobSha1": "c96f82899a925292f2bbf29dc119a1e0ec4b3af0"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/followpoint@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/followpoint@2x.png",
+        "bytes": 4452,
+        "sha256": "fe42696e15ead9fbb13c122d780b2a6ef62a428479f44827efba10f6e5d6fc89",
+        "gitBlobSha1": "9e64df59f4b44ff43c0dfff58071a11a821c1c13",
+        "upstreamBlobSha1": "9e64df59f4b44ff43c0dfff58071a11a821c1c13"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/hit0@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/hit0@2x.png",
+        "bytes": 16112,
+        "sha256": "a80615f717e2b58e65ecacb0bf8a14204417542ca1b5cf2d86c978a2dd813640",
+        "gitBlobSha1": "bdb2bcbc41085fef9d4bd351bdeae81f0da331f4",
+        "upstreamBlobSha1": "bdb2bcbc41085fef9d4bd351bdeae81f0da331f4"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/hit100@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/hit100@2x.png",
+        "bytes": 31228,
+        "sha256": "010dc71c8c3508e191cb6d89da4624bd7005e0a83adda007760baf2444783354",
+        "gitBlobSha1": "7db8eb312403e739d8dc61b280f930443ad0d81c",
+        "upstreamBlobSha1": "7db8eb312403e739d8dc61b280f930443ad0d81c"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/hit100k@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/hit100k@2x.png",
+        "bytes": 21318,
+        "sha256": "fa67b1888be5427a68f266317b53703cda849ccca6ce858c5556716c97e72816",
+        "gitBlobSha1": "206840e467e435ac97f35b36345c155297fd260d",
+        "upstreamBlobSha1": "206840e467e435ac97f35b36345c155297fd260d"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/hit300@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/hit300@2x.png",
+        "bytes": 36873,
+        "sha256": "3d3432fce23885a0332057e885e81130c01faa6d0633d08310b37594d91fcb5c",
+        "gitBlobSha1": "2c7c07852ff6e84edc2164b4487aaaa6cb4d8fe4",
+        "upstreamBlobSha1": "2c7c07852ff6e84edc2164b4487aaaa6cb4d8fe4"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/hit300g@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/hit300g@2x.png",
+        "bytes": 39840,
+        "sha256": "39e8e94b8c3183661a7e4d3d29c3f591f5691f26665f1a9ba2182203c925d46a",
+        "gitBlobSha1": "1ce746e3a494f4446cc451f5924240f4c8eecb4b",
+        "upstreamBlobSha1": "1ce746e3a494f4446cc451f5924240f4c8eecb4b"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/hit300k@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/hit300k@2x.png",
+        "bytes": 29098,
+        "sha256": "e8cdfb50b0ad6bd0a906470c3626d1386d11b4d5319e4cdd64728e90b0eb96eb",
+        "gitBlobSha1": "b0db9c00af45f740b66c4c4ca2b72dddeb9806bd",
+        "upstreamBlobSha1": "b0db9c00af45f740b66c4c4ca2b72dddeb9806bd"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/hit50@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/hit50@2x.png",
+        "bytes": 26015,
+        "sha256": "bacecf48fb00821e0ff1ad0a2d59f7d8b513002b51f68b88ba7fb7757f57a23b",
+        "gitBlobSha1": "94c09d263a29249ca98ce55df2a621d9a79850cf",
+        "upstreamBlobSha1": "94c09d263a29249ca98ce55df2a621d9a79850cf"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/hitcircle@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/hitcircle@2x.png",
+        "bytes": 7768,
+        "sha256": "631c396b9864f52b5408fef2ff4bcd2184fc5cbe35268925462e281ee0677fd1",
+        "gitBlobSha1": "6674616472f3f8faf0df6b90bf8f9ef88392d222",
+        "upstreamBlobSha1": "6674616472f3f8faf0df6b90bf8f9ef88392d222"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/hitcircleoverlay@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/hitcircleoverlay@2x.png",
+        "bytes": 45901,
+        "sha256": "fca79ba624c49326e484496adee9c4d2136754083b64a7599188a79cad16355d",
+        "gitBlobSha1": "1f98c1697ec6a7d238a7ad31afaef8821d8b5da0",
+        "upstreamBlobSha1": "1f98c1697ec6a7d238a7ad31afaef8821d8b5da0"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/hitcircleselect@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/hitcircleselect@2x.png",
+        "bytes": 36781,
+        "sha256": "f4f3d15a39a9f13c6eb36b7c4015389c2e77528b312cd5f60aadf55252c3494a",
+        "gitBlobSha1": "87db85e4ac6c5687fd8350c9e8fbc19140ba8c25",
+        "upstreamBlobSha1": "87db85e4ac6c5687fd8350c9e8fbc19140ba8c25"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/nightcore-clap.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/nightcore-clap.wav",
+        "bytes": 303364,
+        "sha256": "0fb5bf211acd371407f7c7710a59ff6f5bdc82f439569dae5d8b597b158c0f72",
+        "gitBlobSha1": "d8b0b12fd06b00c5788598911d0b87a67ec68f41",
+        "upstreamBlobSha1": "d8b0b12fd06b00c5788598911d0b87a67ec68f41"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/nightcore-finish.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/nightcore-finish.wav",
+        "bytes": 303364,
+        "sha256": "950ed53537a558517e4df8f3b61768e92af7ba03177432e25545adcb6fef3a17",
+        "gitBlobSha1": "bb55318eb9da5f52b29a525d9db20856785fcbfc",
+        "upstreamBlobSha1": "bb55318eb9da5f52b29a525d9db20856785fcbfc"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/nightcore-hat.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/nightcore-hat.wav",
+        "bytes": 303364,
+        "sha256": "dde42e64a294eac9438a1e2568f449a2f499d1d913128bd1224a4d70f4c5b35b",
+        "gitBlobSha1": "9faea331b50d9c8dd355346f3e5b498e4d50e6c0",
+        "upstreamBlobSha1": "9faea331b50d9c8dd355346f3e5b498e4d50e6c0"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/nightcore-kick.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/nightcore-kick.wav",
+        "bytes": 303364,
+        "sha256": "28edb6cb632e2b62af40b0955a1e20bda58716d9918f66f77b0f8bbd618b250e",
+        "gitBlobSha1": "3eaaa3f788338406f72f6cc192555b2eb9654970",
+        "upstreamBlobSha1": "3eaaa3f788338406f72f6cc192555b2eb9654970"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/normal-hitclap.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/normal-hitclap.wav",
+        "bytes": 18368,
+        "sha256": "8eff6fd6927593de7ff964480d4aeabdf2647924d3cc4c15045ebfaa83e3dfc2",
+        "gitBlobSha1": "77063f6511d467fa835383cffbb4f267a7d82d32",
+        "upstreamBlobSha1": "77063f6511d467fa835383cffbb4f267a7d82d32"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/normal-hitfinish.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/normal-hitfinish.wav",
+        "bytes": 300336,
+        "sha256": "a723b41585f71d5ad0bec53a585fbe8c09497dbcd54683a05495b66a5f4ff43c",
+        "gitBlobSha1": "bed7efc7bca06ae0b65faf5421819bf44dca41e7",
+        "upstreamBlobSha1": "bed7efc7bca06ae0b65faf5421819bf44dca41e7"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/normal-hitnormal.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/normal-hitnormal.wav",
+        "bytes": 201380,
+        "sha256": "4ea26f94b4d0918309f0788214c79d26e412ee42bc8cb9518c661412e711c7f7",
+        "gitBlobSha1": "a62be76b70be4e540600d450b3e47cc9c5a7ad7a",
+        "upstreamBlobSha1": "a62be76b70be4e540600d450b3e47cc9c5a7ad7a"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/normal-hitwhistle.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/normal-hitwhistle.wav",
+        "bytes": 213964,
+        "sha256": "ce3a0f97152855dd9ba9fa3a9454892956f8618c79cf8f49fc37b315fb792433",
+        "gitBlobSha1": "7e6604ee2aa4c32a53fb275bae6e13c298788797",
+        "upstreamBlobSha1": "7e6604ee2aa4c32a53fb275bae6e13c298788797"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/normal-sliderslide.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/normal-sliderslide.wav",
+        "bytes": 223744,
+        "sha256": "bed0124d2cb24c524ac61555e4ecffbdbee12641f54d8497e93495b411c476b2",
+        "gitBlobSha1": "98e3b130625656ab1fef984e16ea5e20aafda92c",
+        "upstreamBlobSha1": "98e3b130625656ab1fef984e16ea5e20aafda92c"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/normal-slidertick.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/normal-slidertick.wav",
+        "bytes": 94284,
+        "sha256": "c2b9e60c1088b954dd6d6b657c682f7fabfabfe5bb47d8f5411eb9f0da2af45c",
+        "gitBlobSha1": "c457b965dc7c8e662b25f1db5cd9577cf34eef1b",
+        "upstreamBlobSha1": "c457b965dc7c8e662b25f1db5cd9577cf34eef1b"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/normal-sliderwhistle.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/normal-sliderwhistle.wav",
+        "bytes": 67256,
+        "sha256": "5b80e132dd7adf41d45f7e21352dc3420599474382dc87a3b1772f603ce32a81",
+        "gitBlobSha1": "332830172cd1065152b7c67231a49d98a7e4b23d",
+        "upstreamBlobSha1": "332830172cd1065152b7c67231a49d98a7e4b23d"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/particle100@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/particle100@2x.png",
+        "bytes": 4075,
+        "sha256": "83f9675eee58d235e65cb0030db92dafd45269e15a4d8d0939e1b14a6fe7213d",
+        "gitBlobSha1": "02e5a98229665a5ae8f9cab49d6c089e77efedf1",
+        "upstreamBlobSha1": "02e5a98229665a5ae8f9cab49d6c089e77efedf1"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/particle300@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/particle300@2x.png",
+        "bytes": 4383,
+        "sha256": "5ae9bc6162755275efe60f69a7bf95fe547b68c8b62d2ef0aaa16556cd711e5a",
+        "gitBlobSha1": "ced9ce65dd9e8667099717981a5ac5ae2ccd882d",
+        "upstreamBlobSha1": "ced9ce65dd9e8667099717981a5ac5ae2ccd882d"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/particle50@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/particle50@2x.png",
+        "bytes": 4078,
+        "sha256": "25ff67300ebdaf59059f1da0fc8213e3910165e473c87b24599984a7ca675374",
+        "gitBlobSha1": "3223fc1049ab223b42892fb03cdb17831f223e58",
+        "upstreamBlobSha1": "3223fc1049ab223b42892fb03cdb17831f223e58"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/reversearrow@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/reversearrow@2x.png",
+        "bytes": 7926,
+        "sha256": "fcdb990f36a2aef7cf8fd9b177c7268957db0f15a5d9b616a8b183c7181387bd",
+        "gitBlobSha1": "c402d7f3aa396abb401c5127de78fe13670cf88b",
+        "upstreamBlobSha1": "c402d7f3aa396abb401c5127de78fe13670cf88b"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/score-0@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/score-0@2x.png",
+        "bytes": 6010,
+        "sha256": "569431db91e5ab59e87705d5e8e03f6e7513237bceec7972c8ff8e3c892aafe0",
+        "gitBlobSha1": "cea176c4c20e8d86f61ab969d9232acb72b85459",
+        "upstreamBlobSha1": "cea176c4c20e8d86f61ab969d9232acb72b85459"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/score-1@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/score-1@2x.png",
+        "bytes": 3428,
+        "sha256": "eab6cf501b422a94078f8c2276f6aabd45515a8f1f85b834ac851163d293f68d",
+        "gitBlobSha1": "9162b4af3052b2b366bd34b6a99cede6fe325a5e",
+        "upstreamBlobSha1": "9162b4af3052b2b366bd34b6a99cede6fe325a5e"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/score-2@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/score-2@2x.png",
+        "bytes": 5710,
+        "sha256": "15c3ad2bb2edb1b3f621d36ebf2a0b67754e4623942373f66a483071d16a0c89",
+        "gitBlobSha1": "4e0031c966006bedae7f09c232433df0db94e16b",
+        "upstreamBlobSha1": "4e0031c966006bedae7f09c232433df0db94e16b"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/score-3@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/score-3@2x.png",
+        "bytes": 5918,
+        "sha256": "2a85ffd9f2911eb0782cbe9f606b1819f892f68eb7c07962028a109efa19c423",
+        "gitBlobSha1": "874e24200dde70796f0a2afc7bda298ff9425a5f",
+        "upstreamBlobSha1": "874e24200dde70796f0a2afc7bda298ff9425a5f"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/score-4@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/score-4@2x.png",
+        "bytes": 4765,
+        "sha256": "4fc95ebdf70b5961680a2f58ea0812479cb1aa81353aa8a9cece38f6945e5104",
+        "gitBlobSha1": "19ab5c5d33cdd72f9e831b9553a6358868cf3b0f",
+        "upstreamBlobSha1": "19ab5c5d33cdd72f9e831b9553a6358868cf3b0f"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/score-5@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/score-5@2x.png",
+        "bytes": 5157,
+        "sha256": "c4aacee6b222a35a7e082582f3b315591740b55dec39d5ef238aaa801b0e1b4e",
+        "gitBlobSha1": "e2365db4a468bc7f94ed39df1a6953502789c079",
+        "upstreamBlobSha1": "e2365db4a468bc7f94ed39df1a6953502789c079"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/score-6@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/score-6@2x.png",
+        "bytes": 6375,
+        "sha256": "e299e56f606d3cc37d8f4f93709356cfa59e12c2e3641854f47684859b82caaa",
+        "gitBlobSha1": "0af4bbdd34936c4842114d9876403b35cb376eda",
+        "upstreamBlobSha1": "0af4bbdd34936c4842114d9876403b35cb376eda"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/score-7@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/score-7@2x.png",
+        "bytes": 5766,
+        "sha256": "8851c9cf341943c6cc912b5ad1af095a314ef8b43f9f799b62fd98fa7228895a",
+        "gitBlobSha1": "9bb322461952d4d192657bc6940ead28d1971479",
+        "upstreamBlobSha1": "9bb322461952d4d192657bc6940ead28d1971479"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/score-8@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/score-8@2x.png",
+        "bytes": 7936,
+        "sha256": "4a63b7c77e0a651ec5204cac19550fe2043429f412aeb774c3568f2fc96a474f",
+        "gitBlobSha1": "4e4fdab7af5902fc1cb27f92503d4d5d76b1b3f5",
+        "upstreamBlobSha1": "4e4fdab7af5902fc1cb27f92503d4d5d76b1b3f5"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/score-9@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/score-9@2x.png",
+        "bytes": 6229,
+        "sha256": "1230dfeb8b311113a65a146c9c14daaa1aeed917ef837b572e04fbfa16332725",
+        "gitBlobSha1": "6cdd088ad81a45c14cc279507ed34e23b2723877",
+        "upstreamBlobSha1": "6cdd088ad81a45c14cc279507ed34e23b2723877"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/score-comma@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/score-comma@2x.png",
+        "bytes": 4121,
+        "sha256": "ab736d9cac22fdfa62e44633f0caa1487e5184fbc6608aacb0f96f4f31e5692f",
+        "gitBlobSha1": "23685e3fd5a57279749225eb01f1284eb6444494",
+        "upstreamBlobSha1": "23685e3fd5a57279749225eb01f1284eb6444494"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/score-dot@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/score-dot@2x.png",
+        "bytes": 3867,
+        "sha256": "4b2788a5635cd4e235d4631de8a7f60a53368fd6d53eb6b55b718e4d409db71c",
+        "gitBlobSha1": "85308ffad0a915840206af72516449bbce6e7581",
+        "upstreamBlobSha1": "85308ffad0a915840206af72516449bbce6e7581"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/score-percent@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/score-percent@2x.png",
+        "bytes": 9030,
+        "sha256": "669d38a974e7fe351d325a12281d197cda236392914d6336d121f27752b1ab5b",
+        "gitBlobSha1": "47b22454e834a73830161015692a76e5d4ca0e56",
+        "upstreamBlobSha1": "47b22454e834a73830161015692a76e5d4ca0e56"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/score-x@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/score-x@2x.png",
+        "bytes": 7191,
+        "sha256": "b83a9a8420ec3a577f0089d19c2089c7b98f86680cb0d4cb0b8ccbe706ebf685",
+        "gitBlobSha1": "99301600ca54457c7b1b7346c89b818115a677c2",
+        "upstreamBlobSha1": "99301600ca54457c7b1b7346c89b818115a677c2"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/scorebar-bg@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/scorebar-bg@2x.png",
+        "bytes": 142785,
+        "sha256": "4aa50042178fcc74b0e5463ceced6e12ae811beefa18bd5704ee8547b3053999",
+        "gitBlobSha1": "e938037cd1c49e49800a63deccc23e1aa22cc3ec",
+        "upstreamBlobSha1": "e938037cd1c49e49800a63deccc23e1aa22cc3ec"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/scorebar-colour@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/scorebar-colour@2x.png",
+        "bytes": 3551,
+        "sha256": "d40da65e910bc7d7959e15a15322574b20bb618a755b7cb21c8d4679a5e9e645",
+        "gitBlobSha1": "6cc2065d41308216f4d9d2ee252510dd7bb47e8d",
+        "upstreamBlobSha1": "6cc2065d41308216f4d9d2ee252510dd7bb47e8d"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/scorebar-marker@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/scorebar-marker@2x.png",
+        "bytes": 6959,
+        "sha256": "7c052a6e62ffd4833a2bc191b86bd7487db8e3e1f924251b4af667741ca0d30f",
+        "gitBlobSha1": "148aaef5352c6954556adfa58143741683daff3b",
+        "upstreamBlobSha1": "148aaef5352c6954556adfa58143741683daff3b"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/scoreboard-explosion-1@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/scoreboard-explosion-1@2x.png",
+        "bytes": 13218,
+        "sha256": "e777b0dbf6e6ed36d1649b4702e660a1b575c488c64ec2538cfc915793f948e7",
+        "gitBlobSha1": "051c3bf7680eb010e08bcdd5080d5436c4e13882",
+        "upstreamBlobSha1": "051c3bf7680eb010e08bcdd5080d5436c4e13882"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/scoreboard-explosion-2@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/scoreboard-explosion-2@2x.png",
+        "bytes": 7006,
+        "sha256": "a422b20a671042014142327b8aab386685ec9600a5de35a9ef3a750b3d1b492e",
+        "gitBlobSha1": "af80901b5b8a4e31f915bc5ac77ca5340627bdc4",
+        "upstreamBlobSha1": "af80901b5b8a4e31f915bc5ac77ca5340627bdc4"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sectionfail.mp3",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sectionfail.mp3",
+        "bytes": 25578,
+        "sha256": "ad0200b88cef0c05616b8018e8c9b4d6bca870f3204c81e458fbac5a456d2d4e",
+        "gitBlobSha1": "c10a02e09869aa395facc54628b9d35c21425f52",
+        "upstreamBlobSha1": "c10a02e09869aa395facc54628b9d35c21425f52"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sectionpass.mp3",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sectionpass.mp3",
+        "bytes": 27144,
+        "sha256": "325ec55047a0cd2b93522ae2b896b22c217f59cd6821b39f2a8898680ac33258",
+        "gitBlobSha1": "396f70113da2a9d582e8b6a956daab5919de666d",
+        "upstreamBlobSha1": "396f70113da2a9d582e8b6a956daab5919de666d"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sliderb-nd@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sliderb-nd@2x.png",
+        "bytes": 14258,
+        "sha256": "688625e31d6ec0ac689c000be6fcb0025c5e51e1d6d1962e6184a516f3adcccd",
+        "gitBlobSha1": "626fd91e386796be54e3ff952006082d90361319",
+        "upstreamBlobSha1": "626fd91e386796be54e3ff952006082d90361319"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sliderb-spec@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sliderb-spec@2x.png",
+        "bytes": 13141,
+        "sha256": "b25074a3ba158703b50766df999edeef6eb8a06b1288484cc3eb228fe528ead3",
+        "gitBlobSha1": "76fd9ab16807c2ef61dd2aa0db47c78262db03b2",
+        "upstreamBlobSha1": "76fd9ab16807c2ef61dd2aa0db47c78262db03b2"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sliderb0@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sliderb0@2x.png",
+        "bytes": 17053,
+        "sha256": "c121ffb194030e9bd7f94669ca1d8a6e09a6aa35ec0a6f8c9d6c96e63adc4319",
+        "gitBlobSha1": "0a24a72808cd1a8c31f06e46167401622ffbf1dc",
+        "upstreamBlobSha1": "0a24a72808cd1a8c31f06e46167401622ffbf1dc"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sliderb1@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sliderb1@2x.png",
+        "bytes": 17792,
+        "sha256": "f134b8a26ecff48538e2101c0876de51e2849048bd0dd7745a8ac72def74a87d",
+        "gitBlobSha1": "e99f076947aa7ca1614fe825839dd3d7b8dcc303",
+        "upstreamBlobSha1": "e99f076947aa7ca1614fe825839dd3d7b8dcc303"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sliderb2@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sliderb2@2x.png",
+        "bytes": 18268,
+        "sha256": "21cda2223cf5c3b6bf41bba2ac310648f02b6056ba258af3eb9c58c84dbfa3c7",
+        "gitBlobSha1": "cd36a0ae169e1d876012402b2b7aa34a13a179d6",
+        "upstreamBlobSha1": "cd36a0ae169e1d876012402b2b7aa34a13a179d6"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sliderb3@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sliderb3@2x.png",
+        "bytes": 18182,
+        "sha256": "a05631227967f2ab496b663e9d76689c8a127905dc638a7d239db0d2c9b28a56",
+        "gitBlobSha1": "f494bd3f5189d0737d53e443f256309f26f31821",
+        "upstreamBlobSha1": "f494bd3f5189d0737d53e443f256309f26f31821"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sliderb4@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sliderb4@2x.png",
+        "bytes": 18062,
+        "sha256": "054f26fa4e2f40edd78b1c760225be82bb50303c71e95eddb6788ad9cca4cd7d",
+        "gitBlobSha1": "a5b19887d64f0040da387029545dea15d85669c9",
+        "upstreamBlobSha1": "a5b19887d64f0040da387029545dea15d85669c9"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sliderb5@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sliderb5@2x.png",
+        "bytes": 16895,
+        "sha256": "f18f191b9da59cdd786ab6763bee98b9f75d4c46f382cb2ff30a14cdbf93bd46",
+        "gitBlobSha1": "4bb01f0e88229c6433c6363d7f7c725776372683",
+        "upstreamBlobSha1": "4bb01f0e88229c6433c6363d7f7c725776372683"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sliderb6@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sliderb6@2x.png",
+        "bytes": 16702,
+        "sha256": "e04b40763f851ed3cf5a49f6e2b671e00ac90802ea7751dcf6c3c7297c8faf7f",
+        "gitBlobSha1": "859e0aa4c1f0d548eda3fe4c6c02f7fc4af1831f",
+        "upstreamBlobSha1": "859e0aa4c1f0d548eda3fe4c6c02f7fc4af1831f"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sliderb7@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sliderb7@2x.png",
+        "bytes": 17139,
+        "sha256": "2d858f0af537ab2c09efdb4c207c2852bc3a18fd5a6c7e7709c0f785f227889d",
+        "gitBlobSha1": "90efda09945f3882b53801f1b8a1730758733ba9",
+        "upstreamBlobSha1": "90efda09945f3882b53801f1b8a1730758733ba9"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sliderb8@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sliderb8@2x.png",
+        "bytes": 17084,
+        "sha256": "156c1a05f4f28949f5ff5bc48b74fcb38f5457cc9ec68cb2696b09ee412ea9e6",
+        "gitBlobSha1": "fcdf4ed4a4a76808dbfe41e54a45d4433dc1320b",
+        "upstreamBlobSha1": "fcdf4ed4a4a76808dbfe41e54a45d4433dc1320b"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sliderb9@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sliderb9@2x.png",
+        "bytes": 17067,
+        "sha256": "499b96d2b94b259210b97013ea63c975bbb14227d85efcf78056764cde509722",
+        "gitBlobSha1": "c990cf0fe6784265e2419070a27459fa6f7b2fa0",
+        "upstreamBlobSha1": "c990cf0fe6784265e2419070a27459fa6f7b2fa0"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sliderfollowcircle@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sliderfollowcircle@2x.png",
+        "bytes": 74597,
+        "sha256": "a738874f05fd0ec2529388de9bc52468b1269bd96e5bcf2c5bd959cd43f46b3d",
+        "gitBlobSha1": "42fb8b447b87bd5bd384104f98839dea9abc683f",
+        "upstreamBlobSha1": "42fb8b447b87bd5bd384104f98839dea9abc683f"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/sliderscorepoint@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/sliderscorepoint@2x.png",
+        "bytes": 4809,
+        "sha256": "ef71e2eeda27f972197c6086dd4cec7d37f43f755ba40b1c8dbeb6c8c45c7c20",
+        "gitBlobSha1": "bcfdfc5773638c049c4b9235ae764d40370ab8c8",
+        "upstreamBlobSha1": "bcfdfc5773638c049c4b9235ae764d40370ab8c8"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/soft-hitclap.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/soft-hitclap.wav",
+        "bytes": 19476,
+        "sha256": "c5f771bd04099ee4472c402ff811e81d3ea83c7b9884755117ffc00018557597",
+        "gitBlobSha1": "f3b56a02db8103f45e90a19c52e88aa7c2197554",
+        "upstreamBlobSha1": "f3b56a02db8103f45e90a19c52e88aa7c2197554"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/soft-hitfinish.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/soft-hitfinish.wav",
+        "bytes": 402392,
+        "sha256": "1ac4cf399a5d598444c258ffb74fd5655b3396d804ed2f4571dd52f7658d631c",
+        "gitBlobSha1": "29565018b56c180bba5d917915241a12f612cefe",
+        "upstreamBlobSha1": "29565018b56c180bba5d917915241a12f612cefe"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/soft-hitnormal.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/soft-hitnormal.wav",
+        "bytes": 145508,
+        "sha256": "67ddd85be838217c26525d61be66bb41df700a5a14dcab000a59c4b47b262efa",
+        "gitBlobSha1": "dfe98b6dc44cb08b8ffaa053890463d41b85de68",
+        "upstreamBlobSha1": "dfe98b6dc44cb08b8ffaa053890463d41b85de68"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/soft-hitwhistle.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/soft-hitwhistle.wav",
+        "bytes": 145548,
+        "sha256": "d023d6020fcd3aad2663563af3475b81bc37faa3b4a6c247719e71b7ed5c7b4b",
+        "gitBlobSha1": "9ec7c0d9f93958e6228c0a94728252f0a021a865",
+        "upstreamBlobSha1": "9ec7c0d9f93958e6228c0a94728252f0a021a865"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/soft-sliderslide.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/soft-sliderslide.wav",
+        "bytes": 103760,
+        "sha256": "6528420dee6d4e92321b4e80c4616cabc430af2921f5494ffbdb53db92a45cb3",
+        "gitBlobSha1": "2b14f5fd659e69eacdd6e3e8750d2e826c0a627d",
+        "upstreamBlobSha1": "2b14f5fd659e69eacdd6e3e8750d2e826c0a627d"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/soft-slidertick.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/soft-slidertick.wav",
+        "bytes": 117804,
+        "sha256": "6aeff6d5b5bcd9b208d1c188877690a9fb08ce9ecbe86290472e0aa638d16127",
+        "gitBlobSha1": "d01981b9cd1fe6e204362678c302319d91fc62c9",
+        "upstreamBlobSha1": "d01981b9cd1fe6e204362678c302319d91fc62c9"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/soft-sliderwhistle.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/soft-sliderwhistle.wav",
+        "bytes": 47580,
+        "sha256": "b6e9fc47debfdff56028ea82a0de24403187ddd7e3cccd61c538ca20ba81f427",
+        "gitBlobSha1": "032431e209febce8d13dc55ea3b1aae069665d52",
+        "upstreamBlobSha1": "032431e209febce8d13dc55ea3b1aae069665d52"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/spinner-approachcircle@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/spinner-approachcircle@2x.png",
+        "bytes": 55344,
+        "sha256": "92ddec52fb966917f3119da891026b3d083a77461afa6fdcd7c63200187624da",
+        "gitBlobSha1": "ebfa3b3981c58854e240b00c4c087b878a9741eb",
+        "upstreamBlobSha1": "ebfa3b3981c58854e240b00c4c087b878a9741eb"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/spinner-bottom@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/spinner-bottom@2x.png",
+        "bytes": 1368275,
+        "sha256": "3080e3ec28bef328d5957d8c36fc8da54f9d9422ec4df9cb29c717ba8932fd41",
+        "gitBlobSha1": "63f4109527721450bdb9b50d7489e035eed86963",
+        "upstreamBlobSha1": "63f4109527721450bdb9b50d7489e035eed86963"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/spinner-circle@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/spinner-circle@2x.png",
+        "bytes": 815769,
+        "sha256": "6469d7e40a2311dd6cd7c4365cc1468d970ec51bf9a55e314806f11dc92cbdda",
+        "gitBlobSha1": "e3025f4d7cd4b6925ca2c49aac2689b0620b335a",
+        "upstreamBlobSha1": "e3025f4d7cd4b6925ca2c49aac2689b0620b335a"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/spinner-clear@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/spinner-clear@2x.png",
+        "bytes": 60375,
+        "sha256": "2ae93f5ac8d787864f28927660dc49633199a578ade2362b4ae7d383dd1c361c",
+        "gitBlobSha1": "22663a9a0509291727ae4c64ebe9d025afab51a7",
+        "upstreamBlobSha1": "22663a9a0509291727ae4c64ebe9d025afab51a7"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/spinner-glow@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/spinner-glow@2x.png",
+        "bytes": 836972,
+        "sha256": "2f916c1f86c704455bed501f022a920ad9fdd086fef6002c7c24fdb9af74fa5c",
+        "gitBlobSha1": "a7206b587931b4e39376473a65fce55446a6a3bd",
+        "upstreamBlobSha1": "a7206b587931b4e39376473a65fce55446a6a3bd"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/spinner-middle2@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/spinner-middle2@2x.png",
+        "bytes": 3637,
+        "sha256": "bd0cb45a78b120aacd3fc347de0a4ae8545b4da292d7c5c5db14a453ba0d443e",
+        "gitBlobSha1": "69c7096d44afade243a3c75190acc8919e4c9d1d",
+        "upstreamBlobSha1": "69c7096d44afade243a3c75190acc8919e4c9d1d"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/spinner-middle@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/spinner-middle@2x.png",
+        "bytes": 147829,
+        "sha256": "af2b92b976eb2916607539fc44620614eb7536e807829f03f7e717fbcd9c56be",
+        "gitBlobSha1": "4ffcf42f7de42a60b806a6a37f03869854cb9081",
+        "upstreamBlobSha1": "4ffcf42f7de42a60b806a6a37f03869854cb9081"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/spinner-rpm@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/spinner-rpm@2x.png",
+        "bytes": 20792,
+        "sha256": "2f9cd78f6b91dac191459ac3bfd88b54b27b638d6a6a18db188d8c2bcf7f00e9",
+        "gitBlobSha1": "55ddab5dcf0be949bb24e175bb91ef767769fdae",
+        "upstreamBlobSha1": "55ddab5dcf0be949bb24e175bb91ef767769fdae"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/spinner-spin@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/spinner-spin@2x.png",
+        "bytes": 74543,
+        "sha256": "3645695e943989a481cc5e9e535a93c19bd56c8c73856b4d7f7ee027703ab555",
+        "gitBlobSha1": "8e57158e983b39f8d1ae72470372671a9687e6ca",
+        "upstreamBlobSha1": "8e57158e983b39f8d1ae72470372671a9687e6ca"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/spinner-top@2x.png",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/spinner-top@2x.png",
+        "bytes": 659281,
+        "sha256": "1b56b1881f7ae50447123656a18b47a8a46ee0533b50c2c9d9469bdf5838ec65",
+        "gitBlobSha1": "aa0eb76b60e0d8918e31bdb3bc1f6d962452a63f",
+        "upstreamBlobSha1": "aa0eb76b60e0d8918e31bdb3bc1f6d962452a63f"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/spinnerbonus.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/spinnerbonus.wav",
+        "bytes": 309536,
+        "sha256": "0c54b23642a4abf3faf18c02d7a3a41cc6c3a0fb042a740dd6a9b30d26ce17e9",
+        "gitBlobSha1": "5e583e77aa7441b968e4ebc8de47da1033206c29",
+        "upstreamBlobSha1": "5e583e77aa7441b968e4ebc8de47da1033206c29"
+      },
+      {
+        "localPath": "resources/Skins/OsuDefaultSkin/spinnerspin.wav",
+        "upstreamPath": "osu.Game.Resources/Skins/Legacy/spinnerspin.wav",
+        "bytes": 36868,
+        "sha256": "3a5dabea4ffa34d5f1820d94d68a09c254a41fd903dc6583dcd1860d1ad67b9f",
+        "gitBlobSha1": "bba19381f1e02239684b517fd0e5d15ec1fd33ac",
+        "upstreamBlobSha1": "bba19381f1e02239684b517fd0e5d15ec1fd33ac"
+      }
+    ]
+  },
+  "embeddedModArtwork": {
+    "sourceFile": "apps/desktop/frontend/src/assets/full-map-mod-icons.ts",
+    "sourceFileSha256": "a9e4e6fd1bcafae6369b3ad18cb2a14b64e86c6f0282044dff2b1014e418e3c8",
+    "revision": "d8d01c29ce0f298159aea3644b947d8b4a1882a2",
+    "treeSourceUrl": "https://api.github.com/repos/ppy/osu-resources/git/trees/d8d01c29ce0f298159aea3644b947d8b4a1882a2?recursive=1",
+    "embeddedPngCount": 19,
+    "allMatched": true,
+    "files": [
+      {
+        "relativePath": "BeatmapDetails/mod-icon.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/BeatmapDetails/mod-icon.png",
+        "sha256": "2aac015394221125bb739f156d0e00a5ffcb088ca6267446a0a6fafe026f959a",
+        "gitBlobSha1": "f2b787a200fa90a495742eb1e6e7c41c6d2a0fd3",
+        "upstreamBlobSha1": "f2b787a200fa90a495742eb1e6e7c41c6d2a0fd3",
+        "bytes": 3138
+      },
+      {
+        "relativePath": "Mods/mod-touch-device.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-touch-device.png",
+        "sha256": "6bc6022da8b3e1148eea653c87b54eaf3b334f0b2d4fb73e74e8c117ffd64dc0",
+        "gitBlobSha1": "e0c967f46d28d222896c086bed7a1ce0ce4074a2",
+        "upstreamBlobSha1": "e0c967f46d28d222896c086bed7a1ce0ce4074a2",
+        "bytes": 1218
+      },
+      {
+        "relativePath": "Mods/mod-classic.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-classic.png",
+        "sha256": "38f5519910d7225d0c93e809957819ca82223b5fc1c45721685bcc7f85f4f765",
+        "gitBlobSha1": "d4787b6787e103f60aa9da0bf00b02c6770ed353",
+        "upstreamBlobSha1": "d4787b6787e103f60aa9da0bf00b02c6770ed353",
+        "bytes": 1346
+      },
+      {
+        "relativePath": "Mods/mod-difficulty-adjust.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-difficulty-adjust.png",
+        "sha256": "6361020e24eb8c002e3398171b605cdde9102f2b7c7386f8b7312f622ca45084",
+        "gitBlobSha1": "09872bcfdeb9668f7f177661b03acdc3f8739aaa",
+        "upstreamBlobSha1": "09872bcfdeb9668f7f177661b03acdc3f8739aaa",
+        "bytes": 959
+      },
+      {
+        "relativePath": "Mods/mod-autopilot.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-autopilot.png",
+        "sha256": "ca9c5bab2b88bd4b46ce1f61c886dd74ea3ce33a17da5cbb453ebd7112eaa817",
+        "gitBlobSha1": "fa6b140b9bdefa82ee5564ef7439bc3d82aa5691",
+        "upstreamBlobSha1": "fa6b140b9bdefa82ee5564ef7439bc3d82aa5691",
+        "bytes": 1458
+      },
+      {
+        "relativePath": "Mods/mod-autoplay.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-autoplay.png",
+        "sha256": "0000d472fac6d5ea9d65f304e06ebb13cfdfbb8b2974573f556bd62c7b7bc8d1",
+        "gitBlobSha1": "7b0a041f5ee688e397b780a130ea7dbd68cc3f71",
+        "upstreamBlobSha1": "7b0a041f5ee688e397b780a130ea7dbd68cc3f71",
+        "bytes": 1697
+      },
+      {
+        "relativePath": "Mods/mod-double-time.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-double-time.png",
+        "sha256": "a07665086283cfd812b89e06a385e68c615d447d17a6513029b8b53b9e32055b",
+        "gitBlobSha1": "653c96ad70aa12099562935c290a8ef79846bd01",
+        "upstreamBlobSha1": "653c96ad70aa12099562935c290a8ef79846bd01",
+        "bytes": 1466
+      },
+      {
+        "relativePath": "Mods/mod-easy.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-easy.png",
+        "sha256": "0331233b366590b8f6934c578ab44e356d891225ee302fff004df13c4f3f9d78",
+        "gitBlobSha1": "d97808c8377d960dc7595dc6a0cf4ce5f0bcfe86",
+        "upstreamBlobSha1": "d97808c8377d960dc7595dc6a0cf4ce5f0bcfe86",
+        "bytes": 1164
+      },
+      {
+        "relativePath": "Mods/mod-flashlight.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-flashlight.png",
+        "sha256": "2c87c5d8cc6bb3cd73148957f5000ddd0a634f9d31f594517e96d54eeb56e8a4",
+        "gitBlobSha1": "c45fdea45ad6b2af7ad68d78c452cd0b8a0aa739",
+        "upstreamBlobSha1": "c45fdea45ad6b2af7ad68d78c452cd0b8a0aa739",
+        "bytes": 1098
+      },
+      {
+        "relativePath": "Mods/mod-hidden.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-hidden.png",
+        "sha256": "f735d7e7d45a9bc3fe7206855b9ce69c992d2edb0d30331605d2a68dfd94680a",
+        "gitBlobSha1": "05f8907ec8b63513585f8be3eca48e122d1e8f56",
+        "upstreamBlobSha1": "05f8907ec8b63513585f8be3eca48e122d1e8f56",
+        "bytes": 982
+      },
+      {
+        "relativePath": "Mods/mod-hard-rock.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-hard-rock.png",
+        "sha256": "b35a31854e972a0aa9d06adcf4a1a05de309ef4926a2cf59b9d4397d634290c1",
+        "gitBlobSha1": "85e44e7d7229908c8f46fe5d236a580ad8fdd934",
+        "upstreamBlobSha1": "85e44e7d7229908c8f46fe5d236a580ad8fdd934",
+        "bytes": 1295
+      },
+      {
+        "relativePath": "Mods/mod-half-time.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-half-time.png",
+        "sha256": "613b5b9bb893b9e5c4b2b628bd0946ce48a0756b0e6d99985e70eb7866fd1c62",
+        "gitBlobSha1": "3d70ca484b909c3ed88c35b17c3faeb40244a3df",
+        "upstreamBlobSha1": "3d70ca484b909c3ed88c35b17c3faeb40244a3df",
+        "bytes": 1182
+      },
+      {
+        "relativePath": "Mods/mod-nightcore.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-nightcore.png",
+        "sha256": "dd8d903569ed959a835912b7ac10961bff50db2d1f97d2f48bff394865f63981",
+        "gitBlobSha1": "47695ef8e33b9d593a5936ea6b446f18e303643a",
+        "upstreamBlobSha1": "47695ef8e33b9d593a5936ea6b446f18e303643a",
+        "bytes": 1333
+      },
+      {
+        "relativePath": "Mods/mod-no-fail.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-no-fail.png",
+        "sha256": "ce5096f9a14891c35d7351dc753d001de18faaebe7a1663bcc5102fc6d8b9b48",
+        "gitBlobSha1": "a6890c7884175f7aad8fd74573d1dd7bbe64fa8b",
+        "upstreamBlobSha1": "a6890c7884175f7aad8fd74573d1dd7bbe64fa8b",
+        "bytes": 1559
+      },
+      {
+        "relativePath": "Mods/mod-perfect.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-perfect.png",
+        "sha256": "e5576fbe18a59865f08dbc7f2f7afe9bdf795bc59d63eb516502d1f0f2f9e4f6",
+        "gitBlobSha1": "232fe1a7d1e38e1d66aa1ad4fb325f89bbc22033",
+        "upstreamBlobSha1": "232fe1a7d1e38e1d66aa1ad4fb325f89bbc22033",
+        "bytes": 1164
+      },
+      {
+        "relativePath": "Mods/mod-relax.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-relax.png",
+        "sha256": "75f758215df48f9afb8c4226f2e3443461a4bd43f23460812904569b6fb088af",
+        "gitBlobSha1": "8250846caaa6e01c4b004452f28853c7852b59a2",
+        "upstreamBlobSha1": "8250846caaa6e01c4b004452f28853c7852b59a2",
+        "bytes": 1097
+      },
+      {
+        "relativePath": "Mods/mod-sudden-death.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-sudden-death.png",
+        "sha256": "3f8254403a196a04f328bb6c9717773fe43ef863fb4f17c4e5c08ff45625c687",
+        "gitBlobSha1": "ad2ff83bcadc5bdcf8fa272f4bc8dc8538b4e194",
+        "upstreamBlobSha1": "ad2ff83bcadc5bdcf8fa272f4bc8dc8538b4e194",
+        "bytes": 1627
+      },
+      {
+        "relativePath": "Mods/mod-spun-out.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-spun-out.png",
+        "sha256": "be74a81063bef30417eb1e5734eed8a5e42d4ea600acbe9c2bd0f4263f603054",
+        "gitBlobSha1": "19724c5bae41077a48aaf2525a2a677f079180c0",
+        "upstreamBlobSha1": "19724c5bae41077a48aaf2525a2a677f079180c0",
+        "bytes": 1417
+      },
+      {
+        "relativePath": "Mods/mod-score-v2.png",
+        "upstreamPath": "osu.Game.Resources/Textures/Icons/Mods/mod-score-v2.png",
+        "sha256": "311095d98f2f97ad5f7eeb7fd17bf9a206eb6b289ac98c1417892ca8d0cfdd9c",
+        "gitBlobSha1": "87d5e455d475ae1889a1ff1293d60223228afcf8",
+        "upstreamBlobSha1": "87d5e455d475ae1889a1ff1293d60223228afcf8",
+        "bytes": 1726
+      }
+    ]
+  }
+}

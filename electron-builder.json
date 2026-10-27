@@ -1,0 +1,62 @@
+{
+  "appId": "dev.hindsight.app",
+  "productName": "Hindsight",
+  "copyright": "Copyright (c) 2021 abstrakt",
+  "afterPack": "tools/release/windows-branding.cjs",
+  "extraMetadata": {
+    "productName": "Hindsight"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  },
+  "win": {
+    "icon": "apps/desktop/frontend/src/favicon.ico"
+  },
+  "directories": {
+    "output": "dist/electron",
+    "buildResources": "tools/electron-builder/build-resources",
+    "app": "."
+  },
+  "files": [
+    {
+      "from": "dist/apps/desktop",
+      "filter": [
+        "index.js",
+        "library-utility.js",
+        "library-resource-utility.js",
+        "library-analysis-utility.js",
+        "replay-read-worker.js",
+        "assets"
+      ]
+    },
+    {
+      "from": "dist/apps/desktop/frontend",
+      "to": "frontend"
+    },
+    "package.json"
+  ],
+  "extraResources": [
+    {
+      "from": "resources/clip-media",
+      "to": "clip-media"
+    },
+    {
+      "from": "resources/performance-engine",
+      "to": "performance-engine"
+    },
+    {
+      "from": "resources/Skins",
+      "to": "Skins"
+    },
+    {
+      "from": "LICENSE.md",
+      "to": "LICENSE.md"
+    },
+    {
+      "from": "THIRD-PARTY-LICENSES",
+      "to": "third-party-notices"
+    }
+  ],
+  "publish": null
+}

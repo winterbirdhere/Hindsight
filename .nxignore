@@ -1,0 +1,16 @@
+# Local evidence, snapshots and trial outputs are not Nx project sources.
+/qa
+/manual-trials
+/release-preparation
+/.codex-backups
+/backups
+/.qa
+/.superpowers
+/.video_check_20260831
+/%SystemDrive%
+/engine/**/bin
+/engine/**/obj
+# Never inspect credentials as build-graph inputs.
+/.env
+/.env.*
+/secrets

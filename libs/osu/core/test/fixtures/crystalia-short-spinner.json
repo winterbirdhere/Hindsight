@@ -1,0 +1,299 @@
+[
+  {
+    "actions": [],
+    "position": {
+      "x": 252,
+      "y": 146.3333
+    },
+    "rawButtonMask": 0,
+    "time": 27249
+  },
+  {
+    "actions": [],
+    "position": {
+      "x": 251.6667,
+      "y": 146.3333
+    },
+    "rawButtonMask": 0,
+    "time": 27273
+  },
+  {
+    "actions": [],
+    "position": {
+      "x": 251,
+      "y": 146.6667
+    },
+    "rawButtonMask": 0,
+    "time": 27299
+  },
+  {
+    "actions": [],
+    "position": {
+      "x": 251,
+      "y": 146.6667
+    },
+    "rawButtonMask": 0,
+    "time": 27324
+  },
+  {
+    "actions": [],
+    "position": {
+      "x": 251,
+      "y": 146.6667
+    },
+    "rawButtonMask": 0,
+    "time": 27349
+  },
+  {
+    "actions": [],
+    "position": {
+      "x": 251,
+      "y": 146.6667
+    },
+    "rawButtonMask": 0,
+    "time": 27372
+  },
+  {
+    "actions": [],
+    "position": {
+      "x": 251,
+      "y": 146.6667
+    },
+    "rawButtonMask": 0,
+    "time": 27399
+  },
+  {
+    "actions": [],
+    "position": {
+      "x": 251,
+      "y": 149.3333
+    },
+    "rawButtonMask": 0,
+    "time": 27424
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 252.6667,
+      "y": 159
+    },
+    "rawButtonMask": 10,
+    "time": 27448
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 255.6667,
+      "y": 177.3333
+    },
+    "rawButtonMask": 10,
+    "time": 27472
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 257.3333,
+      "y": 203
+    },
+    "rawButtonMask": 10,
+    "time": 27498
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 254.3333,
+      "y": 224
+    },
+    "rawButtonMask": 10,
+    "time": 27525
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 246.6667,
+      "y": 230.6667
+    },
+    "rawButtonMask": 10,
+    "time": 27549
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 237.3333,
+      "y": 227.6667
+    },
+    "rawButtonMask": 10,
+    "time": 27573
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 224,
+      "y": 209.3333
+    },
+    "rawButtonMask": 10,
+    "time": 27598
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 217.3333,
+      "y": 183.3333
+    },
+    "rawButtonMask": 10,
+    "time": 27624
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 223,
+      "y": 158
+    },
+    "rawButtonMask": 10,
+    "time": 27648
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 237.3333,
+      "y": 148
+    },
+    "rawButtonMask": 10,
+    "time": 27673
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 250.6667,
+      "y": 151.6667
+    },
+    "rawButtonMask": 10,
+    "time": 27699
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 255,
+      "y": 173.3333
+    },
+    "rawButtonMask": 10,
+    "time": 27723
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 250.3333,
+      "y": 209
+    },
+    "rawButtonMask": 10,
+    "time": 27748
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 233.3333,
+      "y": 234
+    },
+    "rawButtonMask": 10,
+    "time": 27776
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 220.3333,
+      "y": 236.3333
+    },
+    "rawButtonMask": 10,
+    "time": 27798
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 214.6667,
+      "y": 225.3333
+    },
+    "rawButtonMask": 10,
+    "time": 27824
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 218.3333,
+      "y": 206
+    },
+    "rawButtonMask": 10,
+    "time": 27848
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 232.3333,
+      "y": 184.6667
+    },
+    "rawButtonMask": 10,
+    "time": 27875
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 245.6667,
+      "y": 174.6667
+    },
+    "rawButtonMask": 10,
+    "time": 27900
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 250.3333,
+      "y": 176.6667
+    },
+    "rawButtonMask": 10,
+    "time": 27925
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 248,
+      "y": 186.6667
+    },
+    "rawButtonMask": 10,
+    "time": 27948
+  },
+  {
+    "actions": [1],
+    "position": {
+      "x": 241,
+      "y": 198
+    },
+    "rawButtonMask": 10,
+    "time": 27975
+  },
+  {
+    "actions": [],
+    "position": {
+      "x": 240,
+      "y": 199
+    },
+    "rawButtonMask": 0,
+    "time": 27994
+  },
+  {
+    "actions": [],
+    "position": {
+      "x": 240,
+      "y": 199
+    },
+    "rawButtonMask": 0,
+    "time": 27998
+  },
+  {
+    "actions": [],
+    "position": {
+      "x": 240,
+      "y": 199
+    },
+    "rawButtonMask": 0,
+    "time": 28001
+  }
+]

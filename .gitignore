@@ -1,0 +1,91 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Custom
+/logs/
+
+# Local coding-agent data; shared instructions and skills remain visible
+/CLAUDE.local.md
+/.claude/settings.local.json
+/.claude/worktrees/
+
+# Local release inputs, evidence and generated output
+/SOURCE-MANIFEST.json
+/release-preparation/
+/.nx/
+/.cache/
+/engine/**/bin/
+/engine/**/obj/
+/resources/performance-engine/
+/resources/Skins/
+/resources/clip-media/win-x64/ffmpeg.exe
+/.env
+/.env.*
+/electron-builder.env
+/.npmrc
+/.yarnrc
+*.pfx
+*.p12
+
+# Private local state must never enter an independent source repository
+/.codex/
+/.agents/
+/.claude/
+/.superpowers/
+/.codex-backups/
+/qa/
+/profiles/
+/profile/
+/work/
+/manifests/
+/backups/
+/manual-trials/
+/RELEASE-HANDOFF.md
+/HANDOFF-READY.json
+*.pem
+*.key
+*.osr
+*.osz
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.realm

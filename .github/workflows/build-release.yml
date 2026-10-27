@@ -1,0 +1,45 @@
+name: Build Windows x64 (manual, no publication)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Linux and macOS remain planned targets. Enable their release jobs after the
+# native helper is built and validated for each platform; it currently targets win-x64.
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: nschloe/action-cached-lfs-checkout@v1
+
+      - name: Install Windows build Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24.14.0
+
+      - name: Install Windows build .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.423
+
+      - name: Install pinned Windows dependencies
+        shell: pwsh
+        run: |
+          npm install --global yarn@1.22.22
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          yarn install --frozen-lockfile --non-interactive
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+      - name: Verify Windows desktop code
+        run: npm run verify
+
+      - name: Compile Windows desktop and performance engine
+        run: npm run desktop:compile
+
+      - name: Package Windows x64 desktop without publishing
+        shell: pwsh
+        run: yarn electron-builder --win --x64 --publish never
