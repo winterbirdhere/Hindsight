@@ -1,0 +1,199 @@
+[
+  {
+    "filename": "HidSharpCore-1.3.0-UPSTREAM-LICENSE",
+    "source": "https://raw.githubusercontent.com/OpenTabletDriver/HIDSharpCore/bca4aee1c349985b0119eed24aba83e2dd63492d/LICENSE",
+    "packages": [
+      "HidSharpCore/1.3.0"
+    ],
+    "sha256": "5a8d64621a9bf5f600cfea2022ea8c23c35b15d56a35e88c8513cbf8ca7f5741",
+    "bytes": 10786
+  },
+  {
+    "filename": "APACHE-2.0.txt",
+    "source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "packages": [
+      "Remotion.Linq/2.2.0",
+      "SixLabors.ImageSharp/3.1.11"
+    ],
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "filename": "TagLibSharp-2.3.0-AUTHORS",
+    "source": "https://raw.githubusercontent.com/mono/taglib-sharp/b5ae84f2e84087bf160bb0471420200dd2b5d809/AUTHORS",
+    "packages": [
+      "TagLibSharp/2.3.0"
+    ],
+    "sha256": "90da58ec1980154bd38d9991b314dc2db9a3e8526df77ccdf8b936871231db41",
+    "bytes": 717
+  },
+  {
+    "filename": "TagLibSharp-2.3.0-PINNED-COPYING",
+    "source": "https://raw.githubusercontent.com/mono/taglib-sharp/b5ae84f2e84087bf160bb0471420200dd2b5d809/COPYING",
+    "packages": [
+      "TagLibSharp/2.3.0"
+    ],
+    "sha256": "6095e9ffa777dd22839f7801aa845b31c9ed07f3d6bf8a26dc5d2dec8ccc0ef3",
+    "bytes": 26432
+  },
+  {
+    "filename": "ppy.Veldrid.SPIRV-1.0.15-SPIRV-Cross-LICENSE",
+    "source": "https://raw.githubusercontent.com/KhronosGroup/SPIRV-Cross/f51773b81cd2c21dd04444839723814235e36b7e/LICENSE",
+    "packages": [
+      "ppy.Veldrid.SPIRV/1.0.15-g5911265ec3"
+    ],
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "filename": "sources/OpenTabletDriver-0.6.7-736003ed.zip",
+    "source": "https://codeload.github.com/OpenTabletDriver/OpenTabletDriver/zip/736003ed72c8bbb28033b039d5a0bb76c344145c",
+    "packages": [
+      "OpenTabletDriver/0.6.7",
+      "OpenTabletDriver.Configurations/0.6.7",
+      "OpenTabletDriver.Native/0.6.7",
+      "OpenTabletDriver.Plugin/0.6.7"
+    ],
+    "sha256": "a02d289717453537e27713d080d9f0a8e9800148b64dd42a72d42d55c2918f99",
+    "bytes": 957198
+  },
+  {
+    "filename": "sources/TagLibSharp-2.3.0-b5ae84f2.zip",
+    "source": "https://codeload.github.com/mono/taglib-sharp/zip/b5ae84f2e84087bf160bb0471420200dd2b5d809",
+    "packages": [
+      "TagLibSharp/2.3.0"
+    ],
+    "sha256": "698113bfd7f12677feae51b738c4388cd2ece5c30bd7985a9326be45aef34cc7",
+    "bytes": 935820,
+    "archiveModification": "Excluded src/TaglibSharp.Tests (test code and binary media fixtures) only. Complete TaglibSharp library source, build configuration, examples and license files remain unchanged. Build src/TaglibSharp/TaglibSharp.csproj directly."
+  },
+  {
+    "filename": "GPL-3.0.txt",
+    "source": "https://raw.githubusercontent.com/gcc-mirror/gcc/master/COPYING3",
+    "packages": [
+      "OpenTabletDriver/0.6.7",
+      "OpenTabletDriver.Configurations/0.6.7",
+      "OpenTabletDriver.Native/0.6.7",
+      "OpenTabletDriver.Plugin/0.6.7"
+    ],
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "bytes": 35147
+  },
+  {
+    "filename": "SDL3-native-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/libsdl-org/SDL/f0e99e7c7f9aa90d5ce2e3b8a69f72c23faf257e/LICENSE.txt",
+    "packages": [
+      "ppy.SDL3-CS/2026.629.0"
+    ],
+    "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd",
+    "bytes": 884
+  },
+  {
+    "filename": "SDL2-native-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/libsdl-org/SDL/SDL2/LICENSE.txt",
+    "packages": [
+      "ppy.SDL2-CS/1.0.741-alpha"
+    ],
+    "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd",
+    "bytes": 884
+  },
+  {
+    "filename": "stb_image-native-LICENSE",
+    "source": "https://raw.githubusercontent.com/nothings/stb/master/LICENSE",
+    "packages": [
+      "StbiSharp/1.1.0"
+    ],
+    "sha256": "bebfe904b14301657e4e5d655c811d51fd31b97c455b9cc2d8600d6bac6cff63",
+    "bytes": 2510
+  },
+  {
+    "filename": "ppy.Veldrid.SPIRV-native-dependencies.json",
+    "source": "https://raw.githubusercontent.com/mellinoe/veldrid-spirv/5911265ec37f81935237b7e5fadf2e6a07f60a96/ext/known_good.json",
+    "packages": [
+      "ppy.Veldrid.SPIRV/1.0.15-g5911265ec3"
+    ],
+    "sha256": "d13cab51a775a5f1b0efaa1b9f6544f969c1fc6332d82bc47bb1cc6fa06ba59e",
+    "bytes": 1411
+  },
+  {
+    "filename": "ppy.Veldrid.SPIRV-glslang-LICENSE",
+    "source": "https://raw.githubusercontent.com/KhronosGroup/glslang/c34bb3b6c55f6ab084124ad964be95a699700d34/LICENSE.txt",
+    "packages": [
+      "ppy.Veldrid.SPIRV/1.0.15-g5911265ec3"
+    ],
+    "sha256": "adb783e734e906d1f46db5df29991dbde84bdb0ceab502ac2febb44fe3c2b5f4",
+    "bytes": 54705
+  },
+  {
+    "filename": "ppy.Veldrid.SPIRV-re2-LICENSE",
+    "source": "https://raw.githubusercontent.com/google/re2/7107ebc4fbf7205151d8d2a57b2fc6e7853125d4/LICENSE",
+    "packages": [
+      "ppy.Veldrid.SPIRV/1.0.15-g5911265ec3"
+    ],
+    "sha256": "6040cda75d90b1738292a631d89934c411ef7ffd543c4d6a1b7edfc8edf29449",
+    "bytes": 1558
+  },
+  {
+    "filename": "ppy.Veldrid.SPIRV-effcee-LICENSE",
+    "source": "https://raw.githubusercontent.com/google/effcee/2ec8f8738118cc483b67c04a759fee53496c5659/LICENSE",
+    "packages": [
+      "ppy.Veldrid.SPIRV/1.0.15-g5911265ec3"
+    ],
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357
+  },
+  {
+    "filename": "ppy.Veldrid.SPIRV-googletest-LICENSE",
+    "source": "https://raw.githubusercontent.com/google/googletest/d9c309fdab807b716c2cf4d4a42989b8c34f712a/LICENSE",
+    "packages": [
+      "ppy.Veldrid.SPIRV/1.0.15-g5911265ec3"
+    ],
+    "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138",
+    "bytes": 1475
+  },
+  {
+    "filename": "ppy.Veldrid.SPIRV-shaderc-LICENSE",
+    "source": "https://raw.githubusercontent.com/google/shaderc/1bbf43f210941ba69a2cd05cf3529063f1ff5bb9/LICENSE",
+    "packages": [
+      "ppy.Veldrid.SPIRV/1.0.15-g5911265ec3"
+    ],
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357
+  },
+  {
+    "filename": "ppy.Veldrid.SPIRV-spirv-headers-LICENSE",
+    "source": "https://raw.githubusercontent.com/KhronosGroup/SPIRV-Headers/b42ba6d92faf6b4938e6f22ddd186dbdacc98d78/LICENSE",
+    "packages": [
+      "ppy.Veldrid.SPIRV/1.0.15-g5911265ec3"
+    ],
+    "sha256": "9b243f6f0bf44e295ff411a0f7b7642d1d0dff7cdc42507e9f7206f439e51b5a",
+    "bytes": 1309
+  },
+  {
+    "filename": "ppy.Veldrid.SPIRV-spirv-tools-LICENSE",
+    "source": "https://raw.githubusercontent.com/KhronosGroup/SPIRV-Tools/b846f8f1dc2d79f2b5ce27d5ad901f885da1cf82/LICENSE",
+    "packages": [
+      "ppy.Veldrid.SPIRV/1.0.15-g5911265ec3"
+    ],
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "filename": "runtimepack.Microsoft.NETCore.App.Runtime.win-x64-8.0.30-LICENSE.TXT",
+    "source": "NuGet:Microsoft.NETCore.App.Runtime.win-x64/8.0.30/LICENSE.TXT",
+    "packages": [
+      "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/8.0.30"
+    ],
+    "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b",
+    "bytes": 1139
+  },
+  {
+    "filename": "runtimepack.Microsoft.NETCore.App.Runtime.win-x64-8.0.30-THIRD-PARTY-NOTICES.TXT",
+    "source": "NuGet:Microsoft.NETCore.App.Runtime.win-x64/8.0.30/THIRD-PARTY-NOTICES.TXT",
+    "packages": [
+      "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/8.0.30"
+    ],
+    "sha256": "b60b2912da28eaa6518593c9e2efb5334ee062d3c42e80d8fdfa806b3dc52977",
+    "bytes": 68910
+  }
+]

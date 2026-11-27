@@ -1,0 +1,17 @@
+{
+  "name": "FFmpeg",
+  "version": "9.0.1",
+  "provider": "MSYS2 UCRT64, release 9.0.1-3",
+  "platform": "win32-x64",
+  "executable": "win-x64/ffmpeg.exe",
+  "executableBytes": 499907,
+  "executableSha256": "a0a27ba8ff922b3900bacfb70d4b5db54d941c8de02e30e3d514d6557076c5b5",
+  "runtimeLock": "runtime-lock.json",
+  "runtimeLockSha256": "ed9465bb93d3a864e1579a91a4a9fb50e08bd28173716f9bcacc3fc3d723d9fc",
+  "correspondingSource": [
+    "FFmpeg-MSYS2-9.0.1-3-source-packages.zip",
+    "Hindsight-FFmpeg-MSYS2-Rust-Sources-and-Notices.zip",
+    "Hindsight-FFmpeg-librsvg-Windows-Support-Alternatives.zip",
+    "Hindsight-FFmpeg-Rust-Compiler-RT-Builtins-Sources.zip"
+  ]
+}

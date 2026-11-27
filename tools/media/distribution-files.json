@@ -1,0 +1,8 @@
+{
+  "resources/clip-media/README.md": "fae375fce5bfabd022cbe4f09dbb75bbe5fede2665e785eb10bede4d6ec4bf63",
+  "resources/clip-media/runtime-lock.json": "ed9465bb93d3a864e1579a91a4a9fb50e08bd28173716f9bcacc3fc3d723d9fc",
+  "resources/clip-media/runtime.json": "c4bc753e16e4729c16f83b56ff50c7c8cdb8388167b00621ef5a9cd288aff20a",
+  "resources/third-party-notices/ffmpeg/COMPILER-RT-NOTICES.zip": "5c53bd7951261042f97f1c55df4716125f511a2cf7843d76702b9918f79c9521",
+  "resources/third-party-notices/ffmpeg/PACKAGE-NOTICES.zip": "460fab1e1d2498b4e50fde66e150216c3c4719cfdb666d5ce1b9f83dda8485b8",
+  "resources/third-party-notices/ffmpeg/RUST-NOTICES.zip": "9d241340981ec429fba60918a5d86ff4610b0556f0dc954ac7b5dd1795caee10"
+}

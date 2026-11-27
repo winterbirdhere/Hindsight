@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rewind Desktop API</title>
+</head>
+<body>
+
+This window (Renderer) runs the small "backend" for the Rewind application .
+
+Open the console (Ctrl+Shift+I) to see the API logs.
+
+<!--
+https://github.com/electron/electron/issues/2863#issuecomment-142158983
+Can't use  <script src="...">, we MUST use `require`.
+-->
+<script>
+  require("../main.js");
+</script>
+</body>
+</html>

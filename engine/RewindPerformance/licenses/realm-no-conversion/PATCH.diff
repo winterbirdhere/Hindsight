@@ -1,0 +1,183 @@
+--- before/wrappers/src/shared_realm_cs.cpp
++++ after/wrappers/src/shared_realm_cs.cpp
+@@ -17,9 +17,14 @@
+ ////////////////////////////////////////////////////////////////////////////
+ 
+ 
++// Hindsight local fork, 2026-11-01: irreversible before-first-open conversion
++// refusal. Upstream Realm.NET 370ce596a0cf5e992b717bb199d70e55391ff2b9.
++// Existing ABI declarations are unchanged; see the fork's PATCH.md.
++
+ #include "error_handling.hpp"
+ #include "realm_export_decls.hpp"
+ #include "shared_realm_cs.hpp"
++#include "rewind_no_conversion_policy.hpp"
+ #include "notifications_cs.hpp"
+ #include "filter.hpp"
+ 
+@@ -40,6 +45,10 @@
+ using namespace realm;
+ using namespace realm::binding;
+ using namespace realm::util;
++
++namespace {
++    RewindNoConversionPolicy s_no_conversion_policy;
++}
+ 
+ using OpenRealmCallbackT = void(void* task_completion_source, ThreadSafeReference* ref, NativeException::Marshallable ex);
+ using RealmChangedT = void(void* managed_state_handle);
+@@ -247,10 +256,28 @@
+     return TypeErasedMarshaledVector::for_marshalling(result);
+ }
+ 
++REALM_EXPORT uint32_t shared_realm_enable_no_conversion_policy_v1(uint32_t version, uint32_t guarantees) noexcept
++{
++    return static_cast<uint32_t>(s_no_conversion_policy.install(version, guarantees));
++}
++
+ REALM_EXPORT SharedRealm* shared_realm_open(Configuration configuration, NativeException::Marshallable& ex)
+ {
+     return handle_errors(ex, [&]() {
++        // Preserve the existing transfer/release of configuration.managed_config
++        // before any new refusal. This constructs configuration only, not a DB.
+         Realm::Config config = get_shared_realm_config(configuration);
++        const bool protected_open = s_no_conversion_policy.before_open(configuration.read_only);
++        if (protected_open) {
++            // Only the dynamic, existing-schema helper contract is admitted.
++            // A null schema keeps Core from invoking update_schema/migration.
++            if (configuration.schema.objects.size() || configuration.in_memory ||
++                configuration.use_legacy_guid_representation || configuration.delete_if_migration_needed ||
++                configuration.invoke_initial_data_callback || configuration.invoke_should_compact_callback) {
++                throw std::runtime_error("hindsight-no-conversion:unsupported-configuration");
++            }
++            config.disable_format_upgrade = true;
++        }
+         config.in_memory = configuration.in_memory;
+         config.automatically_handle_backlinks_in_migrations = configuration.automatically_migrate_embedded;
+ 
+@@ -261,12 +288,17 @@
+         }
+ 
+         auto realm = Realm::get_shared_realm(std::move(config));
++        if (protected_open && !configuration.read_only && realm->schema_version() != configuration.schema_version)
++            throw std::runtime_error("hindsight-no-conversion:schema-version-mismatch");
+         if (!configuration.use_legacy_guid_representation && requires_guid_representation_fix(realm)) {
+             if (configuration.read_only) {
+                 static constexpr char message_format[] = "Realm at path %1 may contain legacy Guid values but is opened as readonly so it cannot be migrated. This is only an issue if the file was created with Realm.NET prior to 10.10.0 and uses Guid properties. See the 10.10.0 release notes for more information.";
+                 Logger::get_default_logger()->log(Logger::Level::warn, message_format, realm->config().path);
+             }
+             else {
++                // Refuse before either GUID repair or its marker transaction.
++                if (protected_open)
++                    throw std::runtime_error("hindsight-no-conversion:guid-migration-required");
+                 bool found_non_v4_uuid = false;
+                 bool found_guid_columns = false;
+                 apply_guid_representation_fix(realm, found_non_v4_uuid, found_guid_columns);
+@@ -477,7 +509,12 @@
+ REALM_EXPORT SharedRealm* shared_realm_resolve_realm_reference(ThreadSafeReference& reference, NativeException::Marshallable& ex)
+ {
+     return handle_errors(ex, [&]() {
++        const bool protected_open = s_no_conversion_policy.before_reference_open();
++        // Core 20.1.2 resolves an existing Realm and reuses its configuration;
++        // it does not create a new DB configuration in this overload.
+         auto realm = Realm::get_shared_realm(std::move(reference));
++        if (protected_open ? !realm->config().disable_format_upgrade : !realm->config().immutable())
++            throw std::runtime_error("hindsight-no-conversion:reference-policy-mismatch");
+         return new_realm(std::move(realm));
+     });
+ }
+@@ -490,6 +527,12 @@
+ REALM_EXPORT void shared_realm_write_copy(const SharedRealm& realm, Configuration configuration, NativeException::Marshallable& ex)
+ {
+     handle_errors(ex, [&]() {
++        if (s_no_conversion_policy.enabled()) {
++            // WriteCopy transfers this GCHandle too. Adopt it before refusing;
++            // do not leak it or reach convert's independently configured open.
++            GCHandleHolder configuration_handle(configuration.managed_config);
++            throw std::runtime_error("hindsight-no-conversion:write-copy-not-supported");
++        }
+         Realm::Config config;
+ 
+         config.path = capi_to_std(configuration.path);
+
+--- /dev/null
++++ after/wrappers/src/rewind_no_conversion_policy.hpp
+@@ -0,0 +1,78 @@
++// SPDX-License-Identifier: Apache-2.0
++// Hindsight local fork addition, 2026-11-01. See the fork's PATCH.md.
++// Private C++ state only: no existing managed/native structure is changed.
++#pragma once
++
++#include <atomic>
++#include <cstdint>
++#include <stdexcept>
++
++namespace realm::binding {
++
++class RewindNoConversionPolicy {
++public:
++    static constexpr uint32_t contract_version = 1;
++    static constexpr uint32_t required_guarantees = 3; // 1: no format upgrade; 2: no GUID repair/marker
++
++    enum class InstallResult : uint32_t {
++        Installed = 0,
++        ContractMismatch = 1,
++        GuaranteesMismatch = 2,
++        AlreadyInstalled = 3,
++        OpenAlreadyAttempted = 4,
++    };
++
++    InstallResult install(uint32_t version, uint32_t guarantees) noexcept
++    {
++        if (version != contract_version)
++            return InstallResult::ContractMismatch;
++        if (guarantees != required_guarantees)
++            return InstallResult::GuaranteesMismatch;
++        auto expected = State::Fresh;
++        if (m_state.compare_exchange_strong(expected, State::Enabled))
++            return InstallResult::Installed;
++        return expected == State::Enabled ? InstallResult::AlreadyInstalled : InstallResult::OpenAlreadyAttempted;
++    }
++
++    bool before_open(bool read_only)
++    {
++        auto state = m_state.load();
++        for (;;) {
++            if (state == State::Fresh || state == State::Enabled) {
++                auto next = state == State::Enabled ? State::OpenedProtected : State::OpenedUnprotected;
++                if (!m_state.compare_exchange_weak(state, next))
++                    continue;
++                state = next;
++            }
++            if (state == State::OpenedProtected)
++                return true;
++            if (!read_only)
++                throw std::runtime_error("hindsight-no-conversion:policy-missing");
++            return false;
++        }
++    }
++
++    bool before_reference_open()
++    {
++        auto state = m_state.load();
++        if (state == State::Fresh) {
++            m_state.compare_exchange_strong(state, State::OpenedUnprotected);
++            throw std::runtime_error("hindsight-no-conversion:reference-before-owner");
++        }
++        if (state == State::Enabled)
++            throw std::runtime_error("hindsight-no-conversion:reference-before-owner");
++        return state == State::OpenedProtected;
++    }
++
++    bool enabled() const noexcept
++    {
++        auto state = m_state.load();
++        return state == State::Enabled || state == State::OpenedProtected;
++    }
++
++private:
++    enum class State : uint32_t { Fresh, Enabled, OpenedUnprotected, OpenedProtected };
++    std::atomic<State> m_state{State::Fresh};
++};
++
++} // namespace realm::binding

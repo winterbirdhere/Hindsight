@@ -1,0 +1,28 @@
+rxjs-hooks 0.7.0
+Author metadata: LongYinan
+Repository: https://github.com/LeetCode-OpenSource/rxjs-hooks
+Release tag: v0.7.0
+Release commit: a9ca80f1100d70ac794cb1b19676eb107d51a7ba
+
+The official pinned package.json and npm publication both declare the SPDX license MIT.
+The pinned repository contains no LICENSE/COPYING/NOTICE file and supplies no separate
+copyright notice. Standard MIT terms identified by that declaration are reproduced below.
+The SPDX template copyright placeholder is omitted; no copyright holder or year is invented.
+This provenance header is release notice curation, not an upstream copyright statement.
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the
+following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.

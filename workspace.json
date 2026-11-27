@@ -1,0 +1,591 @@
+{
+  "version": 2,
+  "projects": {
+    "desktop-frontend": {
+      "root": "apps/desktop/frontend",
+      "sourceRoot": "apps/desktop/frontend/src",
+      "projectType": "application",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/web:webpack",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/apps/desktop/frontend",
+            "index": "apps/desktop/frontend/src/index.html",
+            "main": "apps/desktop/frontend/src/main.tsx",
+            "polyfills": "apps/desktop/frontend/src/polyfills.ts",
+            "tsConfig": "apps/desktop/frontend/tsconfig.app.json",
+            "assets": ["apps/desktop/frontend/src/favicon.ico", "apps/desktop/frontend/src/assets"],
+            "styles": ["apps/desktop/frontend/src/styles.css"],
+            "scripts": [],
+            "webpackConfig": "apps/desktop/frontend/webpack.config.js"
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "apps/desktop/frontend/src/environments/environment.ts",
+                  "with": "apps/desktop/frontend/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "baseHref": "./",
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "5mb",
+                  "maximumError": "10mb"
+                }
+              ]
+            },
+            "development": {
+              "extractLicenses": false,
+              "optimization": false,
+              "sourceMap": true,
+              "vendorChunk": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "executor": "@nrwl/web:dev-server",
+          "options": {
+            "buildTarget": "desktop-frontend:build",
+            "hmr": true,
+            "proxyConfig": "apps/desktop/frontend/proxy.conf.json"
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "desktop-frontend:build:production",
+              "hmr": false
+            },
+            "development": {
+              "buildTarget": "desktop-frontend:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/desktop/frontend/**/*.{ts,tsx,js,jsx}"]
+          },
+          "outputs": ["{options.outputFile}"]
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/desktop/frontend"],
+          "options": {
+            "jestConfig": "apps/desktop/frontend/jest.config.ts",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "desktop-main": {
+      "root": "apps/desktop/main",
+      "sourceRoot": "apps/desktop/main/src",
+      "projectType": "application",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/node:webpack",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputFileName": "index.js",
+            "outputPath": "dist/apps/desktop",
+            "deleteOutputPath": false,
+            "main": "apps/desktop/main/src/index.ts",
+            "additionalEntryPoints": [
+              { "entryName": "library-utility", "entryPath": "apps/desktop/main/src/app/library/library-utility.ts" },
+              { "entryName": "library-resource-utility", "entryPath": "apps/desktop/main/src/app/library/library-resource-utility.ts" },
+              { "entryName": "library-analysis-utility", "entryPath": "apps/desktop/main/src/app/library/library-analysis-utility.ts" },
+              { "entryName": "replay-read-worker", "entryPath": "apps/desktop/main/src/app/replay-read-worker.ts" }
+            ],
+            "tsConfig": "apps/desktop/main/tsconfig.app.json",
+            "assets": ["apps/desktop/main/src/assets"]
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "extractLicenses": true,
+              "inspect": false,
+              "fileReplacements": [
+                {
+                  "replace": "apps/desktop/main/src/environments/environment.ts",
+                  "with": "apps/desktop/main/src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "executor": "@nrwl/node:node",
+          "options": {
+            "buildTarget": "desktop-main:build"
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/desktop/main/**/*.ts"]
+          },
+          "outputs": ["{options.outputFile}"]
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/desktop-main"],
+          "options": {
+            "jestConfig": "apps/desktop/main/jest.config.ts",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "osu-core": {
+      "root": "libs/osu/core",
+      "sourceRoot": "libs/osu/core/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/osu/core/**/*.ts"]
+          },
+          "outputs": ["{options.outputFile}"]
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/osu/core"],
+          "options": {
+            "jestConfig": "libs/osu/core/jest.config.ts",
+            "passWithNoTests": true
+          }
+        },
+        "build": {
+          "executor": "@nrwl/js:tsc",
+          "outputs": [
+            "{options.outputPath}"
+          ],
+          "options": {
+            "outputPath": "dist/libs/osu/core",
+            "tsConfig": "libs/osu/core/tsconfig.lib.json",
+            "packageJson": "libs/osu/core/package.json",
+            "main": "libs/osu/core/src/index.ts",
+            "assets": [
+              "libs/osu/core/*.md"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "osu-local-db-reader": {
+      "root": "libs/osu-local/db-reader",
+      "sourceRoot": "libs/osu-local/db-reader/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/osu-local/db-reader/**/*.ts"]
+          },
+          "outputs": ["{options.outputFile}"]
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/osu-local/db-reader"],
+          "options": {
+            "jestConfig": "libs/osu-local/db-reader/jest.config.ts",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "osu-local-gosumemory": {
+      "root": "libs/osu-local/gosumemory",
+      "sourceRoot": "libs/osu-local/gosumemory/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/osu-local/gosumemory/**/*.ts"]
+          },
+          "outputs": ["{options.outputFile}"]
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/osu-local/gosumemory"],
+          "options": {
+            "jestConfig": "libs/osu-local/gosumemory/jest.config.ts",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "osu-local-osr-reader": {
+      "root": "libs/osu-local/osr-reader",
+      "sourceRoot": "libs/osu-local/osr-reader/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/osu-local/osr-reader/**/*.ts"]
+          },
+          "outputs": ["{options.outputFile}"]
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/osu-local/osr-reader"],
+          "options": {
+            "jestConfig": "libs/osu-local/osr-reader/jest.config.ts",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "osu-local-skin-reader": {
+      "root": "libs/osu-local/skin-reader",
+      "sourceRoot": "libs/osu-local/skin-reader/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/osu-local/skin-reader/**/*.ts"]
+          },
+          "outputs": ["{options.outputFile}"]
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/osu-local/skin-reader"],
+          "options": {
+            "jestConfig": "libs/osu-local/skin-reader/jest.config.ts",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "osu-local-utils": {
+      "root": "libs/osu-local/utils",
+      "sourceRoot": "libs/osu-local/utils/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/osu-local/utils/**/*.ts"]
+          },
+          "outputs": ["{options.outputFile}"]
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/osu-local/utils"],
+          "options": {
+            "jestConfig": "libs/osu-local/utils/jest.config.ts",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "osu-math": {
+      "root": "libs/osu/math",
+      "sourceRoot": "libs/osu/math/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/osu/math/**/*.ts"]
+          },
+          "outputs": ["{options.outputFile}"]
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/osu/math"],
+          "options": {
+            "jestConfig": "libs/osu/math/jest.config.ts",
+            "passWithNoTests": true
+          }
+        },
+        "build": {
+          "executor": "@nrwl/js:tsc",
+          "outputs": [
+            "{options.outputPath}"
+          ],
+          "options": {
+            "outputPath": "dist/libs/osu/math",
+            "tsConfig": "libs/osu/math/tsconfig.lib.json",
+            "packageJson": "libs/osu/math/package.json",
+            "main": "libs/osu/math/src/index.ts",
+            "assets": []
+          }
+        }
+      },
+      "tags": []
+    },
+    "osu-pixi-classic-components": {
+      "root": "libs/osu-pixi/classic-components",
+      "sourceRoot": "libs/osu-pixi/classic-components/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/osu-pixi/classic-components/**/*.ts"]
+          },
+          "outputs": ["{options.outputFile}"]
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/osu-pixi/classic-components"],
+          "options": {
+            "jestConfig": "libs/osu-pixi/classic-components/jest.config.ts",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "osu-pixi-rewind": {
+      "root": "libs/osu-pixi/rewind",
+      "sourceRoot": "libs/osu-pixi/rewind/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["libs/osu-pixi/rewind/**/*.ts"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/osu-pixi/rewind"],
+          "options": {
+            "jestConfig": "libs/osu-pixi/rewind/jest.config.ts",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "osu-pp": {
+      "root": "libs/osu/pp",
+      "sourceRoot": "libs/osu/pp/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["libs/osu/pp/**/*.ts"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/osu/pp"],
+          "options": {
+            "jestConfig": "libs/osu/pp/jest.config.ts",
+            "passWithNoTests": true
+          }
+        },
+        "build": {
+          "executor": "@nrwl/js:tsc",
+          "outputs": [
+            "{options.outputPath}"
+          ],
+          "options": {
+            "outputPath": "dist/libs/osu/pp",
+            "tsConfig": "libs/osu/pp/tsconfig.lib.json",
+            "packageJson": "libs/osu/pp/package.json",
+            "main": "libs/osu/pp/src/index.ts",
+            "assets": []
+          }
+        },
+        "build-web": {
+          "executor": "@nrwl/web:rollup",
+          "outputs": [
+            "{options.outputPath}"
+          ],
+          "options": {
+            "project": "libs/osu/pp/package.json",
+            "entryFile": "libs/osu/pp/src/index.ts",
+            "outputPath": "dist/libs/osu/pp/dist",
+            "deleteOutputPath": true,
+            "format": [
+              "esm"
+            ],
+            "tsConfig": "libs/osu/pp/tsconfig.lib.json",
+            "assets": []
+          }
+        }
+      },
+      "tags": []
+    },
+    "osu-skin": {
+      "root": "libs/osu/skin",
+      "sourceRoot": "libs/osu/skin/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/osu/skin/**/*.ts"]
+          },
+          "outputs": ["{options.outputFile}"]
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/osu/skin"],
+          "options": {
+            "jestConfig": "libs/osu/skin/jest.config.ts",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "osu-stable-test-generator": {
+      "root": "tests/osu-stable-test-generator",
+      "sourceRoot": "tests/osu-stable-test-generator/src",
+      "projectType": "application",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/node:webpack",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/tests/osu-stable-test-generator",
+            "main": "tests/osu-stable-test-generator/src/main.ts",
+            "tsConfig": "tests/osu-stable-test-generator/tsconfig.app.json",
+            "assets": ["tests/osu-stable-test-generator/src/assets"]
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "extractLicenses": true,
+              "inspect": false,
+              "fileReplacements": [
+                {
+                  "replace": "tests/osu-stable-test-generator/src/environments/environment.ts",
+                  "with": "tests/osu-stable-test-generator/src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "executor": "@nrwl/node:node",
+          "options": {
+            "buildTarget": "osu-stable-test-generator:build"
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["tests/osu-stable-test-generator/**/*.ts"]
+          },
+          "outputs": ["{options.outputFile}"]
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/tests/osu-stable-test-generator"],
+          "options": {
+            "jestConfig": "tests/osu-stable-test-generator/jest.config.ts",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "tests-game-simulation": {
+      "root": "tests/game-simulation",
+      "sourceRoot": "tests/game-simulation/src",
+      "projectType": "application",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["tests/game-simulation/**/*.ts"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/tests/game-simulation"],
+          "options": {
+            "jestConfig": "tests/game-simulation/jest.config.ts",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "web-backend": {
+      "root": "apps/web/backend",
+      "sourceRoot": "apps/web/backend/src",
+      "projectType": "application",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/node:webpack",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/apps/web/backend",
+            "main": "apps/web/backend/src/main.ts",
+            "tsConfig": "apps/web/backend/tsconfig.app.json",
+            "assets": ["apps/web/backend/src/assets"]
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "extractLicenses": true,
+              "inspect": false,
+              "fileReplacements": [
+                {
+                  "replace": "apps/web/backend/src/environments/environment.ts",
+                  "with": "apps/web/backend/src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "executor": "@nrwl/node:node",
+          "options": {
+            "buildTarget": "web-backend:build"
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/web/backend/**/*.ts"]
+          },
+          "outputs": ["{options.outputFile}"]
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/web/backend"],
+          "options": {
+            "jestConfig": "apps/web/backend/jest.config.ts",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    }
+  }
+}
